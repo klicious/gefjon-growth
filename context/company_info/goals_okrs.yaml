@@ -1,0 +1,163 @@
+okrs:
+  - year: 2025
+    half: H2
+    team: Platform Development
+    objectives:
+      - id: O-1
+        title: Fault-Tolerant & Secure Core
+        description: Guarantee systemic safety, investor trust, and audit-grade security before crypto launch—front-loading work while Sam is still on board.
+        key_results:
+          - id: 1a
+            description: Migrate 60% critical services to ECS Blue/Green (< 2 min swap)
+            baseline: 0%
+            target: 60%
+            primary_value: Excellence
+            owner: BE-1
+            due_date: 2025-07-31
+          - id: 1b
+            description: Migrate 80% of critical services to a safer deployment system (ECS Blue/Green), with traffic switch-over in under 2 minutes
+            baseline: 60%
+            target: 80%
+            primary_value: Excellence
+            owner: BE-1
+            due_date: 2025-09-30
+          - id: 4
+            description: Go live with the new Enfusion PMS, running it alongside the old system during the transition.
+            baseline: 0%
+            target: MVP live
+            primary_value: Craftsmanship
+            owner: BE-2
+            due_date: 2025-07-31
+          - id: 5
+            description: Resolve all USD settlement issues in our portfolio management system (no reconciliation errors for 2 cycles)
+            baseline: "Incidents > 0"
+            target: 0
+            primary_value: Integrity
+            owner: BE-2
+            due_date: 2025-06-10
+          - id: 6
+            description: Rotate all secrets securely using AWS Secret Manager, with no hard-coded credentials left in the code
+            baseline: 3
+            target: 0
+            primary_value: Security
+            owner: BE-2
+            due_date: 2025-07-31
+          - id: 7
+            description: Maintain a library of failure test cases (chaos scenarios), growing by 10% per quarter and retiring at least 5% obsolete cases
+            baseline: 3
+            target: 0
+            primary_value: Security
+            owner: BE-1
+            due_date: 2025-07-31
+      - id: O-2
+        title: Responsible Velocity & Dev Excellence
+        description: Keep speed with safety while team size shrinks.
+        key_results:
+          - id: 1
+            description: Cut average code-to-deployment time to 3 days or less (from 4.3 days).d (rolling)
+            baseline: 4.3d
+            target: "≤ 3d"
+            primary_value: Velocity
+            owner: BE-1
+            due_date: 2025-10-31
+          - id: 2
+            description: Hit a CI/CD success rate of 95%+, and ensure any deployment can be rolled back in under 5 minutes
+            baseline: 89%
+            target: "≥ 95%"
+            primary_value: Velocity
+            owner: BE-1
+            due_date: 2025-08-31
+          - id: 3
+            description: Use Amazon Q or similar AI tools to automatically generate tests for at least 30% of new backend code
+            baseline: 0%
+            target: "≥ 30%"
+            primary_value: Data Iteration
+            owner: BE-1
+            due_date: 2025-11-30
+          - id: 4
+            description: Ensure 100% of tasks are well-defined before work starts, and team meets sprint goals at least 80% of the time
+            baseline: 60%
+            target: "≥ 80%"
+            primary_value: Collaboration
+            owner: Scrum Master
+            due_date: Continuous
+          - id: 5
+            description: Every junior/intern engineer levels up by at least 1 Dreyfus skill level, with mentor satisfaction score ≥ 4/5
+            baseline: New
+            target: Achieved
+            primary_value: Mentorship
+            owner: BE-1
+            due_date: 2025-12-15
+      - id: O-3
+        title: Crypto Algo-Trading Launch Pad
+        description: Deliver a single-venue live crypto strategy + multi-venue groundwork.
+        key_results:
+          - id: 1
+            description: Binance Futures trading venue goes live with real-time data ≥ 99.5% uptime
+            baseline: 0
+            target: Live
+            primary_value: Craftsmanship
+            owner: BE-1
+            due_date: 2025-08-31
+          - id: 2
+            description: OKX Futures test setup (market data and mock trades) ready in sandbox
+            baseline: 0
+            target: Sandbox
+            primary_value: Craftsmanship
+            owner: Promoted intern
+            due_date: 2025-11-30
+          - id: 3
+            description: Build a prototype for delta-hedging using options on Deribit testnet, keeping performance fluctuations under ±0.3 delta
+            baseline: 0
+            target: Prototype
+            primary_value: Excellence
+            owner: Ted
+            due_date: 2025-09-15
+          - id: 4
+            description: Run simulations for two strategies (FBHF and Breakout) that achieve a 30-day Sharpe ratio ≥ 1.0
+            baseline: None
+            target: "≥ 1"
+            primary_value: Data Iteration
+            owner: FE-1
+            due_date: 2025-11-30
+          - id: 5
+            description: Launch an “Investor Alpha Dashboard” showing real-time simulation results, with 95th percentile latency under 150ms
+            baseline: Draft
+            target: GA
+            primary_value: Craftsmanship
+            owner: FE-1
+            due_date: 2025-12-31
+      - id: O-4
+        title: Process SOP Institutionalization
+        description: Embed Silicon-Valley SOPs despite staff changes.
+        key_results:
+          - id: 1
+            description: Use the PR/FAQ + Safety planning template in 100% of product epics. (*PR/FAQ: Press Release/Frequently Asked Questions)
+            target: 2025-08-31
+            primary_value: Planning
+            owner: PM
+          - id: 2
+            description: Use backward-planning in 95% of sprint tasks, tying work directly to company goals
+            target: Continuous
+            primary_value: Velocity
+            owner: Scrum Master
+          - id: 3
+            description: Host at least 1 internal Hack Day project that makes it into our official roadmap.
+            target: 2025-12-31
+            primary_value: Innovation
+            owner: FE-1
+          - id: 4
+            description: Maintain employee engagement score ≥ 4.0/5 on CultureAmp (based on team feedback)
+            target: 2025-12-15
+            primary_value: Data Iteration
+            owner: Eng Mgr
+          - id: 5
+            description: Use our new Core Values Evaluation Sheet in all intern and performance reviews
+            target: 2025-08-15
+            primary_value: Integrity
+            owner: PMO
+          - id: 6
+            description: Launch a Behavioral Interview (BEI) question bank tied to our 10 core values, with all interviewers trained
+            target: 2025-09-30
+            primary_value: Collaboration
+            owner: Eng Mgr

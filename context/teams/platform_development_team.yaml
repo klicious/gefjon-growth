@@ -1,0 +1,115 @@
+# context/platform_development_team.yaml
+# Platform Development Team - Mission, Responsibilities, Roadmap
+
+mission: "To build and operate a fully-automated, self-healing fintech platform that (a) trades digital assets profitably, (b) exposes portfolio-level risk & P&L in real time, and (c) can eventually run without direct human intervention."
+
+guiding_principles: "Safety -> Quality -> Speed -> Novelty, with a strong preference for Scalable Elegance and Domain-Driven Design (DDD)."
+
+team_composition:
+  - role: "Platform Lead"
+    count: 1
+    focus: "Architecture, algorithm R&D, infra strategy, hiring"
+  - role: "Senior / Mid Engineers"
+    count: 1
+    focus: "Frontend services, CI/CD, infra-as-code, LLM integration"
+  - role: "Interns (6-month program)"
+    count: 1
+    focus: "Growth projects, tooling, live docs automation"
+
+core_responsibilities:
+  - "Algorithmic Trading Platform – design, backtest, deploy and maintain market-making, mean-reversion, momentum & hedging strategies across 27 crypto instruments."
+  - "Portfolio Management System (PMS) – positions, risk, fee rebates, and treasury flows; Python & Spring micro-services with real-time websockets."
+  - "Multi-Agent Automation Framework – Gemini CLI + GitLab DUO + Amazon Q Developer + Claude Code + ChatGPT + MCP servers orchestrating agents for coding, project management, documentation, and infra ops. We are actively developing our own in-house agentic AI capabilities."
+  - "Live Documentation – “Runebook” & “Yggdrasil” repositories; auto-sync to GitHub Wiki / Notion; up-to-date for humans and AI agents."
+  - "DevOps & SRE – GitLab CI, self-hosted group runners, ECS Blue/Green, automated secrets management, observability & guardrails."
+  - "Hiring & Mentorship – evaluation rubric design, intern program, external recruiting presentations (e.g., SIKMA 2024)."
+
+committed_work_q3_q4_2025:
+  - initiative: "Multi-Agent Automation v2"
+    scope: "Expand from “shadow-mode” to gated merge-to-prod for non-critical repos; plug in cost-aware LLM router."
+  - initiative: "Live Documentation vNext"
+    scope: "Cross-repo index, vector search, Slack digests, doc-change PR checks."
+  - initiative: "Observability Upgrade"
+    scope: "eBPF flow logs + OpenTelemetry traces; latency spike forensics with bpftrace."
+  - initiative: "LLM FinOps Optimiser"
+    scope: "Spot-vs-reserved GPU arbitrage; model-selection policy based on latency/price SLO."
+  - initiative: "Enfusion Cut-Over (Phase 1)"
+    scope: "Full order flow + positions reconciled daily; deprecate legacy ledger endpoints."
+  - initiative: "Hiring & Mentorship (Continued)"
+    scope: "Convert 1 intern -> FTE; open 1 mid-level backend req in Sept."
+
+high_leverage_backlog:
+  - project: "Reinforcement-Learning Execution Engine"
+  - project: "Tokenised-Asset Rails"
+  - project: "Secretless Identity (SPIFFE/SPIRE)"
+  - project: "Chaos Engineering Harness (ChaosETH-style)"
+  - project: "AI-Driven AML / KYC Monitoring"
+  - project: "Low-Latency Market-Data Fabric"
+  - project: "Cloud Green-FinOps & Carbon Scheduler"
+  - project: "LLM Router SaaS Spin-off"
+
+technology_stack:
+  languages: "Python 3.12, Java 17 (Spring Boot 3)"
+  ai_llm: "OpenAI o3, GPT-4o, Gemini 1.5, Claude 3; local Ollama models (Docker)"
+  agent_runtime: "Google ADK 1.5, MCP Docker servers, A2A protocol"
+  data_messaging: "PostgreSQL, Redis Streams, WebSockets, REST, gRPC"
+  cloud_infra: "AWS EC2, ECS Fargate, S3, CloudWatch, NAT GW, ALB, Route 53"
+  ci_cd: "GitLab Cloud + self-hosted runners (Shell executor), uv for Python deps"
+  tooling: "Poetry->uv migration, Black + Isort + Flake8 + Mypy, pytest-cov"
+
+process_and_ways_of_working:
+  - "Domain-Driven Design ubiquitous language in code, docs & PRs."
+  - "Testing Triangle: unit -> integration -> e2e; minimal mocking; fast feedback."
+  - "Live-Docs Pipeline: commit hook -> AI summary -> PR check -> GitHub Wiki sync."
+  - "Agile Work Breakdown: Theme / Epic / Task markdown templates with acceptance criteria, definition of done, and EVA tags for evaluation."
+  - "Mentorship Loop: weekly coaching, growth logs, psychological-safety surveys."
+  - "Change Management: Blue/Green for critical services, manual approval gates until full confidence in automation is reached."
+
+recent_achievements_h1_2025:
+  - area: "Trading P&L"
+    highlight: "Fund AUM swung from $1.35 M -> $2.6 M -> $0.95 M; now stabilized at $1.8 M with consistent $0.5 M / month gross rebate revenue."
+  - area: "Algorithm Up-time"
+    highlight: "WebSocket quote-loss bug eliminated; > 99.7 % quote capture."
+  - area: "Infra Hardening"
+    highlight: "Migrated critical services to ECS Blue/Green; secrets rotated via AWS Secrets Manager; open-FD issues resolved."
+  - area: "Automation"
+    highlight: "Multi-agent PoC generates & merges low-risk PRs with < 5 % reverts."
+  - area: "Hiring"
+    highlight: "Crafted evaluation sheets, hired 2 interns, running 6-month growth program; one intern marked for conversion to FTE."
+  - area: "Knowledge Ops"
+    highlight: "Live documentation coverage at > 90 %; < 24 h lag between code & docs."
+
+key_metrics_rolling_90_days:
+  - metric: "Trade volume"
+    value: "12.4 B USDT notional"
+  - metric: "Avg maker rebate"
+    value: "2.3 bps"
+  - metric: "Deployment frequency"
+    value: "15 prod releases / week (median lead-time ~ 2 h)"
+  - metric: "MTTR"
+    value: "11 min"
+  - metric: "Agent-authored LOC merged"
+    value: "28 % of all commits"
+  - metric: "Hiring pipeline"
+    value: "1 offer accepted, 6 in funnel, time-to-hire = 32 days"
+
+challenges_risks:
+  - "Latency-sensitive scaling – EC2 instance limits vs. per-instrument WebSocket fans."
+  - "Docker-model observability – connection-refused edge cases in local Ollama runners."
+  - "Cost Control – GPU hours for LLM fine-tuning; Lambda webhook fan-out fees."
+  - "Change-approval bottleneck – manual gates slow while confidence in agents grows."
+  - "Talent Competition – need stronger employer branding at upcoming recruiting fairs."
+
+near_term_roadmap_q3_q4_2025:
+  - "Agent v2 “Autopilot” — gated rollout of fully autonomous merge-to-prod for non-critical repos; shadow-mode for critical paths."
+  - "PMS 2.0 — event-sourced ledger, multi-currency, off-chain/on-chain reconciliation."
+  - "LLM Cost Optimizer — dynamic routing between OpenAI, Gemini, local Ollama."
+  - "Secrets vNext — move to AWS KMSEncryptedParameterStore + short-lived AAD tokens."
+  - "Recruiting Sprint — finalize intern grad, hire 1 junior & 1 mid-level backend."
+  - "Observability Upgrade — OpenTelemetry traces, distributed profiler for Python."
+
+long_term_vision_2026_plus:
+  - "“Zero-Ops” Trading Desk — 24x7 algorithm fleet that self-deploys, self-heals, and self-documents."
+  - "Cross-Asset Expansion — add US equities & FX with unified risk engine."
+  - "AI-Native SDLC — agent-first workflows where humans mentor agents, not code."
+  - "Continuous Talent Flywheel — community presence (conferences, OSS) doubling qualified candidate inflow each year."

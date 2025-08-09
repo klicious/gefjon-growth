@@ -3,7 +3,7 @@ id: product_scope_and_requirements
 type: product_spec
 domain: hr_automation
 created_date: 2025-08-09
-last_updated: 2025-08-09
+last_updated: 2025-08-10
 author: Junie
 quality_score: 9.2/10
 tags: [product, requirements, customization]
@@ -63,6 +63,16 @@ Purpose: Define scope, personas, user stories, functional/non-functional require
 - Role Templates: context/hr_processes/hiring/hiring_stages.yaml + artifacts for role-specific kits.
 - Scoring Weights: Config file per client/role.
 - Prompt Overrides: ai_docs/prompts overrides via configuration.
+
+## Demo Configuration (5-Day)
+- Demo Roles: Senior Backend Engineer (Platform), Mid-level Backend Engineer (Platform)
+- Stage Weights (sum 1.0): Values Alignment 0.30; Competencies 0.50; Experience Relevance 0.20
+- Scoring Scale: Dreyfus 1–5 (1 Novice → 5 Expert); use per-dimension anchors and evidence fields
+- Interview Formats & Timeboxes: Screen 30–40m; System Design 60m; Pair Programming 60m; Culture & Mentorship 30–45m; Loop retro 15m
+- Take-home Pass Gates:
+  - Senior: coverage ≥ 70%, rollback plan, SLO thinking, secretless config
+  - Mid-level: tests pass, basic metrics exposed, clean structure, no hardcoded secrets
+- Demo Ingestion: Google Drive "sleipnir-demo-inbox/" (resumes/, portfolios/, job_descriptions/, evaluations/) as primary sandbox source
 
 ## Acceptance Criteria (v1)
 - Given candidate inputs in supported formats, system produces all outputs with quality ≥ 8.5/10 (human-rated) and no compliance violations.

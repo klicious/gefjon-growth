@@ -3,7 +3,7 @@ id: security_compliance_and_data_governance
 type: policy_spec
 domain: hr_automation
 created_date: 2025-08-09
-last_updated: 2025-08-09
+last_updated: 2025-08-10
 author: Junie
 quality_score: 9.3/10
 tags: [security, compliance, gdpr, governance]
@@ -69,6 +69,12 @@ Purpose: Establish security controls, compliance standards, and governance pract
 - Data Flow & Storage Diagram
 - DPA template and Subprocessor list
 - Retention & Deletion Policy
+
+## Client-Specific Pilot Policies (Proposed)
+- Regional Data Residency: Primary South Korea only for production. Demo may use non-KR regions with non-sensitive data; avoid real PII where possible.
+- Retention: Rejected candidates retained 12 months by default (delete on request). Hired candidates: retain core employment record; purge raw artifacts after 6 months. Deletion triggers: candidate request, inactivity >12 months, contract termination.
+- Approved Model Providers: OpenAI, Google, Anthropic, local Ollama. Constraints: no training on customer/candidate data; vendor log retention ≤ 30 days; option to disable vendor logging; secrets redacted; structured JSON audit events maintained.
+- Audit Artifacts: Structured JSON logs with approver IDs, timestamps, doc references, rubric IDs. Export cadence: weekly during pilot; daily upon go-live. Approver chain: Hiring Manager → Engineering Manager → CEO with HR co-sign for retention/EEO.
 
 ## Open Items (Client-Specific)
 - Regional data residency requirements

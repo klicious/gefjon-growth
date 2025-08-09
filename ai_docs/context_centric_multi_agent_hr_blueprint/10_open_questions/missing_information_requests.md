@@ -3,7 +3,7 @@ id: missing_information_requests
 type: info_request_list
 domain: hr_automation
 created_date: 2025-08-09
-last_updated: 2025-08-09
+last_updated: 2025-08-10
 author: Junie
 quality_score: 9.1/10
 tags: [information-requests, demo, pilot, compliance]
@@ -56,3 +56,40 @@ Purpose: Enumerate concrete information needed to de-risk the 5‑day demo, pilo
 ## Notes
 - This list complements the open items recorded in 10_open_questions/decision_log.md.
 - We will proceed with safe defaults in the absence of inputs, but demo quality and fit improve significantly with the above information.
+
+## Status Update (2025-08-10)
+
+A) Demo (5‑Day) Essentials
+1) Target roles: Answered — Senior Backend Engineer (Platform), Mid-level Backend Engineer (Platform).
+2) Role competencies: Answered — matrices with weights defined per role (see data/public/new/hr_demo_pilot_blueprint.md §A.2).
+3) Company values weighting: Answered — initial weights proposed for platform safety/speed.
+4) Sample candidate profiles: Answered — Appendix A includes 2 synthetic profiles per role (Markdown portfolios; PDFs generated during demo).
+5) Must‑have integrations (demo): Answered — Google Drive "sleipnir-demo-inbox/" (resumes/, portfolios/, job_descriptions/, evaluations/); future: Outlook/Gmail/ATS/Calendars/Dooray.
+6) Data handling constraints: Answered — demo OK with non‑KR regions using non‑sensitive data; synthetic profiles preferred; KR‑only residency for production; guardrails noted.
+
+B) Pilot Scope (4–6 Weeks)
+1) Hiring volumes/roles: Partially answered — demo targets 1–2 hires; scalability expectations noted.
+2) Success criteria/KPIs: Answered — TTH ≤ 20–24 days; ≥35–50% interviewer hours saved; quality ≥ 8.5/10; adoption ≥ 80%; rubric completion ≥ 90%; process/pipeline metrics.
+3) Stakeholder map: Answered — CEO (EB), SW Eng Head/Platform Lead (Champion), Eng Manager/Platform Lead (Hiring), Security (Eng/DevOps), Legal/HR.
+4) Procurement steps/timeline: Answered — week-by-week security/DPA/MSA/sandbox/kickoff/evaluation.
+5) Integrations/environments: Answered — Sandbox Drive for demo; future ATS + SSO + data residency controls.
+
+C) Compliance & Security
+1) Regional residency: Answered — KR-only for production; demo may use non‑KR with non‑sensitive data.
+2) Retention policies: Answered (proposal) — 12 months for rejected; purge raw artifacts after 6 months for hired; deletion triggers defined.
+3) Model providers & privacy: Answered (proposal) — OpenAI/Google/Anthropic/local Ollama; no training on customer data; log retention ≤ 30 days; option to disable logging; redaction; audit JSON.
+4) EEO/legal constraints: Partially answered — fintech context; maintain evidentiary logs; job‑relevant KSAOs.
+5) Audit artifacts: Answered — structured JSON; weekly (pilot)/daily (go‑live) exports; approver chain documented.
+
+D) Product Configuration
+1) Stage weights: Answered — Values 0.30; Competencies 0.50; Experience 0.20.
+2) Take‑home topics/gates: Answered — role‑specific topics and pass gates.
+3) Interview formats/timeboxes: Answered — screen/system design/pair/culture/retro.
+4) Scoring scales: Answered — Dreyfus 1–5 with anchors and evidence.
+
+E) Commercials & Pricing Inputs
+1) Budget range: TBD — client input needed.
+2) Contract preferences: TBD — suggestion provided; awaiting client.
+3) WTP indicators: TBD — no prior data; client input needed.
+
+Status: Items integrated into blueprint docs as of 2025-08-10; remaining TBDs flagged in decision_log and mvp_plan open items.

@@ -3,7 +3,7 @@ id: mvp_plan_5day_demo
 type: execution_plan
 domain: hr_automation
 created_date: 2025-08-09
-last_updated: 2025-08-09
+last_updated: 2025-08-10
 author: Junie
 quality_score: 9.1/10
 tags: [mvp, demo, plan, execution, 5-day]
@@ -26,8 +26,8 @@ Purpose: Deliver a compelling, working demo of the context-centric multi-agent H
 - Present business case: ROI, time savings, quality uplift.
 
 ## Scope (MVP)
-- Sources: email forward (eml/pdf), manual upload (pdf/docx/md), GitHub link, basic images (jpeg/png) for portfolio.
-- Roles: 1–2 roles (e.g., Mid-level Backend Engineer; Junior FE Engineer).
+- Sources: Google Drive "sleipnir-demo-inbox/" (resumes/, portfolios/, job_descriptions/, evaluations/); email forward (eml/pdf); manual upload (pdf/docx/md); GitHub link; basic images (jpeg/png) for portfolio.
+- Roles: Senior Backend Engineer (Platform), Mid-level Backend Engineer (Platform).
 - Outputs: Screening report, assignment packet (from existing templates), interview kit, evaluation sheets.
 - Config: Company values and role-specific competencies loaded from context/.
 - Non-goals (for demo): Full ATS integration, advanced analytics, production SSO, full multi-tenant RBAC.
@@ -63,6 +63,7 @@ Purpose: Deliver a compelling, working demo of the context-centric multi-agent H
 
 ### Day 2 — Ingestion & Screening
 - Implement lightweight ingestion workflow:
+  - Google Drive "sleipnir-demo-inbox/" (resumes/, portfolios/, job_descriptions/, evaluations/)
   - Manual file drop + email stub parser (spec/doc for now if code not required)
 - Run screening prompt to generate:
   - Executive summary, strengths/risks, competency match
@@ -113,6 +114,7 @@ Purpose: Deliver a compelling, working demo of the context-centric multi-agent H
 - Time-to-hire savings shown with modeled calculations
 - Quality score of generated materials ≥ 8.5/10
 - Clear customization mapping to client values/competencies
+- Adoption: ≥ 80% interviewer usage of standardized kits; rubric completion rate ≥ 90%
 - Stakeholder confidence ≥ 4/5 in pilot adoption
 
 ## Quality Gates & Checklists (Demo Edition)
@@ -136,7 +138,8 @@ Purpose: Deliver a compelling, working demo of the context-centric multi-agent H
 5) Next steps: pilot scope, success criteria, commercial terms
 
 ## Open Items to Confirm (Client)
-- Target roles and competencies
-- Weighting for company values in evaluation
-- Must-have integrations (if any) for the pilot
-- Security/compliance constraints (data handling preferences)
+- Budget constraints and preferred commercial structure for pilot and year‑1
+- Confirm KR-only data residency timeline; can demo use non‑KR regions for Drive?
+- Confirm acceptance of synthetic sample profiles in demo
+- Preferred ATS for eventual integration; SSO requirements
+- Any legal redlines (DPA/MSA templates) to pre-fill

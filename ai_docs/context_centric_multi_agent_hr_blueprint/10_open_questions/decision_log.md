@@ -3,7 +3,7 @@ id: decision_log
 type: governance_log
 domain: hr_automation
 created_date: 2025-08-09
-last_updated: 2025-08-09
+last_updated: 2025-08-10
 author: Junie
 quality_score: 9.2/10
 tags: [decisions, assumptions, open-questions, risks]
@@ -22,6 +22,12 @@ Purpose: Maintain a clear history of key decisions, explicit assumptions, stakeh
 | D-002 | Deterministic demo mode with offline artifacts fallback | 2025-08-09 | Eng | Ensure reliability for client presentation | Decided |
 | D-003 | MVP scope: 1–2 roles, 2 candidates each | 2025-08-09 | Product | Scope discipline for 5-day timeline | Decided |
 | D-004 | Compliance-by-design: EEO-safe prompts, PII redaction policy | 2025-08-09 | Compliance | Reduce legal risk and build trust | Decided |
+| D-005 | Demo roles fixed: Senior Backend (Platform) + Mid-level Backend (Platform) | 2025-08-10 | Product | Align with platform team needs and context | Decided |
+| D-006 | Demo ingestion via Google Drive sleipnir-demo-inbox (sandbox) | 2025-08-10 | Eng | Fast, simple ingestion for 5-day demo | Decided |
+| D-007 | Stage weights (Values 0.30, Competencies 0.50, Experience 0.20) | 2025-08-10 | Product | Emphasize platform safety and speed per context | Decided |
+| D-008 | Scoring scale Dreyfus 1–5 with evidence anchors | 2025-08-10 | Product | Consistent, interpretable scoring aligned with growth | Decided |
+| D-009 | Compliance posture proposal: KR-only residency for prod; retention; approved providers & constraints | 2025-08-10 | Compliance | Reduce risk, align with client expectations | Proposed |
+| D-010 | Pilot KPIs proposal: TTH ≤ 20–24d, ≥35–50% interviewer hours saved, quality ≥8.5/10, adoption thresholds | 2025-08-10 | Product | Clear success criteria to evaluate pilot | Proposed |
 
 Add future entries as rows; update Status: Proposed / Decided / Superseded.
 

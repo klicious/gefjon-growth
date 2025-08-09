@@ -19,7 +19,7 @@ team_composition:
 core_responsibilities:
   - "Algorithmic Trading Platform – design, backtest, deploy and maintain market-making, mean-reversion, momentum & hedging strategies across 27 crypto instruments."
   - "Portfolio Management System (PMS) – positions, risk, fee rebates, and treasury flows; Python & Spring micro-services with real-time websockets."
-  - "Multi-Agent Automation Framework – Gemini CLI + GitLab DUO + Amazon Q Developer + Claude Code + ChatGPT + MCP servers orchestrating agents for coding, project management, documentation, and infra ops. We are actively developing our own in-house agentic AI capabilities."
+  - "Multi-Agent Automation Framework – Gemini 2.5 Pro CLI + GitLab DUO + Amazon Q Developer + Claude 3.5 Sonnet + ChatGPT-4o + MCP servers orchestrating agents for coding, project management, documentation, and infra ops. We are actively developing our own in-house agentic AI capabilities."
   - "Live Documentation – “Runebook” & “Yggdrasil” repositories; auto-sync to GitHub Wiki / Notion; up-to-date for humans and AI agents."
   - "DevOps & SRE – GitLab CI, self-hosted group runners, ECS Blue/Green, automated secrets management, observability & guardrails."
   - "Hiring & Mentorship – evaluation rubric design, intern program, external recruiting presentations (e.g., SIKMA 2024)."
@@ -50,7 +50,7 @@ high_leverage_backlog:
 
 technology_stack:
   languages: "Python 3.12, Java 17 (Spring Boot 3)"
-  ai_llm: "OpenAI o3, GPT-4o, Gemini 1.5, Claude 3; local Ollama models (Docker)"
+  ai_llm: "Gemini 2.5 Pro, Claude 3.5 Sonnet, GPT-4o, ChatGPT-4o, Amazon Q Developer; local Ollama models (Docker)"
   agent_runtime: "Google ADK 1.5, MCP Docker servers, A2A protocol"
   data_messaging: "PostgreSQL, Redis Streams, WebSockets, REST, gRPC"
   cloud_infra: "AWS EC2, ECS Fargate, S3, CloudWatch, NAT GW, ALB, Route 53"

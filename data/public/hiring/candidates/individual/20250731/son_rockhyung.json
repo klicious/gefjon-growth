@@ -1,0 +1,122 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "son_rockhyung",
+    "name_local": "손록형",
+    "name_en": "RockHyung Son",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Backend developer (~3.8 years) across food delivery, daycare, and security/AI startups. Experience with Node.js/NestJS, Java/Spring, Python; relational/NoSQL (MySQL/PostgreSQL/MariaDB/MongoDB/Redis); Docker/Jenkins. Delivered address→store mapping, coupons/orders/memberships, RBAC and file storage, and performance optimizations (>5× response improvements).",
+    "contacts": {
+      "emails": [
+        "[fhrgud1264@gmail.com](mailto:fhrgud1264@gmail.com)"
+      ],
+      "phones": [
+        "010-9658-5162"
+      ],
+      "locations": []
+    },
+    "source_files": [
+      "/mnt/data/손록형_서류전형_이력서.pdf"
+    ],
+    "external_links": [
+      "[https://rokongme.notion.site/](https://rokongme.notion.site/)"
+    ],
+    "sections": {
+      "Highlights": [
+        "Security/AI backends: one-time URL signing, custom pagination, Sentry logging; 5× response time improvement",
+        "Kids daycare: web-Hangul editing, RBAC, S3 storage",
+        "Food delivery (BBQ app): address–store mapping, coupons, orders, memberships"
+      ],
+      "Earlier_Employers": [
+        {
+          "company": "㈜테서",
+          "period": "2021.11 — 2022.02",
+          "notes": "Account activation emails, password reset flows"
+        }
+      ]
+    },
+    "entities": {
+      "skills": [
+        "REST API",
+        "JWT/Auth",
+        "Address Matching",
+        "Coupons/Vouchers",
+        "RBAC",
+        "File Storage",
+        "Logging"
+      ],
+      "programming_languages": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Kotlin"
+      ],
+      "frameworks": [
+        "Spring",
+        "NestJS",
+        "Django"
+      ],
+      "databases": [
+        "MySQL",
+        "PostgreSQL",
+        "MariaDB",
+        "MongoDB",
+        "Redis"
+      ],
+      "devops": [
+        "Docker",
+        "Jenkins"
+      ],
+      "roles": [
+        "Backend Developer"
+      ],
+      "projects": [
+        "BBQ App Backend",
+        "Puppy Place",
+        "KidsNote Doc System",
+        "TheSpot Security Backend",
+        "Tesser AI Backend"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 3.75,
+      "ci_cd_presence": {
+        "present": null,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [],
+      "Communication": [],
+      "Problem_Solving": [
+        "Optimized queries to reduce response time from ~1000ms to ~200ms."
+      ],
+      "Execution_BiasToAction": [
+        "Implemented Sentry-based logging and custom pagination for product backends."
+      ],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [],
+      "Security_Privacy": [
+        "Implemented one-time URLs and auth flows for security solutions."
+      ]
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "choi_moonkyu",
+    "name_local": "최문규",
+    "name_en": "Moonkyu Choi",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Entry-level Java/Spring backend developer. Completed a 6-month Shinsegae I&C backend course; team projects include a WMS (role-based inbound workflow, state validation, stock updates) and a Live Commerce platform (OpenVidu/WebRTC, analytics dashboards). Deployed on Naver Cloud; served as team lead.",
+    "contacts": {
+      "emails": [
+        "[choimoonkyu1031@gmail.com](mailto:choimoonkyu1031@gmail.com)"
+      ],
+      "phones": [
+        "010-2733-9353"
+      ],
+      "locations": [
+        "Gangdong-gu, Seoul (05211)"
+      ]
+    },
+    "source_files": [
+      "/mnt/data/최문규-이력서.pdf",
+      "/mnt/data/최문규-포트폴리오.pdf",
+      "/mnt/data/최문규_서류전형_이력서.pdf"
+    ],
+    "external_links": [
+      "[https://bit.ly/Cmk1031](https://bit.ly/Cmk1031)",
+      "[https://bit.ly/CmkVelog](https://bit.ly/CmkVelog)",
+      "[https://www.youtube.com/watch?v=Si-M_pRkAbY](https://www.youtube.com/watch?v=Si-M_pRkAbY)",
+      "[https://velog.io/@cmk1031/WMS-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8#%E2%85%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94](https://velog.io/@cmk1031/WMS-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8#%E2%85%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)"
+    ],
+    "sections": {
+      "Education": [
+        {
+          "en": "Kangwon National University — B.S. Computer Science (2019.03 — 2025.02)"
+        }
+      ],
+      "Training": [
+        {
+          "program": "Shinsegae I&C Backend Course (2025.01 — 2025.07)",
+          "content": [
+            "Java/Spring/Spring Boot",
+            "DB design with MySQL/MyBatis",
+            "RESTful API",
+            "Naver Cloud deployment",
+            "Git/GitHub collaboration"
+          ]
+        }
+      ],
+      "Projects": [
+        {
+          "name": "WMS (Warehouse Management System)",
+          "period": "2025-04-16 — 2025-04-28",
+          "team_size": 3,
+          "role": "Inbound management; GitHub collaboration",
+          "highlights": [
+            "Role/authority segmentation (HQ vs warehouse)",
+            "State validation (requested/approved/completed/cancelled)",
+            "Search/detail views",
+            "Stock update on completion"
+          ],
+          "stack": {
+            "backend": [
+              "Java",
+              "Spring",
+              "MyBatis",
+              "MySQL"
+            ],
+            "frontend": [
+              "JSP",
+              "jQuery",
+              "HTML5",
+              "CSS3",
+              "JS"
+            ]
+          }
+        },
+        {
+          "name": "Live Commerce Platform",
+          "period": "2025-06-02 — 2025-07-07",
+          "team_size": 5,
+          "role": "Team lead; live streaming & NCP deployment",
+          "highlights": [
+            "OpenVidu/WebRTC live streaming & viewing",
+            "Post-broadcast KPI dashboards",
+            "Nginx for FE/BE, MySQL/Redis backend"
+          ]
+        }
+      ],
+      "Awards": [
+        {
+          "name": "Chungmu Award (Artillery School Commander)",
+          "date": "2020-06-25"
+        },
+        {
+          "name": "Soldier Award (2nd Armored Brigade Commander)",
+          "date": "2021-10-12"
+        }
+      ],
+      "Certifications": [
+        {
+          "name": "Engineer Information Processing",
+          "status": "Practical passed; planned 2025.09"
+        }
+      ]
+    },
+    "entities": {
+      "skills": [
+        "Java",
+        "Spring Framework",
+        "Spring Boot",
+        "MyBatis",
+        "REST APIs",
+        "DB Design",
+        "WebRTC",
+        "OpenVidu",
+        "Admin Dashboards",
+        "Git Flow"
+      ],
+      "programming_languages": [
+        "Java",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Spring",
+        "Spring Boot",
+        "MyBatis",
+        "Vue.js",
+        "JSP",
+        "jQuery"
+      ],
+      "databases": [
+        "MySQL",
+        "Redis"
+      ],
+      "devops": [
+        "Naver Cloud Platform",
+        "Nginx",
+        "Git/GitHub"
+      ],
+      "roles": [
+        "Backend Developer (Junior)",
+        "Team Lead"
+      ],
+      "projects": [
+        "WMS",
+        "Live Commerce"
+      ],
+      "degrees": [
+        "Bachelor (Kangwon National University)"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 0.33,
+      "years_of_experience_uncertain": true,
+      "ci_cd_presence": {
+        "present": null,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [
+        "Served as team leader and managed schedules on a multi-week project."
+      ],
+      "Communication": [
+        "Promoted conventions and shared practices for collaboration (e.g., Git Flow, commit conventions)."
+      ],
+      "Problem_Solving": [
+        "Designed state-based validation rules for inbound workflow."
+      ],
+      "Execution_BiasToAction": [],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [
+        "Coordinated BE/FE deliverables and deployments."
+      ],
+      "Customer_Impact": [],
+      "Learning_Growth": [
+        "Completed a structured 6-month backend training program."
+      ],
+      "Leadership_Mentoring": [
+        "Led a 5-person live-commerce effort including deployment."
+      ],
+      "Operational_Excellence": [
+        "Built admin dashboards and post-broadcast KPI reporting."
+      ],
+      "Security_Privacy": []
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

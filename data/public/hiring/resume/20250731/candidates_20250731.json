@@ -1,0 +1,2339 @@
+[
+    {
+        "candidate_id": "kim_minseok",
+        "name_local": "김민석",
+        "name_en": "Minseok Kim",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Full-stack/DevOps engineer (~1.2 years). Builds end-to-end products and infra: coding-battle game platform (React/TypeScript, FastAPI, RabbitMQ, autoscaling via queue metrics), real-estate field survey app (Spring Boot, MySQL, HA/DR on AWS + VMware ESXi), cloud/infra automation labs (Ansible, Proxmox, Terraform), and academic/side apps (banking, hackathons). Prior experience includes Zabbix–Jira Service Management automation and OpenStack private-cloud migration.",
+        "contacts": {
+            "emails": [
+                "[opnstk@hotmail.com](mailto:opnstk@hotmail.com)"
+            ],
+            "phones": [
+                "010-7534-4334"
+            ],
+            "locations": [
+                "Seoul Gwanak-gu",
+                "Osan-si, Gyeonggi-do (application address)"
+            ]
+        },
+        "source_files": [
+            "/mnt/data/김민석-포트폴리오-개발-v8.pdf",
+            "/mnt/data/김민석이력서_250316_dvs_CII-r2.pdf",
+            "/mnt/data/김민석_서류전형_이력서.pdf"
+        ],
+        "external_links": [
+            "[https://github.com/Mugen-Houyou](https://github.com/Mugen-Houyou)",
+            "[https://github.com/orgs/Kraftonjungle-MyWeapon/repositories](https://github.com/orgs/Kraftonjungle-MyWeapon/repositories)",
+            "[https://github.com/orgs/WooriFISA-DDPS/repositories](https://github.com/orgs/WooriFISA-DDPS/repositories)",
+            "[https://github.com/COMPAS-Lab/cloud-manager](https://github.com/COMPAS-Lab/cloud-manager)",
+            "[https://github.com/Mugen-Houyou/ansible_proxmox_example](https://github.com/Mugen-Houyou/ansible_proxmox_example)",
+            "[https://github.com/Mugen-Houyou/wooriaccount-frontend](https://github.com/Mugen-Houyou/wooriaccount-frontend)",
+            "[https://github.com/BullChallenger/WooriAccount](https://github.com/BullChallenger/WooriAccount)",
+            "[https://github.com/JeongYoon-L/Passion_For_Fashion](https://github.com/JeongYoon-L/Passion_For_Fashion)",
+            "[https://github.com/huhani/mnd-wiki](https://github.com/huhani/mnd-wiki)",
+            "[https://github.com/COMPAS-Lab/cloud-manager](https://github.com/COMPAS-Lab/cloud-manager)"
+        ],
+        "sections": {
+            "Education": [
+                {
+                    "en": "SUNY Stony Brook — B.S. Information Systems (2019–2023), Specialization in System & Network Administration, GPA 3.60/4.0"
+                },
+                {
+                    "en": "Konkuk University — Business Administration (withdrew), GPA 3.59/4.5"
+                }
+            ],
+            "Experience": [
+                {
+                    "company": "DMOVE",
+                    "role": "Solution Engineer (Jr.)",
+                    "period": "2024-06 — 2025-01",
+                    "highlights_en": [
+                        "Installed & maintained Zabbix and Atlassian Jira/Confluence",
+                        "Python/Bash integration for Zabbix ↔ Jira Service Management SLA automation"
+                    ]
+                },
+                {
+                    "company": "COMPAS Lab (Server/FPGA/System Design Lab)",
+                    "role": "Undergraduate Research Assistant",
+                    "period": "2022-12 — 2023-05",
+                    "highlights_en": [
+                        "Migrated on-prem resources to OpenStack private cloud",
+                        "Replaced OpenStack Horizon with Linode Cloud Manager-based dashboard (fork)"
+                    ]
+                }
+            ],
+            "Projects": [
+                {
+                    "name": "Code Ground (coding-test battle platform)",
+                    "period": "2025-06 — Ongoing",
+                    "role": "Full-stack",
+                    "stack": [
+                        "React",
+                        "TypeScript",
+                        "FastAPI",
+                        "Python",
+                        "RabbitMQ",
+                        "AWS",
+                        "Elasticsearch",
+                        "Prometheus",
+                        "Grafana"
+                    ],
+                    "notes": [
+                        "Glicko-style matching/MMR",
+                        "Queue-metric based autoscaling (replacing memory-based)",
+                        "CI/CD: GitHub Actions → ECR/ECS"
+                    ],
+                    "urls": [
+                        "[https://github.com/orgs/Kraftonjungle-MyWeapon/repositories](https://github.com/orgs/Kraftonjungle-MyWeapon/repositories)"
+                    ]
+                },
+                {
+                    "name": "DDPS ‘Imjangdan’ (real-estate field survey)",
+                    "period": "2024-03 — 2024-05",
+                    "role": "Team lead; Backend; Infra DR/HA design",
+                    "stack": [
+                        "Spring Boot",
+                        "Spring Security",
+                        "Spring Data JPA",
+                        "MySQL",
+                        "AWS",
+                        "VMware ESXi",
+                        "React",
+                        "Thymeleaf",
+                        "Nginx"
+                    ],
+                    "urls": [
+                        "[https://github.com/orgs/WooriFISA-DDPS/repositories](https://github.com/orgs/WooriFISA-DDPS/repositories)"
+                    ]
+                },
+                {
+                    "name": "Ansible Tech Seminar Lab",
+                    "role": "Author",
+                    "stack": [
+                        "Ansible",
+                        "Proxmox LXC",
+                        "WSL Ubuntu",
+                        "Terraform"
+                    ],
+                    "urls": [
+                        "[https://github.com/Mugen-Houyou/ansible_proxmox_example](https://github.com/Mugen-Houyou/ansible_proxmox_example)"
+                    ]
+                },
+                {
+                    "name": "WooriAccount (banking practice app)",
+                    "role": "Contributor",
+                    "stack": [
+                        "React",
+                        "Spring Boot",
+                        "Spring Security",
+                        "QueryDSL",
+                        "MySQL"
+                    ],
+                    "urls": [
+                        "[https://github.com/Mugen-Houyou/wooriaccount-frontend](https://github.com/Mugen-Houyou/wooriaccount-frontend)",
+                        "[https://github.com/BullChallenger/WooriAccount](https://github.com/BullChallenger/WooriAccount)"
+                    ]
+                },
+                {
+                    "name": "AI Speaker (SQuAD-based QA)",
+                    "period": "2019-08 — 2019-12",
+                    "stack": [
+                        "Django",
+                        "TensorFlow",
+                        "HTML/CSS/JS",
+                        "Ubuntu",
+                        "Apache"
+                    ]
+                },
+                {
+                    "name": "Passion For Fashion (SBUHacks 2022)",
+                    "stack": [
+                        "React",
+                        "Node.js"
+                    ],
+                    "urls": [
+                        "[https://github.com/JeongYoon-L/Passion_For_Fashion](https://github.com/JeongYoon-L/Passion_For_Fashion)"
+                    ]
+                },
+                {
+                    "name": "MND-Wiki (Defense OSS hackathon)",
+                    "award": "Navy Chief of Staff Award",
+                    "urls": [
+                        "[https://github.com/huhani/mnd-wiki](https://github.com/huhani/mnd-wiki)"
+                    ]
+                }
+            ],
+            "Certifications": [
+                {
+                    "name": "AWS Certified Solutions Architect – Associate",
+                    "date": "2023-11"
+                },
+                {
+                    "name": "AWS Certified Cloud Practitioner",
+                    "date": "2024-05"
+                },
+                {
+                    "name": "Zabbix 6.0 Certified Specialist",
+                    "date": "2024-09"
+                },
+                {
+                    "name": "TOEIC 925",
+                    "validity": "2023-06 — 2025-06"
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "AWS",
+                "OpenStack",
+                "Ansible",
+                "Jenkins",
+                "Zabbix",
+                "Docker",
+                "Kubernetes",
+                "Elasticsearch",
+                "Prometheus",
+                "Grafana",
+                "RabbitMQ",
+                "Nginx",
+                "VMware ESXi",
+                "Terraform",
+                "Proxmox"
+            ],
+            "programming_languages": [
+                "Python",
+                "JavaScript",
+                "TypeScript",
+                "Java",
+                "C"
+            ],
+            "frameworks": [
+                "FastAPI",
+                "Spring Boot",
+                "React",
+                "Django"
+            ],
+            "databases": [
+                "PostgreSQL",
+                "MySQL"
+            ],
+            "devops": [
+                "GitHub Actions",
+                "ECR",
+                "ECS"
+            ],
+            "roles": [
+                "Full-stack Developer",
+                "DevOps/Infra",
+                "Team Lead (project)"
+            ],
+            "projects": [
+                "Code Ground",
+                "Imjangdan",
+                "Ansible Proxmox Example",
+                "WooriAccount",
+                "AI Speaker",
+                "Passion For Fashion",
+                "MND-Wiki"
+            ],
+            "degrees": [
+                "B.S. Information Systems (SUNY Stony Brook)"
+            ]
+        },
+        "metrics": {
+            "experience_years": 1.17,
+            "github_profile": {
+                "username": "Mugen-Houyou",
+                "repos_count": 63,
+                "stars": 33,
+                "followers": 18,
+                "following": 12
+            },
+            "ci_cd_presence": {
+                "present": true,
+                "details": "GitHub Actions pipelines to ECR/ECS (Code Ground); Jenkins & GitHub Workflows present in COMPAS-Lab/cloud-manager fork.",
+                "uncertain": false
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [
+                "Led ‘Imjangdan’ backend and HA/DR infra; coordinated roles and delivery.",
+                "Drove queue-metric autoscaling strategy on Code Ground."
+            ],
+            "Communication": [
+                "Presented hands-on ‘Terraform & Ansible IaC’ seminar and authored lab materials."
+            ],
+            "Problem_Solving": [
+                "Replaced memory-based ASG policy with RabbitMQ queue metrics to improve responsiveness.",
+                "Designed Active-Standby with AWS + ESXi for resilience."
+            ],
+            "Execution_BiasToAction": [],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [
+                "Worked across FE/BE/Infra in multi-team university and hackathon projects."
+            ],
+            "Customer_Impact": [],
+            "Learning_Growth": [
+                "Built diverse side projects (banking, fashion recommendation, defense wiki) to broaden domain knowledge."
+            ],
+            "Leadership_Mentoring": [
+                "Acted as team lead on capstone, enabling peers via role distribution and mentoring."
+            ],
+            "Operational_Excellence": [
+                "Introduced HA/DR and observability (ES, Prometheus, Grafana) in project infra."
+            ],
+            "Security_Privacy": []
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "kim_huijin",
+        "name_local": "김희진",
+        "name_en": "Huijin Kim",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Backend/EDI developer (≈4.8 years). Built and maintained EDI/web systems across major retail and logistics interfaces (Oracle/MariaDB), implemented XML/XSL transforms, SFTP integrations, secure coding and static analysis (FindBugs). Recent work includes a Vue-based server info dashboard and Jaspersoft PDF watermark/auth.",
+        "contacts": {
+            "emails": [
+                "[eb00b96@naver.com](mailto:eb00b96@naver.com)"
+            ],
+            "phones": [
+                "010-7923-2437"
+            ],
+            "locations": [
+                "Nowon-gu, Seoul"
+            ]
+        },
+        "source_files": [
+            "/mnt/data/김희진_경력기술서.pdf",
+            "/mnt/data/김희진_이력서.pdf",
+            "/mnt/data/김희진_서류전형_이력서.pdf",
+            "김희진_서류전형_이력서.pdf (additional project lines)"
+        ],
+        "external_links": [],
+        "sections": {
+            "Education": [
+                {
+                    "en": "Hansung University — B.S. Computer Engineering (2015-03 — 2020-02)"
+                }
+            ],
+            "Experience": [
+                {
+                    "company": "ESomeTech",
+                    "role": "Web/EDI Developer",
+                    "period": "2019-07 — 2023-02"
+                },
+                {
+                    "company": "SG&N",
+                    "role": "Assistant Manager (Security systems & Web)",
+                    "period": "2023-12 — 2025-01"
+                }
+            ],
+            "Career_Projects": [
+                {
+                    "name": "xTrus System Improvements",
+                    "period": "2019-07 — 2019-09",
+                    "stack": [
+                        "Java",
+                        "JavaScript",
+                        "jQuery",
+                        "SQL",
+                        "XML",
+                        "H2DB"
+                    ],
+                    "summary_en": "Local setup, config fixes, new web config pages; password encryption patterns via MyBatis."
+                },
+                {
+                    "name": "KT Bizmeka (SCM3)",
+                    "period": "2019-10 — 2020-02",
+                    "stack": [
+                        "Java",
+                        "jQuery",
+                        "SQL",
+                        "XML",
+                        "MariaDB"
+                    ],
+                    "summary_en": "Env setup fixes, settings UI, DB data management."
+                },
+                {
+                    "name": "Nestlé Web Order (Linux)",
+                    "period": "2020-03 — 2020-07",
+                    "stack": [
+                        "CentOS7",
+                        "Tomcat",
+                        "Java",
+                        "jQuery",
+                        "MariaDB"
+                    ],
+                    "summary_en": "xTrus + Tomcat install; DB linking; order/delivery data mgmt."
+                },
+                {
+                    "name": "Shinsegae Cloud EDI",
+                    "period": "2020-08 — 2021-06",
+                    "stack": [
+                        "Linux",
+                        "Java/JS/jQuery",
+                        "Oracle"
+                    ],
+                    "summary_en": "Retailer connection mgmt pages; XSL transforms for inbound docs; error feedback flows; research on Docker/K8s/AWS."
+                },
+                {
+                    "name": "YongMa Logistics Next-Gen WMS",
+                    "period": "2021-07 — 2022-02",
+                    "stack": [
+                        "Linux",
+                        "Java",
+                        "Oracle"
+                    ],
+                    "summary_en": "SFTP file ingestion; XSL mapping to target schemas; flat-file→XML with XSCM."
+                },
+                {
+                    "name": "eCvan Interfaces Standardization",
+                    "period": "2022-03 — 2023-02",
+                    "stack": [
+                        "Linux",
+                        "Java",
+                        "Oracle",
+                        "REST API"
+                    ],
+                    "summary_en": "Standardized batch/interface code; REST ingestion; secure coding & static analysis hygiene; XML extraction via xTrus."
+                },
+                {
+                    "name": "ICAM Server Info Dashboard",
+                    "period": "2023-12 — 2024-02",
+                    "stack": [
+                        "Vue 2",
+                        "Java",
+                        "Rocky 9/Ubuntu",
+                        "PostgreSQL"
+                    ],
+                    "summary_en": "Real-time server/db status dashboard."
+                },
+                {
+                    "name": "Jaspersoft PDF Report Watermark/Auth",
+                    "period": "2024-03 — 2024-04",
+                    "stack": [
+                        "Jaspersoft",
+                        "Java"
+                    ],
+                    "summary_en": "Added watermark and auth for report downloads."
+                }
+            ],
+            "Certifications": [
+                {
+                    "name": "Engineer Information Processing",
+                    "date": "2019-08"
+                },
+                {
+                    "name": "Driver’s License (Class 2)",
+                    "date": "2016-05"
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "Java",
+                "Spring (various)",
+                "MyBatis",
+                "Linux (CentOS/Rocky)",
+                "Tomcat",
+                "SFTP",
+                "XML/XSL",
+                "xTrus EDI",
+                "Oracle",
+                "MariaDB",
+                "PostgreSQL",
+                "Vue 2",
+                "REST APIs",
+                "FindBugs",
+                "Secure Coding"
+            ],
+            "programming_languages": [
+                "Java",
+                "JavaScript",
+                "SQL"
+            ],
+            "frameworks": [
+                "Spring",
+                "MyBatis",
+                "Vue.js",
+                "JSP",
+                "jQuery"
+            ],
+            "databases": [
+                "Oracle",
+                "MariaDB",
+                "PostgreSQL"
+            ],
+            "roles": [
+                "Web/EDI Developer",
+                "Interface Engineer"
+            ],
+            "projects": [
+                "xTrus",
+                "KT Bizmeka",
+                "Nestlé Web Order",
+                "Shinsegae Cloud EDI",
+                "YongMa WMS",
+                "eCvan Standardization",
+                "ICAM Dashboard",
+                "Jaspersoft Reports"
+            ],
+            "degrees": [
+                "B.S. Computer Engineering (Hansung University)"
+            ]
+        },
+        "metrics": {
+            "experience_years": 4.83,
+            "ci_cd_presence": {
+                "present": false,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [],
+            "Communication": [],
+            "Problem_Solving": [
+                "Designed XSL transforms and standardized DB mappings for multi-partner EDI flows.",
+                "Implemented error visibility and feedback loops in interface processing."
+            ],
+            "Execution_BiasToAction": [
+                "Proactively researched Docker/Kubernetes/AWS to evaluate deployment options."
+            ],
+            "Craftsmanship_CodeQuality": [
+                "Applied FindBugs and secure-coding cleanup across interface codebases."
+            ],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [
+                "Delivered reliable web UIs for partners to view order/delivery/sales/stock data."
+            ],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [
+                "Built a server operations dashboard (IP, storage, status) for real-time visibility."
+            ],
+            "Security_Privacy": []
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "kim_donghyun",
+        "name_local": "김동현",
+        "name_en": "Donghyun Kim",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Backend engineer focused on reliability and observability. Delivered a cost-efficient crawling pipeline (Spring Batch→Lambda/Playwright→S3→RDS) with Prometheus/Grafana/Loki; refactored a legacy service using 250 tests and CI/CD; developed a study-recruitment platform emphasizing transactional correctness and Testcontainers-based integration tests.",
+        "contacts": {
+            "emails": [],
+            "phones": [],
+            "locations": []
+        },
+        "source_files": [
+            "/mnt/data/김동현_이력서.pdf",
+            "/mnt/data/김동현_최근 해결한 어려운 문제와 그 과정에서 배운 점.pdf"
+        ],
+        "external_links": [
+            "[https://github.com/with-ins/withins](https://github.com/with-ins/withins)",
+            "[https://github.com/Cafegory/Cafegory_Backend_REST_API](https://github.com/Cafegory/Cafegory_Backend_REST_API)",
+            "[https://github.com/dh0304](https://github.com/dh0304)",
+            "[https://github.com/dh0304/multi-module](https://github.com/dh0304/multi-module)"
+        ],
+        "sections": {
+            "Projects": [
+                {
+                    "name": "With-Ins (welfare center aggregation)",
+                    "period": "2025-05 — Ongoing",
+                    "stack": [
+                        "Java",
+                        "Spring Boot",
+                        "Spring Batch",
+                        "AWS Lambda",
+                        "ECS",
+                        "Playwright",
+                        "Prometheus",
+                        "Loki",
+                        "Grafana"
+                    ],
+                    "impact_en": "Reduced incident detection time from ~30m to ~2m via structured Lambda responses + Prometheus metrics; ECS migration from EC2."
+                },
+                {
+                    "name": "Cafegory — Legacy Refactor",
+                    "period": "2024-08 — 2025-01",
+                    "stack": [
+                        "Java",
+                        "Spring Boot",
+                        "JPA",
+                        "AWS EC2/S3/RDS",
+                        "GitHub Actions"
+                    ],
+                    "impact_en": "250 tests guided safe incremental refactors; standardized testing, layered architecture, multi-module; zero-downtime deployments via Actions."
+                },
+                {
+                    "name": "Cafegory — Study Recruitment Platform",
+                    "period": "2024-01 — 2024-04",
+                    "stack": [
+                        "Java",
+                        "Spring Boot",
+                        "JPA",
+                        "QueryDSL",
+                        "MySQL",
+                        "Testcontainers"
+                    ],
+                    "impact_en": "Fixed @Transactional side-effects in tests; adopted Testcontainers; ensured DTO boundaries; hierarchical comment query."
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "Java",
+                "Spring Boot",
+                "JPA",
+                "QueryDSL",
+                "MySQL",
+                "AWS (ECS/S3/RDS/Lambda)",
+                "GitHub Actions",
+                "Prometheus",
+                "Loki",
+                "Grafana",
+                "Playwright",
+                "Testcontainers",
+                "JUnit5"
+            ],
+            "programming_languages": [
+                "Java",
+                "TypeScript"
+            ],
+            "frameworks": [
+                "Spring Boot"
+            ],
+            "databases": [
+                "MySQL"
+            ],
+            "devops": [
+                "GitHub Actions",
+                "AWS ECS",
+                "AWS Lambda"
+            ],
+            "roles": [
+                "Backend Engineer"
+            ],
+            "projects": [
+                "With-Ins",
+                "Cafegory (refactor)",
+                "Cafegory (product)"
+            ]
+        },
+        "metrics": {
+            "experience_years": null,
+            "experience_years_note": "Project timeline 2024–2025; employment tenure not explicitly stated.",
+            "ci_cd_presence": {
+                "present": true,
+                "details": "GitHub Actions for test/build/deploy (Cafegory, With-Ins)",
+                "uncertain": false
+            },
+            "testing_coverage": {
+                "value": null,
+                "notes": "250 tests used to drive refactor; tests vs prod parity reported",
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [
+                "Drove infra migration from EC2→ECS and standardized configuration as code."
+            ],
+            "Communication": [],
+            "Problem_Solving": [
+                "Eliminated test flakiness from JPA/@Transactional by adopting Testcontainers and revising boundaries."
+            ],
+            "Execution_BiasToAction": [
+                "Delivered CI/CD pipelines and zero-downtime deploys to stabilize releases."
+            ],
+            "Craftsmanship_CodeQuality": [
+                "Standardized test patterns and layered architecture; converted to multi-module structure."
+            ],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [
+                "Implemented Prometheus/Loki monitoring and alerting to cut detection time from ~30m to ~2m."
+            ],
+            "Security_Privacy": []
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "park_junghwan",
+        "name_local": "박정환",
+        "name_en": "Junghwan Park",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Junior developer (~1.4 years) with experience in logistics server development (Python + MariaDB), chatbot QA data analysis, EV charger software (C#), and web design/maintenance. Completed AI and Java/Python full-stack training; maintains a personal portfolio site.",
+        "contacts": {
+            "emails": [
+                "[ktxm28@naver.com](mailto:ktxm28@naver.com)"
+            ],
+            "phones": [
+                "010-9084-0238"
+            ],
+            "locations": []
+        },
+        "source_files": [
+            "/mnt/data/박정환_서류전형_이력서.pdf"
+        ],
+        "external_links": [
+            "[http://godpage.dothome.co.kr/](http://godpage.dothome.co.kr/)"
+        ],
+        "sections": {
+            "Experience": [
+                {
+                    "company": "와이드유즈",
+                    "role": "Probation (R&D)",
+                    "period": "2024.12 — 2025.06",
+                    "highlights": [
+                        "Logistics server feature development (Python, MariaDB)",
+                        "Flutter-based cart app integrated via API"
+                    ]
+                },
+                {
+                    "company": "㈜리스트",
+                    "role": "AI Solutions — Intern/Probation (Data Analysis)",
+                    "period": "2024.10 — 2024.11",
+                    "highlights": [
+                        "Chatbot QA dataset analysis, error checks"
+                    ]
+                },
+                {
+                    "company": "보타리에너지",
+                    "role": "Software Developer",
+                    "period": "2024.02 — 2024.05",
+                    "highlights": [
+                        "EV charger software updates (C#)"
+                    ]
+                },
+                {
+                    "company": "방문스튜디오",
+                    "role": "Web Designer",
+                    "period": "2022.08 — 2022.11",
+                    "highlights": [
+                        "Web design/build/maintenance; marketing materials"
+                    ]
+                }
+            ],
+            "Education_Training": [
+                {
+                    "program": "Korea Technology Commercialization Association — AI Developer Course",
+                    "period": "2024.06 — 2024.08"
+                },
+                {
+                    "program": "Korea Software HRD Center — Java/Python Big Data Service Dev",
+                    "period": "2022.11 — 2023.05"
+                },
+                {
+                    "school": "Ulsan University — B.S. IT Convergence"
+                }
+            ],
+            "Certifications": [
+                "정보처리기사",
+                "정보처리산업기사",
+                "컴퓨터활용능력 1급",
+                "사무자동화산업기사",
+                "정보처리기능사",
+                "ITQ (HWP/Excel/PowerPoint) A등급",
+                "워드프로세서 1급",
+                "TOEIC 410 (2021.12)"
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Python",
+                "MariaDB",
+                "API Integration",
+                "QA Data Analysis",
+                "C#",
+                "Web Design/Maintenance",
+                "Flutter"
+            ],
+            "programming_languages": [
+                "Python",
+                "C#",
+                "Java",
+                "JavaScript"
+            ],
+            "frameworks": [
+                "Flutter",
+                "React (training)",
+                "Spring Boot (training)"
+            ],
+            "databases": [
+                "MariaDB"
+            ],
+            "roles": [
+                "Junior Backend/Full-stack Trainee",
+                "Data Analyst (intern)",
+                "Web Designer"
+            ],
+            "degrees": [
+                "Bachelor (Ulsan University)"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 1.42,
+            "ci_cd_presence": {
+                "present": null,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [],
+            "Communication": [],
+            "Problem_Solving": [],
+            "Execution_BiasToAction": [
+                "Implemented logistics server features and built a Flutter cart app integrated via API."
+            ],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [],
+            "Learning_Growth": [
+                "Completed multiple training programs and earned diverse certifications."
+            ],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [],
+            "Security_Privacy": []
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "park_juyoung",
+        "name_local": "박주영",
+        "name_en": "Juyoung Park",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Backend developer (≈1 year) currently at STEG (CI-Bridge integrating SVN/GitLab/Jenkins). Prior: WebRTC rehab service (signaling server, CI/CD on Naver Cloud), university festival platform (25k users with L7 path routing), and a solo campus notice email service (100% delivery via exponential backoff on Raspberry Pi + DDNS).",
+        "contacts": {
+            "emails": [
+                "[ju0_park@naver.com](mailto:ju0_park@naver.com)"
+            ],
+            "phones": [
+                "010-9059-4356"
+            ],
+            "locations": []
+        },
+        "source_files": [
+            "/mnt/data/박주영_이력서.pdf",
+            "/mnt/data/박주영_포트폴리오.pdf"
+        ],
+        "external_links": [
+            "[https://github.com/jyp-on](https://github.com/jyp-on)",
+            "[https://mythpoy.tistory.com](https://mythpoy.tistory.com)",
+            "[https://github.com/sync-without-async/Rehab-BackEnd](https://github.com/sync-without-async/Rehab-BackEnd)",
+            "[https://github.com/Hallym-LIKELION/HallymFestival2023-Backend-](https://github.com/Hallym-LIKELION/HallymFestival2023-Backend-)",
+            "[https://www.youtube.com/watch?v=HuXwZLn8_XQ](https://www.youtube.com/watch?v=HuXwZLn8_XQ)",
+            "[https://www.youtube.com/watch?v=dD3dg6zNe24](https://www.youtube.com/watch?v=dD3dg6zNe24)",
+            "[https://github.com/jyp-on/notice-crawler](https://github.com/jyp-on/notice-crawler)"
+        ],
+        "sections": {
+            "Experience": [
+                {
+                    "company": "STEG",
+                    "role": "Strategy R&D (Pro)",
+                    "period": "2025.02 — Present",
+                    "highlights": [
+                        "Built CI-Bridge integrating SVN/GitLab/Jenkins",
+                        "Reusable modules with i18n; automated job triggers"
+                    ]
+                }
+            ],
+            "Projects": [
+                {
+                    "name": "Re:Hab (web-based remote rehab)",
+                    "period": "2023.06 — 2023.12",
+                    "highlights": [
+                        "Spring WebSocket signaling server",
+                        "Blue/Green deployments via Jenkins/GitHub Actions",
+                        "Nginx reverse proxy to BE/AI services",
+                        "NCloud Object Storage"
+                    ]
+                },
+                {
+                    "name": "University festival platform",
+                    "period": "2023.03 — 2023.05",
+                    "impact": "Served 25k users in 10 days; applied L7 path-based routing; fixed paging & concurrency in 2 hours"
+                },
+                {
+                    "name": "Campus notice email service (solo)",
+                    "period": "2024.10 — 2025.01",
+                    "impact": "100% delivery, ~500/day throughput, 100% uptime, 0 KRW/month via Raspberry Pi + DDNS",
+                    "approach": "Used exponential backoff to resolve SMTP 421 overload"
+                }
+            ],
+            "Tech_Stack": [
+                "Java",
+                "Kotlin",
+                "SQL",
+                "JavaScript",
+                "Python",
+                "Spring Boot/Data JPA/Security",
+                "Node.js",
+                "FastAPI",
+                "MySQL",
+                "MariaDB",
+                "Redis",
+                "MongoDB",
+                "Docker",
+                "Jenkins",
+                "Tomcat",
+                "Nginx",
+                "AWS",
+                "Naver Cloud"
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Backend",
+                "CI/CD",
+                "WebRTC",
+                "Email Delivery Systems",
+                "Load Balancing",
+                "Path Routing"
+            ],
+            "programming_languages": [
+                "Java",
+                "Kotlin",
+                "Python",
+                "JavaScript",
+                "SQL"
+            ],
+            "frameworks": [
+                "Spring Boot",
+                "JPA",
+                "WebSocket",
+                "Node.js",
+                "FastAPI"
+            ],
+            "databases": [
+                "MySQL",
+                "MariaDB",
+                "Redis",
+                "MongoDB"
+            ],
+            "devops": [
+                "Docker",
+                "Jenkins",
+                "Nginx",
+                "AWS",
+                "Naver Cloud",
+                "GitHub Actions"
+            ],
+            "roles": [
+                "Backend Developer"
+            ],
+            "projects": [
+                "Re:Hab",
+                "HallymFestival Platform",
+                "Notice Email Service"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 1.0,
+            "github_profile": {
+                "username": "jyp-on",
+                "public_repos": 65,
+                "followers": 42,
+                "following": 51,
+                "contributions_last_year": 2231
+            },
+            "ci_cd_presence": {
+                "present": true,
+                "details": "Jenkins/GitHub Actions pipelines for blue/green and automation",
+                "uncertain": false
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [
+                "Individually designed, deployed, and operated the campus notice email service."
+            ],
+            "Communication": [],
+            "Problem_Solving": [
+                "Resolved SMTP overload (421) using exponential backoff to achieve 100% delivery."
+            ],
+            "Execution_BiasToAction": [
+                "Built MVP in a day and iterated over four months with continuous improvements."
+            ],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [
+                "Served 25,000 festival users in 10 days while maintaining stability via L7 routing."
+            ],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [
+                "Automated deployments and standardized workflows via Jenkins/GitLab/GitHub integration."
+            ],
+            "Security_Privacy": []
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "seo_myunggyo",
+        "name_local": "서명교",
+        "name_en": "Myunggyo Seo",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Senior backend/web engineer (8.5 years). Expert in Python/Django/FastAPI with AWS services (S3, Lambda, SQS, Cognito), RabbitMQ, MySQL/MongoDB. Delivered RAG document search (hexagonal/MSA), large-scale localization pipelines (cut ~1,800h→~48h), image translation service, real-time chat (Django Channels), ML emotion analysis for tele-counseling, SSO (Keycloak), and multiple backoffice/e-commerce systems. Earlier: call center systems, analytics dashboards, PHP backends.",
+        "contacts": {
+            "emails": [
+                "[mgsssss@naver.com](mailto:mgsssss@naver.com)"
+            ],
+            "phones": [
+                "010-2271-3253"
+            ],
+            "locations": [
+                "Yeongdeungpo-gu, Seoul"
+            ]
+        },
+        "source_files": [
+            "/mnt/data/플랫폼 개발_서명교_20250731_0100032.pdf",
+            "/mnt/data/서명교 포트 폴리오.ppt"
+        ],
+        "external_links": [],
+        "sections": {
+            "Experience_Summary": [
+                "Total 8 years 6 months; roles up to Team Lead/Manager"
+            ],
+            "Selected_Projects": [
+                {
+                    "name": "RAG-based Document Search",
+                    "period": "2022.06 — 2024.08",
+                    "stack": [
+                        "FastAPI",
+                        "MySQL",
+                        "Docker",
+                        "Pytest",
+                        "RabbitMQ",
+                        "Cognito",
+                        "API Gateway",
+                        "S3",
+                        "Lambda",
+                        "SQS"
+                    ],
+                    "architecture": [
+                        "Hexagonal",
+                        "MSA"
+                    ],
+                    "role": "Auth server & file collector",
+                    "notes": [
+                        "HttpOnly cookie tokens",
+                        "Transactional multi-file upload from Drive/OneDrive/local"
+                    ]
+                },
+                {
+                    "name": "Image Translation Web",
+                    "role": "Solo",
+                    "notes": [
+                        "Batch 10^5 images with async S3 uploads",
+                        "Hashtag search & metadata"
+                    ]
+                },
+                {
+                    "name": "Realtime Chat (Django Channels)",
+                    "role": "Solo",
+                    "notes": [
+                        "WebSocket server; Dockerized with Nginx/MySQL",
+                        "Moderation: kick/report/recommend/mute/team"
+                    ]
+                },
+                {
+                    "name": "ML Emotion Analysis for Tele-counseling",
+                    "team": 3,
+                    "stack": [
+                        "Python",
+                        "FastAPI",
+                        "Django",
+                        "Celery",
+                        "Keras",
+                        "WebRTC"
+                    ],
+                    "notes": [
+                        "7-class facial expression classification",
+                        "Async post-session generation via Celery + RabbitMQ"
+                    ]
+                },
+                {
+                    "name": "Content Localization Service (AWS)",
+                    "role": "Solo",
+                    "stack": [
+                        "SQS",
+                        "Translate",
+                        "Lambda",
+                        "S3",
+                        "boto3"
+                    ],
+                    "impact": "Reduced total processing time from ~1,800h to ~48h via parallelization"
+                },
+                {
+                    "name": "Keycloak SSO Integration",
+                    "scope": "20 services",
+                    "stack": [
+                        "Keycloak",
+                        "React",
+                        "Docker",
+                        "OAuth2/OIDC/JWT"
+                    ]
+                },
+                {
+                    "name": "Luxury Price Compare Backoffice & Seller Portal",
+                    "role": "Solo",
+                    "stack": [
+                        "Python",
+                        "Django",
+                        "AWS S3/EC2",
+                        "MySQL",
+                        "Bootstrap",
+                        "jQuery"
+                    ],
+                    "notes": [
+                        "Payment/refund/settlement flows",
+                        "Resolved N+1 with select_related/prefetch_related"
+                    ]
+                },
+                {
+                    "name": "Web Crawler for E-commerce",
+                    "notes": [
+                        ">300k products; asyncio; S3; cron scheduling"
+                    ]
+                },
+                {
+                    "name": "Dating App API & Infra",
+                    "period": "2018.05 — 2019.02",
+                    "stack": [
+                        "PHP",
+                        "MySQL",
+                        "AWS EC2/RDS/S3",
+                        "CloudFront"
+                    ]
+                },
+                {
+                    "name": "Call Center & Analytics Dashboards",
+                    "period": "2014 — 2018",
+                    "stack": [
+                        "PHP",
+                        "MySQL",
+                        "MongoDB",
+                        "Highcharts",
+                        "Google Analytics API"
+                    ]
+                }
+            ],
+            "Preferences": {
+                "employment_type": "Full-time",
+                "desired_location": "Seoul (all areas)"
+            }
+        },
+        "entities": {
+            "skills": [
+                "Backend Development",
+                "RAG/Search",
+                "SSO",
+                "Async Processing",
+                "Batch/Data Pipelines",
+                "Web Crawling",
+                "Admin/Backoffice",
+                "Real-time Systems"
+            ],
+            "programming_languages": [
+                "Python",
+                "PHP",
+                "JavaScript"
+            ],
+            "frameworks": [
+                "Django",
+                "Django REST Framework",
+                "Django Channels",
+                "FastAPI",
+                "React",
+                "Keycloak"
+            ],
+            "databases": [
+                "MySQL",
+                "MongoDB"
+            ],
+            "devops": [
+                "AWS (S3, EC2, RDS, Lambda, SQS, CloudFront, Cognito, API Gateway)",
+                "Docker",
+                "RabbitMQ",
+                "Celery",
+                "Nginx",
+                "Cron"
+            ],
+            "ml_tools": [
+                "Keras"
+            ],
+            "roles": [
+                "Backend Engineer",
+                "Team Lead/Manager",
+                "Full-stack Web Developer"
+            ],
+            "projects": [
+                "RAG Document Search",
+                "Image Translation Service",
+                "Realtime Chat",
+                "Emotion Analysis",
+                "Content Localization",
+                "Keycloak SSO",
+                "Backoffice & Seller Portal",
+                "Web Crawler",
+                "Dating App API"
+            ],
+            "degrees": [
+                "Associate (Myongji College, Computer Information)"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 8.5,
+            "ci_cd_presence": {
+                "present": null,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": "Unit/Component tests via Pytest on RAG system",
+                "uncertain": false
+            }
+        },
+        "core_values": {
+            "Ownership": [
+                "Delivered multiple solo systems end-to-end (Channels chat, SSO, content localization)."
+            ],
+            "Communication": [],
+            "Problem_Solving": [
+                "Cut localization pipeline time from ~1,800h to ~48h via SDK-driven parallelism.",
+                "Eliminated Django ORM N+1s with select_related/prefetch_related."
+            ],
+            "Execution_BiasToAction": [
+                "Built a high-throughput multi-source file collector with transactional recovery."
+            ],
+            "Craftsmanship_CodeQuality": [
+                "Emphasizes simplicity, security, readability; applies negative test cases and Pytest."
+            ],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [
+                "Backoffice/seller portals supporting payments, settlements, and notifications."
+            ],
+            "Learning_Growth": [
+                "Self-study and application of OS/CS fundamentals to system design."
+            ],
+            "Leadership_Mentoring": [
+                "Held team lead/manager roles delivering platform components."
+            ],
+            "Operational_Excellence": [
+                "Designed resilient async pipelines using Celery/RabbitMQ and AWS managed services."
+            ],
+            "Security_Privacy": [
+                "HttpOnly cookie tokens; centralized auth via Keycloak/OIDC."
+            ]
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "son_rockhyung",
+        "name_local": "손록형",
+        "name_en": "RockHyung Son",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Backend developer (~3.8 years) across food delivery, daycare, and security/AI startups. Experience with Node.js/NestJS, Java/Spring, Python; relational/NoSQL (MySQL/PostgreSQL/MariaDB/MongoDB/Redis); Docker/Jenkins. Delivered address→store mapping, coupons/orders/memberships, RBAC and file storage, and performance optimizations (>5× response improvements).",
+        "contacts": {
+            "emails": [
+                "[fhrgud1264@gmail.com](mailto:fhrgud1264@gmail.com)"
+            ],
+            "phones": [
+                "010-9658-5162"
+            ],
+            "locations": []
+        },
+        "source_files": [
+            "/mnt/data/손록형_서류전형_이력서.pdf"
+        ],
+        "external_links": [
+            "[https://rokongme.notion.site/](https://rokongme.notion.site/)"
+        ],
+        "sections": {
+            "Highlights": [
+                "Security/AI backends: one-time URL signing, custom pagination, Sentry logging; 5× response time improvement",
+                "Kids daycare: web-Hangul editing, RBAC, S3 storage",
+                "Food delivery (BBQ app): address–store mapping, coupons, orders, memberships"
+            ],
+            "Earlier_Employers": [
+                {
+                    "company": "㈜테서",
+                    "period": "2021.11 — 2022.02",
+                    "notes": "Account activation emails, password reset flows"
+                }
+            ]
+        },
+        "entities": {
+            "skills": [
+                "REST API",
+                "JWT/Auth",
+                "Address Matching",
+                "Coupons/Vouchers",
+                "RBAC",
+                "File Storage",
+                "Logging"
+            ],
+            "programming_languages": [
+                "Java",
+                "TypeScript",
+                "JavaScript",
+                "Python",
+                "Kotlin"
+            ],
+            "frameworks": [
+                "Spring",
+                "NestJS",
+                "Django"
+            ],
+            "databases": [
+                "MySQL",
+                "PostgreSQL",
+                "MariaDB",
+                "MongoDB",
+                "Redis"
+            ],
+            "devops": [
+                "Docker",
+                "Jenkins"
+            ],
+            "roles": [
+                "Backend Developer"
+            ],
+            "projects": [
+                "BBQ App Backend",
+                "Puppy Place",
+                "KidsNote Doc System",
+                "TheSpot Security Backend",
+                "Tesser AI Backend"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 3.75,
+            "ci_cd_presence": {
+                "present": null,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [],
+            "Communication": [],
+            "Problem_Solving": [
+                "Optimized queries to reduce response time from ~1000ms to ~200ms."
+            ],
+            "Execution_BiasToAction": [
+                "Implemented Sentry-based logging and custom pagination for product backends."
+            ],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [],
+            "Security_Privacy": [
+                "Implemented one-time URLs and auth flows for security solutions."
+            ]
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "ahn_hyungkyu",
+        "name_local": "안형규",
+        "name_en": "Hyungkyu Ahn",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Systems-oriented developer (~1.5 years, uncertain) with experience in capital-markets middleware (C/Linux/ZeroMQ), banking interface testing (contract), and automation for e-commerce ops. Projects include a distributed crypto arbitrage trading system (Python/FastAPI/ZeroMQ/WebSocket), a Spring Boot + Flutter stock backtesting app with blue/green deploys, and a real-time auction server in C.",
+        "contacts": {
+            "emails": [],
+            "phones": [
+                "010-5233-2932"
+            ],
+            "locations": []
+        },
+        "source_files": [
+            "/mnt/data/안형규_이력서.pdf"
+        ],
+        "external_links": [
+            "[https://github.com/hyungkya/mztrade-core](https://github.com/hyungkya/mztrade-core)"
+        ],
+        "sections": {
+            "Industry_Experience": [
+                {
+                    "company": "H2O System Technology (Finance Biz)",
+                    "period": "2024.08 — 2025.04",
+                    "highlights": [
+                        "Migrated System V queues → ZeroMQ; throughput 50k/s→100k/s",
+                        "Exchange ‘NXT’ patch rollouts"
+                    ]
+                },
+                {
+                    "company": "NexWeb (Shinhan NEXT, Contract)",
+                    "period": "2023.04 — 2023.07",
+                    "highlights": [
+                        "Mapped & tested interfaces between core services and terminals"
+                    ]
+                },
+                {
+                    "company": "Trend Notes Inc. (Non-dev Intern)",
+                    "period": "2022.02 — 2022.06",
+                    "highlights": [
+                        "Automated order aggregation via Selenium; inventory analytics & replenishment forecasting"
+                    ]
+                }
+            ],
+            "Projects": [
+                {
+                    "name": "Crypto cross-exchange arbitrage system",
+                    "period": "2025.04 — Present",
+                    "stack": [
+                        "Python",
+                        "FastAPI",
+                        "ZeroMQ",
+                        "WebSocket",
+                        "Supervisor",
+                        "Linux"
+                    ],
+                    "highlights": [
+                        "Async price collection/normalization",
+                        "Distributed writers (ZeroMQ/Posix SHM)",
+                        "Control plane via FastAPI",
+                        "Task sync via GitHub Actions"
+                    ]
+                },
+                {
+                    "name": "Stock backtesting application",
+                    "period": "2024.01 — 2024.04",
+                    "stack": [
+                        "Java",
+                        "Spring Boot",
+                        "Flutter",
+                        "Firebase",
+                        "Jenkins",
+                        "GCP"
+                    ],
+                    "highlights": [
+                        "RESTful core (Spring Boot)",
+                        "Blue/Green deploy via GitHub Webhook + Jenkins"
+                    ]
+                },
+                {
+                    "name": "Realtime auction server",
+                    "period": "2021.09 — 2021.12",
+                    "stack": [
+                        "C",
+                        "POSIX threads"
+                    ]
+                }
+            ],
+            "Education": [
+                {
+                    "en": "University of California, Irvine — B.S. Computer Science (2022)"
+                }
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Low-latency Systems",
+                "ZeroMQ",
+                "Distributed Processing",
+                "Blue/Green Deployment",
+                "WebSockets",
+                "IPC",
+                "Linux"
+            ],
+            "programming_languages": [
+                "C",
+                "C++",
+                "Python",
+                "Java",
+                "Dart"
+            ],
+            "frameworks": [
+                "Spring Boot",
+                "FastAPI"
+            ],
+            "databases": [
+                "MySQL (unspecified depth)"
+            ],
+            "devops": [
+                "Jenkins",
+                "GitHub Actions",
+                "GCP",
+                "Supervisor",
+                "Selenium"
+            ],
+            "roles": [
+                "Backend/Systems Developer"
+            ],
+            "projects": [
+                "Arbitrage Trading System",
+                "Stock Backtesting App",
+                "Realtime Auction Server"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 1.5,
+            "years_of_experience_uncertain": true,
+            "ci_cd_presence": {
+                "present": true,
+                "details": "Blue/Green using GitHub Webhooks → Jenkins; GitHub Actions for task sync",
+                "uncertain": false
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [],
+            "Communication": [],
+            "Problem_Solving": [
+                "Re-architected legacy IPC from System V to ZeroMQ, doubling throughput.",
+                "Designed distributed arbitrage pipeline with control APIs and alerting."
+            ],
+            "Execution_BiasToAction": [
+                "Implemented an end-to-end arbitrage system with distributed processes and monitoring."
+            ],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [
+                "Established blue/green deployment via GitHub Webhook + Jenkins."
+            ],
+            "Security_Privacy": []
+        },
+        "red_flags": [
+            "Minor encoding artifacts present in PDF text"
+        ],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "yu_hyunho",
+        "name_local": "유현호",
+        "name_en": "Hyunho Yu",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Entry-level backend developer (Java/Spring). Portfolio centers on a taxi carpool matching service; solved concurrency issues in partner selection and improved performance by removing unnecessary external API calls (~17% gain). Comfortable with Spring Boot/Security, JPA/Hibernate, MySQL, Redis; some TypeScript/Nest.js.",
+        "contacts": {
+            "emails": [
+                "[nolja126@gmail.com](mailto:nolja126@gmail.com)",
+                "[kmn4k7vgyc@privaterelay.appleid.com](mailto:kmn4k7vgyc@privaterelay.appleid.com)"
+            ],
+            "phones": [
+                "010-5892-7886"
+            ],
+            "locations": [
+                "Hwaseong-si, Gyeonggi-do (18321)"
+            ]
+        },
+        "source_files": [
+            "/mnt/data/유현호_ilovepdf_merged.pdf",
+            "/mnt/data/유현호_서류전형_이력서.pdf"
+        ],
+        "external_links": [
+            "[https://github.com/HyunhoYu](https://github.com/HyunhoYu)",
+            "[https://github.com/HyunhoCheolhyun/carpool](https://github.com/HyunhoCheolhyun/carpool)",
+            "[https://velog.io/@rapid9](https://velog.io/@rapid9)",
+            "[https://velog.io/@rapid97/series/%ED%83%9D%EC%8B%9C-%ED%95%A9%EC%8A%B9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8](https://velog.io/@rapid97/series/%ED%83%9D%EC%8B%9C-%ED%95%A9%EC%8A%B9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)"
+        ],
+        "sections": {
+            "Education": [
+                {
+                    "en": "Suwon University — Economics (2017) → transferred to Computer SW (2023), expected graduation"
+                },
+                {
+                    "en": "Suri High School — Graduated"
+                }
+            ],
+            "Skills": [
+                "Java",
+                "Spring/Spring Security",
+                "JPA/Hibernate",
+                "MySQL",
+                "Redis",
+                "Gradle",
+                "Git",
+                "Linux",
+                "TypeScript (basic)",
+                "Nest.js (basic)"
+            ],
+            "Projects": [
+                {
+                    "name": "Taxi Carpool Matching (Refactor)",
+                    "stack": [
+                        "Spring Boot",
+                        "Spring Security",
+                        "JPA/Hibernate",
+                        "MySQL",
+                        "Redis",
+                        "Gradle",
+                        "Docker Compose"
+                    ],
+                    "scope": [
+                        "AuthN/Z",
+                        "Matching API",
+                        "Origin/destination API",
+                        "Trip info/history APIs",
+                        "External API clients"
+                    ],
+                    "outcomes": [
+                        "Resolved concurrency race in partner selection",
+                        "Improved performance by ~17% by eliminating redundant external calls"
+                    ],
+                    "urls": [
+                        "[https://github.com/HyunhoCheolhyun/carpool](https://github.com/HyunhoCheolhyun/carpool)"
+                    ]
+                }
+            ],
+            "Profiles": [
+                {
+                    "GitHub": "[https://github.com/HyunhoYu](https://github.com/HyunhoYu)"
+                },
+                {
+                    "Blog": "[https://velog.io/@rapid9](https://velog.io/@rapid9)"
+                }
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Backend Development",
+                "Concurrency Control",
+                "API Design",
+                "Authentication/Authorization"
+            ],
+            "programming_languages": [
+                "Java",
+                "TypeScript",
+                "C"
+            ],
+            "frameworks": [
+                "Spring Boot",
+                "Spring Security",
+                "Nest.js"
+            ],
+            "databases": [
+                "MySQL",
+                "Redis"
+            ],
+            "devops": [
+                "Docker Compose"
+            ],
+            "roles": [
+                "Backend Developer (Junior)"
+            ],
+            "projects": [
+                "Taxi Carpool Matching (Refactor)"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 0.0,
+            "github_profile": {
+                "username": "HyunhoYu",
+                "repos_count": 2,
+                "followers": 2,
+                "following": 3
+            },
+            "repo_highlight": {
+                "repo": "HyunhoCheolhyun/carpool",
+                "commits": 154
+            },
+            "ci_cd_presence": {
+                "present": null,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [
+                "Implemented authentication, matching logic, and multiple supporting APIs for the carpool service."
+            ],
+            "Communication": [],
+            "Problem_Solving": [
+                "Resolved concurrency when multiple users selected the same partner simultaneously.",
+                "Reduced unnecessary external API calls to improve performance by ~17%."
+            ],
+            "Execution_BiasToAction": [],
+            "Craftsmanship_CodeQuality": [
+                "Refactored the system with an object-oriented design focus."
+            ],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [],
+            "Security_Privacy": [
+                "Applied Spring Security for robust authN/Z."
+            ]
+        },
+        "red_flags": [
+            "PDF text encoding artifacts affected phone digits in one file"
+        ],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "choi_moonkyu",
+        "name_local": "최문규",
+        "name_en": "Moonkyu Choi",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Entry-level Java/Spring backend developer. Completed a 6-month Shinsegae I&C backend course; team projects include a WMS (role-based inbound workflow, state validation, stock updates) and a Live Commerce platform (OpenVidu/WebRTC, analytics dashboards). Deployed on Naver Cloud; served as team lead.",
+        "contacts": {
+            "emails": [
+                "[choimoonkyu1031@gmail.com](mailto:choimoonkyu1031@gmail.com)"
+            ],
+            "phones": [
+                "010-2733-9353"
+            ],
+            "locations": [
+                "Gangdong-gu, Seoul (05211)"
+            ]
+        },
+        "source_files": [
+            "/mnt/data/최문규-이력서.pdf",
+            "/mnt/data/최문규-포트폴리오.pdf",
+            "/mnt/data/최문규_서류전형_이력서.pdf"
+        ],
+        "external_links": [
+            "[https://bit.ly/Cmk1031](https://bit.ly/Cmk1031)",
+            "[https://bit.ly/CmkVelog](https://bit.ly/CmkVelog)",
+            "[https://www.youtube.com/watch?v=Si-M_pRkAbY](https://www.youtube.com/watch?v=Si-M_pRkAbY)",
+            "[https://velog.io/@cmk1031/WMS-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8#%E2%85%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94](https://velog.io/@cmk1031/WMS-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8#%E2%85%B0%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)"
+        ],
+        "sections": {
+            "Education": [
+                {
+                    "en": "Kangwon National University — B.S. Computer Science (2019.03 — 2025.02)"
+                }
+            ],
+            "Training": [
+                {
+                    "program": "Shinsegae I&C Backend Course (2025.01 — 2025.07)",
+                    "content": [
+                        "Java/Spring/Spring Boot",
+                        "DB design with MySQL/MyBatis",
+                        "RESTful API",
+                        "Naver Cloud deployment",
+                        "Git/GitHub collaboration"
+                    ]
+                }
+            ],
+            "Projects": [
+                {
+                    "name": "WMS (Warehouse Management System)",
+                    "period": "2025-04-16 — 2025-04-28",
+                    "team_size": 3,
+                    "role": "Inbound management; GitHub collaboration",
+                    "highlights": [
+                        "Role/authority segmentation (HQ vs warehouse)",
+                        "State validation (requested/approved/completed/cancelled)",
+                        "Search/detail views",
+                        "Stock update on completion"
+                    ],
+                    "stack": {
+                        "backend": [
+                            "Java",
+                            "Spring",
+                            "MyBatis",
+                            "MySQL"
+                        ],
+                        "frontend": [
+                            "JSP",
+                            "jQuery",
+                            "HTML5",
+                            "CSS3",
+                            "JS"
+                        ]
+                    }
+                },
+                {
+                    "name": "Live Commerce Platform",
+                    "period": "2025-06-02 — 2025-07-07",
+                    "team_size": 5,
+                    "role": "Team lead; live streaming & NCP deployment",
+                    "highlights": [
+                        "OpenVidu/WebRTC live streaming & viewing",
+                        "Post-broadcast KPI dashboards",
+                        "Nginx for FE/BE, MySQL/Redis backend"
+                    ]
+                }
+            ],
+            "Awards": [
+                {
+                    "name": "Chungmu Award (Artillery School Commander)",
+                    "date": "2020-06-25"
+                },
+                {
+                    "name": "Soldier Award (2nd Armored Brigade Commander)",
+                    "date": "2021-10-12"
+                }
+            ],
+            "Certifications": [
+                {
+                    "name": "Engineer Information Processing",
+                    "status": "Practical passed; planned 2025.09"
+                }
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Java",
+                "Spring Framework",
+                "Spring Boot",
+                "MyBatis",
+                "REST APIs",
+                "DB Design",
+                "WebRTC",
+                "OpenVidu",
+                "Admin Dashboards",
+                "Git Flow"
+            ],
+            "programming_languages": [
+                "Java",
+                "JavaScript"
+            ],
+            "frameworks": [
+                "Spring",
+                "Spring Boot",
+                "MyBatis",
+                "Vue.js",
+                "JSP",
+                "jQuery"
+            ],
+            "databases": [
+                "MySQL",
+                "Redis"
+            ],
+            "devops": [
+                "Naver Cloud Platform",
+                "Nginx",
+                "Git/GitHub"
+            ],
+            "roles": [
+                "Backend Developer (Junior)",
+                "Team Lead"
+            ],
+            "projects": [
+                "WMS",
+                "Live Commerce"
+            ],
+            "degrees": [
+                "Bachelor (Kangwon National University)"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 0.33,
+            "years_of_experience_uncertain": true,
+            "ci_cd_presence": {
+                "present": null,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [
+                "Served as team leader and managed schedules on a multi-week project."
+            ],
+            "Communication": [
+                "Promoted conventions and shared practices for collaboration (e.g., Git Flow, commit conventions)."
+            ],
+            "Problem_Solving": [
+                "Designed state-based validation rules for inbound workflow."
+            ],
+            "Execution_BiasToAction": [],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [
+                "Coordinated BE/FE deliverables and deployments."
+            ],
+            "Customer_Impact": [],
+            "Learning_Growth": [
+                "Completed a structured 6-month backend training program."
+            ],
+            "Leadership_Mentoring": [
+                "Led a 5-person live-commerce effort including deployment."
+            ],
+            "Operational_Excellence": [
+                "Built admin dashboards and post-broadcast KPI reporting."
+            ],
+            "Security_Privacy": []
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "kim_seongcheol",
+        "name_local": "김성철",
+        "name_en": "Seongcheol Kim",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Java backend developer (~3.5 years) specialized in eGovFrame/Spring Boot. Built an electronic attendance system for 100+ schools, refactored complex queries to cut latency from ~4s to ~0.3s (>90%), improved page load UX with Vue team, and stabilized batches with auto-alerts. Scouted by a bank BU.",
+        "contacts": {
+            "emails": [],
+            "phones": [],
+            "locations": []
+        },
+        "source_files": [
+            "/mnt/data/김성철_이력서.pdf"
+        ],
+        "external_links": [],
+        "sections": {
+            "Experience": [
+                {
+                    "company": "Shinhan Bank — HeyYoung Campus (via Rotex → Seedin)",
+                    "period": "2021-07 — Present",
+                    "highlights_en": [
+                        "Attendance backend on eGovFrame; DB transaction tuning; 100+ schools served",
+                        "Refactored JOIN/WITH queries to reduce response ~4s→~0.3s",
+                        "Collaborated with Vue team on skeleton UI and payload simplification",
+                        "Batch stabilization and auto-alerts; ~60% faster incident response"
+                    ]
+                }
+            ],
+            "Education": [
+                {
+                    "en": "Myongji College (Assoc.), Korea National Open University (enrolled)"
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "Java",
+                "Spring Boot",
+                "eGovFramework",
+                "MyBatis",
+                "SQL tuning",
+                "Vue.js",
+                "Jira",
+                "GitLab",
+                "Slack",
+                "SSO",
+                "Tibero/Oracle"
+            ],
+            "roles": [
+                "Backend Developer",
+                "Full-stack Developer"
+            ],
+            "projects": [
+                "HeyYoung Campus",
+                "Smart Campus"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 3.5,
+            "ci_cd_presence": {
+                "present": false,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [],
+            "Communication": [
+                "Partnered with the Vue team to improve initial load UX and payloads."
+            ],
+            "Problem_Solving": [
+                "Reduced API latency by >90% via query refactoring and tuning."
+            ],
+            "Execution_BiasToAction": [],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [
+                "Cross-functional work with FE team to implement skeleton UI and optimize responses."
+            ],
+            "Customer_Impact": [
+                "Improved mobile UX and system responsiveness for 100+ schools."
+            ],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [
+                "Stabilized batch jobs and introduced auto-alerts for faster incident response."
+            ],
+            "Security_Privacy": []
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "kim_sumin",
+        "name_local": "김수민",
+        "name_en": "Sumin Kim",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Backend engineer (~5.8 years) in commerce systems. Strong in REST integrations, batch, internal/external sync, data integrity, and operational resilience. Led GitHub Actions/CodeDeploy pipelines and an RDS MySQL 5.7→8.0 upgrade. Recent focus on tests, MSA, and Kafka.",
+        "contacts": {
+            "emails": [],
+            "phones": [],
+            "locations": []
+        },
+        "source_files": [
+            "/mnt/data/김수민_경력기술서.pdf",
+            "/mnt/data/김수민_서류전형_이력서.pdf"
+        ],
+        "external_links": [],
+        "sections": {
+            "Experience": [
+                {
+                    "company": "WeBling — POD Backend Team",
+                    "period": "2022-06 — 2025-01",
+                    "highlights_en": [
+                        "APIs for Snaps/OhprintMe",
+                        "Built ‘Weverse by Fans’ service and integrations",
+                        "Owned internal production integration and Zendesk integration",
+                        "Led RDS MySQL 5.7→8.0 upgrade"
+                    ]
+                },
+                {
+                    "company": "Ezenerdu — Platform Dev",
+                    "period": "2019-06 — 2022-06",
+                    "highlights_en": [
+                        "Web/API dev; jQuery/JSTL displays",
+                        "Search engine replacement and perf improvements",
+                        "MongoDB PI processing history module for ISMS"
+                    ]
+                }
+            ],
+            "Selected_Projects": [
+                {
+                    "name": "POD Shop ↔ In-house Mall Product Automation & Admin",
+                    "period": "2024-10 — 2024-12",
+                    "impact_en": "Automated product registration; >60% turnaround reduction; key-based option mapping & validation"
+                },
+                {
+                    "name": "Template/User Project Migration to POD",
+                    "period": "2024-02 — 2024-06",
+                    "impact_en": "Migrated ~13M rows via API while preserving referential integrity; parallelized by queue-id to cut duration ~2 weeks→~3 days"
+                },
+                {
+                    "name": "Zendesk Integration",
+                    "period": "2023-12 — 2024-02",
+                    "impact_en": "Centralized multi-brand inquiries; batch + retry (≤5×), Slack alerts; IP allowlisting and AES-256 identifiers via AOP"
+                },
+                {
+                    "name": "Weverse ByFans",
+                    "period": "2023-03 — 2023-07",
+                    "impact_en": "Multi-module structure; OpenFeign integrations; batch order status sync with retries"
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "Java",
+                "Spring",
+                "Spring Boot",
+                "Spring Batch",
+                "MySQL",
+                "Oracle",
+                "JPA",
+                "Redis",
+                "AWS",
+                "Jenkins",
+                "GitHub Actions",
+                "Linux",
+                "MongoDB",
+                "jQuery",
+                "Git",
+                "OpenFeign",
+                "AES-256",
+                "CodeDeploy",
+                "Docker",
+                "CodePipeline"
+            ],
+            "programming_languages": [
+                "Java",
+                "JavaScript"
+            ],
+            "frameworks": [
+                "Spring Boot",
+                "Spring Batch",
+                "JPA",
+                "jQuery"
+            ],
+            "databases": [
+                "MySQL",
+                "Oracle",
+                "MongoDB",
+                "Redis"
+            ],
+            "devops": [
+                "GitHub Actions",
+                "Jenkins",
+                "CodeDeploy",
+                "Docker",
+                "CodePipeline",
+                "AWS"
+            ],
+            "roles": [
+                "Backend Engineer"
+            ],
+            "projects": [
+                "POD Automation Admin",
+                "POD Migration",
+                "Zendesk Integration",
+                "Weverse ByFans"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 5.75,
+            "migration_volume_rows": 13000000,
+            "ci_cd_presence": {
+                "present": true,
+                "details": "GitHub Actions + CodeDeploy; zero-downtime EC2 deployments",
+                "uncertain": false
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [],
+            "Communication": [],
+            "Problem_Solving": [
+                "Designed API-based migration preserving referential integrity across tightly coupled schemas."
+            ],
+            "Execution_BiasToAction": [],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [],
+            "Customer_Impact": [
+                "Unified Zendesk integration improved ops efficiency and response times."
+            ],
+            "Learning_Growth": [],
+            "Leadership_Mentoring": [],
+            "Operational_Excellence": [
+                "Implemented retries (≤5×) with Slack alerts; enforced IP allowlists and encrypted identifiers."
+            ],
+            "Security_Privacy": [
+                "Applied AES-256 identifier encryption and allowlisting for integrations."
+            ]
+        },
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "candidate_id": "raiymkulov_daniiar",
+        "name_local": "데니",
+        "name_en": "Raiymkulov Daniiar",
+        "languages_detected": [
+            "ko"
+        ],
+        "translated_summary": "Backend developer (~2.1 years) specialized in Django/DRF, real-time sync (Channels/WebSockets), and webhook/event-driven architectures. Mentored teams (30+ juniors), led Android curriculum previously; handled infra hardening (DNS, firewall, access control, monitoring). Built NFT Discord bot with on-chain access/auth.",
+        "contacts": {
+            "emails": [
+                "[danraiymkulov@gmail.com](mailto:danraiymkulov@gmail.com)"
+            ],
+            "phones": [
+                "010-4403-8491"
+            ],
+            "locations": [
+                "Yonghyeon-dong, Michuhol-gu, Incheon"
+            ]
+        },
+        "source_files": [
+            "/mnt/data/데니_자기소개서.pdf",
+            "/mnt/data/데니_서류전형_이력서.pdf"
+        ],
+        "external_links": [
+            "[https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e](https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e)"
+        ],
+        "sections": {
+            "Skills": [
+                "Python",
+                "Django",
+                "Django REST Framework",
+                "FastAPI",
+                "WebSocket/Channels",
+                "Celery",
+                "Redis",
+                "PostgreSQL",
+                "OAuth",
+                "JS/HTML/CSS",
+                "NGINX",
+                "Docker",
+                "Git"
+            ],
+            "Experience": [
+                {
+                    "company": "Quobly",
+                    "role": "Backend/Server Developer",
+                    "period": "2023.02 — 2025.02",
+                    "highlights": [
+                        "Real-time data sync integrating Seatable API with role-based filtering",
+                        "Webhook event architecture; collaborative editing (GoJS); Channels/WebSockets",
+                        "Built & managed VPS infra; hardened with DNS, firewall, access control, monitoring"
+                    ]
+                },
+                {
+                    "company": "BREEZ STUDIO",
+                    "role": "App Developer",
+                    "period": "2020.06 — 2021.04",
+                    "highlights": [
+                        "Logistics app (Kotlin/Java); real-time tracking; education apps; SOLID practices"
+                    ]
+                },
+                {
+                    "company": "NEOBIS",
+                    "role": "Mentor & Team Lead (Android)",
+                    "period": "2019.09 — 2021.06",
+                    "highlights": [
+                        "Mentored 30+ juniors; curriculum design; led architecture; organized Women Techmakers (200+)"
+                    ]
+                }
+            ],
+            "Education": [
+                {
+                    "en": "Inha University — B.S. Convergence Systems Engineering"
+                }
+            ],
+            "Portfolio": [
+                {
+                    "url": "[https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e](https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e)",
+                    "note": "Found but not crawled (inaccessible)"
+                }
+            ]
+        },
+        "entities": {
+            "skills": [
+                "Backend Development",
+                "Realtime Systems",
+                "Data Sync",
+                "Event-driven Architecture",
+                "Infra Hardening",
+                "Authentication"
+            ],
+            "programming_languages": [
+                "Python",
+                "Java",
+                "Kotlin",
+                "JavaScript"
+            ],
+            "frameworks": [
+                "Django",
+                "DRF",
+                "FastAPI",
+                "Channels",
+                "GoJS"
+            ],
+            "databases": [
+                "PostgreSQL",
+                "Redis"
+            ],
+            "devops": [
+                "NGINX",
+                "Docker",
+                "VPS",
+                "DNS",
+                "Firewall",
+                "Monitoring"
+            ],
+            "roles": [
+                "Backend Developer",
+                "Android Developer",
+                "Mentor",
+                "Team Lead"
+            ],
+            "degrees": [
+                "Bachelor (Inha University)"
+            ],
+            "projects": [
+                "Realtime Data Sync (Seatable integration)",
+                "Discord NFT Bot"
+            ]
+        },
+        "metrics": {
+            "years_of_experience": 2.08,
+            "ci_cd_presence": {
+                "present": null,
+                "uncertain": true
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values": {
+            "Ownership": [],
+            "Communication": [],
+            "Problem_Solving": [
+                "Designed a webhook-driven event system to synchronize multi-table changes in real time."
+            ],
+            "Execution_BiasToAction": [
+                "Bootstrapped infra and implemented Channels/WebSockets for real-time features."
+            ],
+            "Craftsmanship_CodeQuality": [],
+            "Collaboration_Teamwork": [
+                "Mentored 30+ newcomers and led architecture for quality and scalability."
+            ],
+            "Customer_Impact": [],
+            "Learning_Growth": [
+                "Pursues TDD, Clean Architecture, and DevOps to improve backend craft."
+            ],
+            "Leadership_Mentoring": [
+                "Organized Women Techmakers event (200+ participants)."
+            ],
+            "Operational_Excellence": [
+                "Hardened services via DNS, firewall, access control, and monitoring."
+            ],
+            "Security_Privacy": [
+                "Emphasized secure authentication and access in NFT bot and sync systems."
+            ]
+        },
+        "red_flags": [],
+        "parse_error": null
+    }
+]

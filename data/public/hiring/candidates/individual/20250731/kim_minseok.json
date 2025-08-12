@@ -1,0 +1,303 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "kim_minseok",
+    "name_local": "김민석",
+    "name_en": "Minseok Kim",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Full-stack/DevOps engineer (~1.2 years). Builds end-to-end products and infra: coding-battle game platform (React/TypeScript, FastAPI, RabbitMQ, autoscaling via queue metrics), real-estate field survey app (Spring Boot, MySQL, HA/DR on AWS + VMware ESXi), cloud/infra automation labs (Ansible, Proxmox, Terraform), and academic/side apps (banking, hackathons). Prior experience includes Zabbix–Jira Service Management automation and OpenStack private-cloud migration.",
+    "contacts": {
+      "emails": [
+        "[opnstk@hotmail.com](mailto:opnstk@hotmail.com)"
+      ],
+      "phones": [
+        "010-7534-4334"
+      ],
+      "locations": [
+        "Seoul Gwanak-gu",
+        "Osan-si, Gyeonggi-do (application address)"
+      ]
+    },
+    "source_files": [
+      "/mnt/data/김민석-포트폴리오-개발-v8.pdf",
+      "/mnt/data/김민석이력서_250316_dvs_CII-r2.pdf",
+      "/mnt/data/김민석_서류전형_이력서.pdf"
+    ],
+    "external_links": [
+      "[https://github.com/Mugen-Houyou](https://github.com/Mugen-Houyou)",
+      "[https://github.com/orgs/Kraftonjungle-MyWeapon/repositories](https://github.com/orgs/Kraftonjungle-MyWeapon/repositories)",
+      "[https://github.com/orgs/WooriFISA-DDPS/repositories](https://github.com/orgs/WooriFISA-DDPS/repositories)",
+      "[https://github.com/COMPAS-Lab/cloud-manager](https://github.com/COMPAS-Lab/cloud-manager)",
+      "[https://github.com/Mugen-Houyou/ansible_proxmox_example](https://github.com/Mugen-Houyou/ansible_proxmox_example)",
+      "[https://github.com/Mugen-Houyou/wooriaccount-frontend](https://github.com/Mugen-Houyou/wooriaccount-frontend)",
+      "[https://github.com/BullChallenger/WooriAccount](https://github.com/BullChallenger/WooriAccount)",
+      "[https://github.com/JeongYoon-L/Passion_For_Fashion](https://github.com/JeongYoon-L/Passion_For_Fashion)",
+      "[https://github.com/huhani/mnd-wiki](https://github.com/huhani/mnd-wiki)",
+      "[https://github.com/COMPAS-Lab/cloud-manager](https://github.com/COMPAS-Lab/cloud-manager)"
+    ],
+    "sections": {
+      "Education": [
+        {
+          "en": "SUNY Stony Brook — B.S. Information Systems (2019–2023), Specialization in System & Network Administration, GPA 3.60/4.0"
+        },
+        {
+          "en": "Konkuk University — Business Administration (withdrew), GPA 3.59/4.5"
+        }
+      ],
+      "Experience": [
+        {
+          "company": "DMOVE",
+          "role": "Solution Engineer (Jr.)",
+          "period": "2024-06 — 2025-01",
+          "highlights_en": [
+            "Installed & maintained Zabbix and Atlassian Jira/Confluence",
+            "Python/Bash integration for Zabbix ↔ Jira Service Management SLA automation"
+          ]
+        },
+        {
+          "company": "COMPAS Lab (Server/FPGA/System Design Lab)",
+          "role": "Undergraduate Research Assistant",
+          "period": "2022-12 — 2023-05",
+          "highlights_en": [
+            "Migrated on-prem resources to OpenStack private cloud",
+            "Replaced OpenStack Horizon with Linode Cloud Manager-based dashboard (fork)"
+          ]
+        }
+      ],
+      "Projects": [
+        {
+          "name": "Code Ground (coding-test battle platform)",
+          "period": "2025-06 — Ongoing",
+          "role": "Full-stack",
+          "stack": [
+            "React",
+            "TypeScript",
+            "FastAPI",
+            "Python",
+            "RabbitMQ",
+            "AWS",
+            "Elasticsearch",
+            "Prometheus",
+            "Grafana"
+          ],
+          "notes": [
+            "Glicko-style matching/MMR",
+            "Queue-metric based autoscaling (replacing memory-based)",
+            "CI/CD: GitHub Actions → ECR/ECS"
+          ],
+          "urls": [
+            "[https://github.com/orgs/Kraftonjungle-MyWeapon/repositories](https://github.com/orgs/Kraftonjungle-MyWeapon/repositories)"
+          ]
+        },
+        {
+          "name": "DDPS ‘Imjangdan’ (real-estate field survey)",
+          "period": "2024-03 — 2024-05",
+          "role": "Team lead; Backend; Infra DR/HA design",
+          "stack": [
+            "Spring Boot",
+            "Spring Security",
+            "Spring Data JPA",
+            "MySQL",
+            "AWS",
+            "VMware ESXi",
+            "React",
+            "Thymeleaf",
+            "Nginx"
+          ],
+          "urls": [
+            "[https://github.com/orgs/WooriFISA-DDPS/repositories](https://github.com/orgs/WooriFISA-DDPS/repositories)"
+          ]
+        },
+        {
+          "name": "Ansible Tech Seminar Lab",
+          "role": "Author",
+          "stack": [
+            "Ansible",
+            "Proxmox LXC",
+            "WSL Ubuntu",
+            "Terraform"
+          ],
+          "urls": [
+            "[https://github.com/Mugen-Houyou/ansible_proxmox_example](https://github.com/Mugen-Houyou/ansible_proxmox_example)"
+          ]
+        },
+        {
+          "name": "WooriAccount (banking practice app)",
+          "role": "Contributor",
+          "stack": [
+            "React",
+            "Spring Boot",
+            "Spring Security",
+            "QueryDSL",
+            "MySQL"
+          ],
+          "urls": [
+            "[https://github.com/Mugen-Houyou/wooriaccount-frontend](https://github.com/Mugen-Houyou/wooriaccount-frontend)",
+            "[https://github.com/BullChallenger/WooriAccount](https://github.com/BullChallenger/WooriAccount)"
+          ]
+        },
+        {
+          "name": "AI Speaker (SQuAD-based QA)",
+          "period": "2019-08 — 2019-12",
+          "stack": [
+            "Django",
+            "TensorFlow",
+            "HTML/CSS/JS",
+            "Ubuntu",
+            "Apache"
+          ]
+        },
+        {
+          "name": "Passion For Fashion (SBUHacks 2022)",
+          "stack": [
+            "React",
+            "Node.js"
+          ],
+          "urls": [
+            "[https://github.com/JeongYoon-L/Passion_For_Fashion](https://github.com/JeongYoon-L/Passion_For_Fashion)"
+          ]
+        },
+        {
+          "name": "MND-Wiki (Defense OSS hackathon)",
+          "award": "Navy Chief of Staff Award",
+          "urls": [
+            "[https://github.com/huhani/mnd-wiki](https://github.com/huhani/mnd-wiki)"
+          ]
+        }
+      ],
+      "Certifications": [
+        {
+          "name": "AWS Certified Solutions Architect – Associate",
+          "date": "2023-11"
+        },
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "date": "2024-05"
+        },
+        {
+          "name": "Zabbix 6.0 Certified Specialist",
+          "date": "2024-09"
+        },
+        {
+          "name": "TOEIC 925",
+          "validity": "2023-06 — 2025-06"
+        }
+      ]
+    },
+    "entities": {
+      "skills_tools": [
+        "AWS",
+        "OpenStack",
+        "Ansible",
+        "Jenkins",
+        "Zabbix",
+        "Docker",
+        "Kubernetes",
+        "Elasticsearch",
+        "Prometheus",
+        "Grafana",
+        "RabbitMQ",
+        "Nginx",
+        "VMware ESXi",
+        "Terraform",
+        "Proxmox"
+      ],
+      "programming_languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Java",
+        "C"
+      ],
+      "frameworks": [
+        "FastAPI",
+        "Spring Boot",
+        "React",
+        "Django"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "devops": [
+        "GitHub Actions",
+        "ECR",
+        "ECS"
+      ],
+      "roles": [
+        "Full-stack Developer",
+        "DevOps/Infra",
+        "Team Lead (project)"
+      ],
+      "projects": [
+        "Code Ground",
+        "Imjangdan",
+        "Ansible Proxmox Example",
+        "WooriAccount",
+        "AI Speaker",
+        "Passion For Fashion",
+        "MND-Wiki"
+      ],
+      "degrees": [
+        "B.S. Information Systems (SUNY Stony Brook)"
+      ]
+    },
+    "metrics": {
+      "experience_years": 1.17,
+      "github_profile": {
+        "username": "Mugen-Houyou",
+        "repos_count": 63,
+        "stars": 33,
+        "followers": 18,
+        "following": 12
+      },
+      "ci_cd_presence": {
+        "present": true,
+        "details": "GitHub Actions pipelines to ECR/ECS (Code Ground); Jenkins & GitHub Workflows present in COMPAS-Lab/cloud-manager fork.",
+        "uncertain": false
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [
+        "Led ‘Imjangdan’ backend and HA/DR infra; coordinated roles and delivery.",
+        "Drove queue-metric autoscaling strategy on Code Ground."
+      ],
+      "Communication": [
+        "Presented hands-on ‘Terraform & Ansible IaC’ seminar and authored lab materials."
+      ],
+      "Problem_Solving": [
+        "Replaced memory-based ASG policy with RabbitMQ queue metrics to improve responsiveness.",
+        "Designed Active-Standby with AWS + ESXi for resilience."
+      ],
+      "Execution_BiasToAction": [],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [
+        "Worked across FE/BE/Infra in multi-team university and hackathon projects."
+      ],
+      "Customer_Impact": [],
+      "Learning_Growth": [
+        "Built diverse side projects (banking, fashion recommendation, defense wiki) to broaden domain knowledge."
+      ],
+      "Leadership_Mentoring": [
+        "Acted as team lead on capstone, enabling peers via role distribution and mentoring."
+      ],
+      "Operational_Excellence": [
+        "Introduced HA/DR and observability (ES, Prometheus, Grafana) in project infra."
+      ],
+      "Security_Privacy": []
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

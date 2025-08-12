@@ -1,0 +1,104 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "kim_seongcheol",
+    "name_local": "김성철",
+    "name_en": "Seongcheol Kim",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Java backend developer (~3.5 years) specialized in eGovFrame/Spring Boot. Built an electronic attendance system for 100+ schools, refactored complex queries to cut latency from ~4s to ~0.3s (>90%), improved page load UX with Vue team, and stabilized batches with auto-alerts. Scouted by a bank BU.",
+    "contacts": {
+      "emails": [],
+      "phones": [],
+      "locations": []
+    },
+    "source_files": [
+      "/mnt/data/김성철_이력서.pdf"
+    ],
+    "external_links": [],
+    "sections": {
+      "Experience": [
+        {
+          "company": "Shinhan Bank — HeyYoung Campus (via Rotex → Seedin)",
+          "period": "2021-07 — Present",
+          "highlights_en": [
+            "Attendance backend on eGovFrame; DB transaction tuning; 100+ schools served",
+            "Refactored JOIN/WITH queries to reduce response ~4s→~0.3s",
+            "Collaborated with Vue team on skeleton UI and payload simplification",
+            "Batch stabilization and auto-alerts; ~60% faster incident response"
+          ]
+        }
+      ],
+      "Education": [
+        {
+          "en": "Myongji College (Assoc.), Korea National Open University (enrolled)"
+        }
+      ]
+    },
+    "entities": {
+      "skills_tools": [
+        "Java",
+        "Spring Boot",
+        "eGovFramework",
+        "MyBatis",
+        "SQL tuning",
+        "Vue.js",
+        "Jira",
+        "GitLab",
+        "Slack",
+        "SSO",
+        "Tibero/Oracle"
+      ],
+      "roles": [
+        "Backend Developer",
+        "Full-stack Developer"
+      ],
+      "projects": [
+        "HeyYoung Campus",
+        "Smart Campus"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 3.5,
+      "ci_cd_presence": {
+        "present": false,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [],
+      "Communication": [
+        "Partnered with the Vue team to improve initial load UX and payloads."
+      ],
+      "Problem_Solving": [
+        "Reduced API latency by >90% via query refactoring and tuning."
+      ],
+      "Execution_BiasToAction": [],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [
+        "Cross-functional work with FE team to implement skeleton UI and optimize responses."
+      ],
+      "Customer_Impact": [
+        "Improved mobile UX and system responsiveness for 100+ schools."
+      ],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [
+        "Stabilized batch jobs and introduced auto-alerts for faster incident response."
+      ],
+      "Security_Privacy": []
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

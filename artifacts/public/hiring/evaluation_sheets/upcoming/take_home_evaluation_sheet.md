@@ -1,185 +1,193 @@
-# 📝  Take-Home Evaluation Sheet — Entry-Level Software Engineer
-*Candidate:* __________________  *Evaluator:* __________________  *Date:* ___________
+# Take-Home Assignment Evaluation Sheet: Top-Tier Industry Standards
 
-### 🔑 Quick Rules
-1. **Time-box assumption:** Candidate invested ≤ 8 h ⇒ do **not** penalize absent pro-level extras.  
-2. **Gate criteria:** Functional Correctness, Code Quality, Testing must each score ≥ 2/5.  
-3. **Pass guideline:** Weighted ≥ 3.0 / 5 (60 %) ⇒ proceed. 3.0–3.4 = Lean Hire 3.5–4.4 = Hire ≥ 4.5 = Strong Hire.  
-4. **Evidence requirement:** Any score ≤ 3 **or** any Red Flag ⇒ cite ≥ 1 code reference (`path/file.py:line`).  
-5. **Bias guard:** Only deduct for items explicitly in this sheet. Missing observability, DI, etc. should **not** lower scores unless specified.
+**Candidate:** __________________ **Evaluator:** __________________ **Date:** ___________
 
----
-
-## 0️⃣ Overall Recommendation
-- [ ] **Strong Hire** (≥ 4.5)  
-- [ ] **Hire** (3.5 – 4.4)  
-- [ ] **Lean Hire** (3.0 – 3.4)  
-- [ ] **No Hire** (< 3.0)
+## Overall Recommendation
+- [ ] **Strong Hire** (≥ 4.5) — Ready for senior-level responsibilities with high autonomy
+- [ ] **Hire** (3.8+) — Strong engineer; minor gaps addressable with light mentorship  
+- [ ] **Lean Hire** (3.0+) — Competent with potential; notable gaps requiring mentorship
+- [ ] **No Hire** (<3.0) — Significant gaps relative to Top-Tier Industry Standards
 
 ---
 
-## 1️⃣ Functional Correctness & Completeness *(Weight 25 %)*  
-**Raw:** __/5  **Weighted:** ____
+## Evaluation Criteria
 
-| Score | Anchor (behaviour) |
-|:--:|---|
-| **5** | All required flows + edge cases work; zero crashes; graceful errors. |
-| **4** | Core flows solid; ≤ 2 minor bugs; sensible error messages. |
-| **3** | Core works but ≥ 1 major feature missing **or** poor edge handling. |
-| **2** | Multiple flows missing; crashes on invalid input. |
-| **1** | Fails happy path or cannot run. |
+### 1. Functional Correctness & Completeness (Weight: 25%)
+**Score:** ___/5  **Weighted:** ____
 
-**Check-List**  
-- BitMEX **and** Binance APIs implemented?  
-- SPOT, USD-M, USD-C markets supported?  
-- BTC / ETH / SOL instruments tradable?  
-- Handles test **vs.** prod endpoints?  
-- Validates inputs & maps API errors?  
+**5 — Exceptional:** Production-ready with comprehensive error handling and edge cases  
+**4 — Strong:** Near-production quality with meaningful error handling  
+**3 — Competent:** Functional with basic error handling  
+**2 — Below Expectations:** Working but minimal production readiness  
+**1 — Inadequate:** Critical bugs or production-breaking issues  
 
-**Red Flags** ▢ Silent crash ▢ Hard-coded prod URL ▢ Wrong side/qty mapping  
-**Green Flags** ▢ Idempotent retries ▢ Min/max sanity checks  
+**Evidence & Comments:**
+- [ ] No critical bugs that would crash in realistic operation
+- [ ] Graceful error handling and input validation  
+- [ ] Complete features and edge cases in scope
+- [ ] Performance considerations for expected throughput
 
----
-
-## 2️⃣ Code Quality & Best Practices *(Weight 20 %)*  
-**Raw:** __/5  **Weighted:** ____
-
-| Score | Anchor |
-|:--:|---|
-| **5** | Idiomatic, modular; ≤ 15 cyclomatic complexity; secrets via env/SM; 0 `ruff` errors. |
-| **4** | Readable, small funcs; minor style nits; secrets via env. |
-| **3** | Mostly readable but long funcs (> 75 LOC) **or** mixed style. |
-| **2** | Spaghetti, duplicated code, hard-coded creds. |
-| **1** | Large blobs, global state abuse. |
-
-**Check-List**  
-- Consistent naming & PEP 8?  
-- Separation of concerns (API vs domain)?  
-- Type hints + `mypy --strict` pass?  
-- No sensitive data committed?  
-
-**Red Flags** ▢ `print` debugging left ▢ Credentials in repo  
-**Green Flags** ▢ Pre-commit (`ruff` / `black`) ▢ Docstrings w/ examples  
+**File/Line References:**
+- 
 
 ---
 
-## 3️⃣ Testing Approach & Coverage *(Weight 15 %)*  
-**Raw:** __/5  **Weighted:** ____
+### 2. Code Quality & Best Practices (Weight: 20%)
+**Score:** ___/5  **Weighted:** ____
 
-| Score | Anchor |
-|:--:|---|
-| **5** | Unit + ≥ 1 integration suite; coverage ≥ 60 %; mocks isolate APIs. |
-| **4** | Good unit tests; coverage 45–59 %. |
-| **3** | Happy-path tests only; coverage 25–44 %. |
-| **2** | Sparse tests; coverage < 25 %. |
-| **1** | No runnable tests. |
+**5 — Exceptional:** Idiomatic code with observability and quality gates  
+**4 — Strong:** Readable, maintainable code with good patterns  
+**3 — Competent:** Clean code with appropriate abstractions  
+**2 — Below Expectations:** Basic patterns with notable gaps  
+**1 — Inadequate:** Weak architecture and poor code quality  
 
-**Check-List**  
-- `pytest` green?  
-- Edge-case assertions?  
-- Mocking external calls?  
-- Coverage report?  
+**Evidence & Comments:**
+- [ ] Readable, maintainable, idiomatic code
+- [ ] Observability: logging, basic metrics/tracing where applicable
+- [ ] Type safety and validation
+- [ ] Quality gates: linting, formatting, pre-commit hooks
 
-**Red Flags** ▢ Tests fail on clean clone ▢ Real API hits in tests  
-**Green Flags** ▢ Parametrized edge tests ▢ Fixture/factory pattern  
+**File/Line References:**
+- 
 
 ---
 
-## 4️⃣ Documentation *(Weight 10 %)*  
-**Raw:** __/5  **Weighted:** ____
+### 3. Testing Approach & Coverage (Weight: 15%)
+**Score:** ___/5  **Weighted:** ____
 
-| Score | Anchor |
-|:--:|---|
-| **5** | README ≤ 400 wds: setup, CLI usage, env vars; arch diagram. |
-| **4** | README clear; minor omissions. |
-| **3** | Basic setup but unclear usage. |
-| **2** | Minimal README; missing steps. |
-| **1** | No docs. |
+**5 — Exceptional:** ~90%+ coverage with multiple test types including integration  
+**4 — Strong:** ~80%+ coverage with integration tests  
+**3 — Competent:** ~60%+ coverage primarily unit tests  
+**2 — Below Expectations:** ~40%+ coverage, mostly unit tests only  
+**1 — Inadequate:** <40% coverage or missing key test types  
 
-**Check-List**  
-- Quick-start commands?  
-- Env var table / `.env.example`?  
-- Diagrams / flowcharts?  
-- Troubleshooting FAQ?  
+**Evidence & Comments:**
+- [ ] Coverage breadth and depth aligned to risk
+- [ ] Multiple test types (unit, integration, performance where relevant)
+- [ ] Edge cases and error-paths tested
+- [ ] CI/CD readiness or local test instructions
 
----
-
-## 5️⃣ Ownership / Above-&-Beyond *(Weight 15 %)*  
-**Raw:** __/5  **Weighted:** ____
-
-| Score | Anchor |
-|:--:|---|
-| **5** | Adds logging/metrics, config file, clear TODO roadmap, ADRs. |
-| **4** | Implements 1–2 extras (retry / metrics). |
-| **3** | Some thoughtful TODOs. |
-| **2** | Little initiative. |
-| **1** | None. |
-
-**Red Flags** ▢ No extra thought ▢ Copy-paste configs  
-**Green Flags** ▢ Structured logging ▢ Prometheus stub  
+**File/Line References:**
+- 
 
 ---
 
-## 6️⃣ Scalability & Design Patterns *(Weight 10 %)*  
-**Raw:** __/5  **Weighted:** ____
+### 4. Documentation Quality (Weight: 10%)
+**Score:** ___/5  **Weighted:** ____
 
-| Score | Anchor |
-|:--:|---|
-| **5** | Clear `ExchangeClient` interface; Strategy/Factory; add new exchange ≤ 30 LOC. |
-| **4** | Decent abstractions; some duplication. |
-| **3** | Works but tightly coupled. |
-| **2** | Copy-paste per exchange. |
-| **1** | Monolithic. |
+**5 — Exceptional:** Comprehensive docs with API contracts, runbooks, ADRs  
+**4 — Strong:** Good documentation including operational notes  
+**3 — Competent:** Adequate documentation for setup and usage  
+**2 — Below Expectations:** Minimal documentation  
+**1 — Inadequate:** Insufficient or missing documentation  
 
-**Check-List**  
-- Abstract base or protocol?  
-- Symbol mapping dict?  
-- Config-driven order types?  
+**Evidence & Comments:**
+- [ ] Clear setup, configuration, and usage
+- [ ] API contracts/specs or request/response examples
+- [ ] Operational guidance: troubleshooting, runbooks
+- [ ] Design rationale where decisions matter
 
----
-
-## 7️⃣ Quantitative & Logical Reasoning *(Weight 5 %)*  
-**Raw:** __/5  **Weighted:** ____
-
-| Score | Anchor |
-|:--:|---|
-| **5** | Complexity analysis, numeric edge checks; math explained. |
-| **4** | Correct, concise algorithms. |
-| **3** | Straightforward logic. |
-| **2** | Inefficient or naive. |
-| **1** | Logical errors. |
+**File/Line References:**
+- 
 
 ---
 
-## 8️⃣ Score Calculation  
+### 5. Ownership & Proactivity (Weight: 15%)
+**Score:** ___/5  **Weighted:** ____
 
-| Criterion | Weight | Raw | Weighted |
-|-----------|-------:|----:|---------:|
-| Functional Correctness | 25 | | |
-| Code Quality | 20 | | |
-| Testing | 15 | | |
-| Documentation | 10 | | |
-| Ownership | 15 | | |
-| Scalability | 10 | | |
-| Quant Reasoning | 5 | | |
-| **Total** | 100 | — | **__/5** |
+**5 — Exceptional:** Production readiness signals, thoughtful improvements, security awareness  
+**4 — Strong:** Clear proactive improvements beyond minimum  
+**3 — Competent:** Some thoughtful improvements  
+**2 — Below Expectations:** Limited initiative  
+**1 — Inadequate:** No proactive thinking  
 
----
+**Evidence & Comments:**
+- [ ] Anticipation of integration issues
+- [ ] Production readiness: health checks, graceful shutdown
+- [ ] Thoughtful improvements beyond bare minimum
+- [ ] Security/compliance awareness
 
-## 9️⃣ Strengths
-- …
-
-## 🔟 Areas for Improvement
-- …
-
-## 1️⃣1️⃣ Alignment with Core Values
-*(brief bullet mapping to “Ownership & Proactivity”, “Scalable Elegance”, etc.)*
+**File/Line References:**
+- 
 
 ---
 
-## 1️⃣2️⃣ Next Steps
-- [ ] Proceed to interview – Reason: __________  
-- [ ] Consider for other role – Reason: __________  
-- [ ] Do not proceed – Reason: __________  
+### 6. Scalability & Design Patterns (Weight: 15%)
+**Score:** ___/5  **Weighted:** ____
 
-> **Reminder:** Weighted score ≥ 3.0 **and** no gate < 2 ⇒ Lean Hire or above.
+**5 — Exceptional:** Enterprise-aware architecture with resilience patterns  
+**4 — Strong:** Solid architecture with scalability considerations  
+**3 — Competent:** Clean architecture with appropriate abstractions  
+**2 — Below Expectations:** Basic architecture with notable gaps  
+**1 — Inadequate:** Weak architecture  
+
+**Evidence & Comments:**
+- [ ] Appropriate modularization and separation of concerns
+- [ ] Resilience patterns (timeouts, retries, circuit breakers)
+- [ ] Horizontal scaling considerations
+- [ ] Configuration management beyond hard-coded values
+
+**File/Line References:**
+- 
+
+---
+
+### 7. Quantitative & Logical Problem Solving (Weight: 10%)
+**Score:** ___/5  **Weighted:** ____
+
+**5 — Exceptional:** Strong CS fundamentals with performance modeling  
+**4 — Strong:** Clear optimization and advanced problem-solving  
+**3 — Competent:** Standard problem-solving approach  
+**2 — Below Expectations:** Simple solutions, little optimization  
+**1 — Inadequate:** Basic programming competence only  
+
+**Evidence & Comments:**
+- [ ] Algorithmic choices and complexity awareness
+- [ ] Data/precision handling correctness
+- [ ] Performance modeling or measurement where appropriate
+- [ ] Clear, logical decomposition of problems
+
+**File/Line References:**
+- 
+
+---
+
+## Score Calculation
+
+| Criterion | Weight | Raw Score | Weighted Score |
+|-----------|-------:|----------:|---------------:|
+| Functional Correctness | 25% | ___/5 | _____ |
+| Code Quality | 20% | ___/5 | _____ |
+| Testing | 15% | ___/5 | _____ |
+| Documentation | 10% | ___/5 | _____ |
+| Ownership | 15% | ___/5 | _____ |
+| Scalability | 10% | ___/5 | _____ |
+| Problem Solving | 5% | ___/5 | _____ |
+| **TOTAL** | **100%** | — | **___/5** |
+
+---
+
+## Summary Assessment
+
+### Key Strengths
+- 
+
+### Critical Deficiencies
+- 
+
+### Alignment with Engineering Values
+- **Technical Excellence:** ___/5 — 
+- **Ownership & Proactivity:** ___/5 — 
+- **Systems Thinking:** ___/5 — 
+
+### Next Steps
+- [ ] **Proceed to Interview** — Justification: 
+- [ ] **Consider for Another Role** — Justification: 
+- [ ] **Do Not Proceed** — Justification: 
+
+### Overall Assessment
+*Provide a succinct paragraph summarizing the recommendation, grounded in specific evidence from the evaluation.*
+
+---
+
+**Note:** This evaluation uses Top-Tier Industry Standards focusing on production-ready engineering capabilities. All scores and comments should reference specific code examples and be calibrated to the candidate's seniority level while maintaining quality expectations.

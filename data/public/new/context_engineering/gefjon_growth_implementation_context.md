@@ -18,7 +18,7 @@
 - Automated candidate analysis from JSON profiles
 - Personalized interview kit generation
 - BEI (Behavioral Event Interview) question generation
-- Take-home assignment evaluation automation
+- Take-home assignment evaluation automation (Top-Tier Industry Standards)
 - Live documentation generation
 
 #### 2. AWS Account Configuration

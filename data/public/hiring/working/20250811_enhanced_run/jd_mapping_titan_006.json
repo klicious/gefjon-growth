@@ -1,0 +1,71 @@
+{
+    "candidate_id": "titan_006",
+    "candidate_name": "Myunggyo Seo",
+    "jd_analysis": {
+        "target_role": "Platform Development Engineer (3+ Years)",
+        "experience_match": "Excellent",
+        "experience_analysis": "8.5 years experience significantly exceeds 3+ year requirement with senior-level expertise",
+        "technical_skills_match": {
+            "required_skills": {
+                "Python": "Excellent - Expert level with Django/FastAPI and 8+ years experience",
+                "Java_Spring_Boot": "Missing - Python/Django focused, no Java experience",
+                "AWS": "Excellent - Extensive AWS services experience (S3, Lambda, SQS, Cognito, etc.)",
+                "Backend_Development": "Excellent - 8.5 years of backend development with complex systems",
+                "CI_CD": "Moderate - Docker experience but limited modern CI/CD",
+                "Database": "Excellent - MySQL, MongoDB with performance optimization",
+                "Docker": "Strong - Containerization experience across projects"
+            },
+            "bonus_skills": {
+                "FastAPI": "Excellent - Primary framework with production experience",
+                "React": "Strong - Full-stack development experience",
+                "Infrastructure_as_Code": "Moderate - AWS services but limited IaC"
+            },
+            "missing_skills": [
+                "Java/Spring Boot",
+                "Modern CI/CD pipelines",
+                "Infrastructure as Code"
+            ],
+            "overall_technical_match": 8.2
+        },
+        "core_values_alignment": {
+            "Technical_Excellence": 9.5,
+            "Ownership": 9.0,
+            "Problem_Solving": 9.5,
+            "Learning_Growth": 8.5,
+            "Collaboration": 7.5,
+            "Operational_Excellence": 9.0,
+            "Leadership_Mentoring": 8.5,
+            "overall_values_match": 8.8
+        },
+        "education_match": "Adequate - Associate degree with extensive practical experience",
+        "growth_potential": "Excellent - Senior-level expertise with leadership experience",
+        "red_flags": [
+            "Over-qualified for entry-level",
+            "No Java/Spring Boot experience"
+        ],
+        "recommendation": "Strong Hire",
+        "confidence_score": 8.8,
+        "next_steps": [
+            "Senior-level technical assessment",
+            "Java/Spring Boot learning plan discussion"
+        ]
+    },
+    "skill_gap_analysis": {
+        "immediate_training_needed": [
+            "Java/Spring Boot transition",
+            "Modern CI/CD practices",
+            "Infrastructure as Code"
+        ],
+        "medium_term_development": [
+            "Financial domain expertise",
+            "Team leadership in fintech context"
+        ],
+        "strengths_to_leverage": [
+            "Python/FastAPI expertise",
+            "AWS architecture experience",
+            "System optimization skills",
+            "Leadership experience"
+        ]
+    },
+    "mapped_at": "2025-08-11T15:30:00Z"
+}

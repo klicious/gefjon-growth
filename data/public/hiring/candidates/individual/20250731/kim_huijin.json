@@ -1,0 +1,244 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "kim_huijin",
+    "name_local": "김희진",
+    "name_en": "Huijin Kim",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Backend/EDI developer (≈4.8 years). Built and maintained EDI/web systems across major retail and logistics interfaces (Oracle/MariaDB), implemented XML/XSL transforms, SFTP integrations, secure coding and static analysis (FindBugs). Recent work includes a Vue-based server info dashboard and Jaspersoft PDF watermark/auth.",
+    "contacts": {
+      "emails": [
+        "[eb00b96@naver.com](mailto:eb00b96@naver.com)"
+      ],
+      "phones": [
+        "010-7923-2437"
+      ],
+      "locations": [
+        "Nowon-gu, Seoul"
+      ]
+    },
+    "source_files": [
+      "/mnt/data/김희진_경력기술서.pdf",
+      "/mnt/data/김희진_이력서.pdf",
+      "/mnt/data/김희진_서류전형_이력서.pdf",
+      "김희진_서류전형_이력서.pdf (additional project lines)"
+    ],
+    "external_links": [],
+    "sections": {
+      "Education": [
+        {
+          "en": "Hansung University — B.S. Computer Engineering (2015-03 — 2020-02)"
+        }
+      ],
+      "Experience": [
+        {
+          "company": "ESomeTech",
+          "role": "Web/EDI Developer",
+          "period": "2019-07 — 2023-02"
+        },
+        {
+          "company": "SG&N",
+          "role": "Assistant Manager (Security systems & Web)",
+          "period": "2023-12 — 2025-01"
+        }
+      ],
+      "Career_Projects": [
+        {
+          "name": "xTrus System Improvements",
+          "period": "2019-07 — 2019-09",
+          "stack": [
+            "Java",
+            "JavaScript",
+            "jQuery",
+            "SQL",
+            "XML",
+            "H2DB"
+          ],
+          "summary_en": "Local setup, config fixes, new web config pages; password encryption patterns via MyBatis."
+        },
+        {
+          "name": "KT Bizmeka (SCM3)",
+          "period": "2019-10 — 2020-02",
+          "stack": [
+            "Java",
+            "jQuery",
+            "SQL",
+            "XML",
+            "MariaDB"
+          ],
+          "summary_en": "Env setup fixes, settings UI, DB data management."
+        },
+        {
+          "name": "Nestlé Web Order (Linux)",
+          "period": "2020-03 — 2020-07",
+          "stack": [
+            "CentOS7",
+            "Tomcat",
+            "Java",
+            "jQuery",
+            "MariaDB"
+          ],
+          "summary_en": "xTrus + Tomcat install; DB linking; order/delivery data mgmt."
+        },
+        {
+          "name": "Shinsegae Cloud EDI",
+          "period": "2020-08 — 2021-06",
+          "stack": [
+            "Linux",
+            "Java/JS/jQuery",
+            "Oracle"
+          ],
+          "summary_en": "Retailer connection mgmt pages; XSL transforms for inbound docs; error feedback flows; research on Docker/K8s/AWS."
+        },
+        {
+          "name": "YongMa Logistics Next-Gen WMS",
+          "period": "2021-07 — 2022-02",
+          "stack": [
+            "Linux",
+            "Java",
+            "Oracle"
+          ],
+          "summary_en": "SFTP file ingestion; XSL mapping to target schemas; flat-file→XML with XSCM."
+        },
+        {
+          "name": "eCvan Interfaces Standardization",
+          "period": "2022-03 — 2023-02",
+          "stack": [
+            "Linux",
+            "Java",
+            "Oracle",
+            "REST API"
+          ],
+          "summary_en": "Standardized batch/interface code; REST ingestion; secure coding & static analysis hygiene; XML extraction via xTrus."
+        },
+        {
+          "name": "ICAM Server Info Dashboard",
+          "period": "2023-12 — 2024-02",
+          "stack": [
+            "Vue 2",
+            "Java",
+            "Rocky 9/Ubuntu",
+            "PostgreSQL"
+          ],
+          "summary_en": "Real-time server/db status dashboard."
+        },
+        {
+          "name": "Jaspersoft PDF Report Watermark/Auth",
+          "period": "2024-03 — 2024-04",
+          "stack": [
+            "Jaspersoft",
+            "Java"
+          ],
+          "summary_en": "Added watermark and auth for report downloads."
+        }
+      ],
+      "Certifications": [
+        {
+          "name": "Engineer Information Processing",
+          "date": "2019-08"
+        },
+        {
+          "name": "Driver’s License (Class 2)",
+          "date": "2016-05"
+        }
+      ]
+    },
+    "entities": {
+      "skills_tools": [
+        "Java",
+        "Spring (various)",
+        "MyBatis",
+        "Linux (CentOS/Rocky)",
+        "Tomcat",
+        "SFTP",
+        "XML/XSL",
+        "xTrus EDI",
+        "Oracle",
+        "MariaDB",
+        "PostgreSQL",
+        "Vue 2",
+        "REST APIs",
+        "FindBugs",
+        "Secure Coding"
+      ],
+      "programming_languages": [
+        "Java",
+        "JavaScript",
+        "SQL"
+      ],
+      "frameworks": [
+        "Spring",
+        "MyBatis",
+        "Vue.js",
+        "JSP",
+        "jQuery"
+      ],
+      "databases": [
+        "Oracle",
+        "MariaDB",
+        "PostgreSQL"
+      ],
+      "roles": [
+        "Web/EDI Developer",
+        "Interface Engineer"
+      ],
+      "projects": [
+        "xTrus",
+        "KT Bizmeka",
+        "Nestlé Web Order",
+        "Shinsegae Cloud EDI",
+        "YongMa WMS",
+        "eCvan Standardization",
+        "ICAM Dashboard",
+        "Jaspersoft Reports"
+      ],
+      "degrees": [
+        "B.S. Computer Engineering (Hansung University)"
+      ]
+    },
+    "metrics": {
+      "experience_years": 4.83,
+      "ci_cd_presence": {
+        "present": false,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [],
+      "Communication": [],
+      "Problem_Solving": [
+        "Designed XSL transforms and standardized DB mappings for multi-partner EDI flows.",
+        "Implemented error visibility and feedback loops in interface processing."
+      ],
+      "Execution_BiasToAction": [
+        "Proactively researched Docker/Kubernetes/AWS to evaluate deployment options."
+      ],
+      "Craftsmanship_CodeQuality": [
+        "Applied FindBugs and secure-coding cleanup across interface codebases."
+      ],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [
+        "Delivered reliable web UIs for partners to view order/delivery/sales/stock data."
+      ],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [
+        "Built a server operations dashboard (IP, storage, status) for real-time visibility."
+      ],
+      "Security_Privacy": []
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

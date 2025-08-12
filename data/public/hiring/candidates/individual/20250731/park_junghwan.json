@@ -1,0 +1,155 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "park_junghwan",
+    "name_local": "박정환",
+    "name_en": "Junghwan Park",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Junior developer (~1.4 years) with experience in logistics server development (Python + MariaDB), chatbot QA data analysis, EV charger software (C#), and web design/maintenance. Completed AI and Java/Python full-stack training; maintains a personal portfolio site.",
+    "contacts": {
+      "emails": [
+        "[ktxm28@naver.com](mailto:ktxm28@naver.com)"
+      ],
+      "phones": [
+        "010-9084-0238"
+      ],
+      "locations": []
+    },
+    "source_files": [
+      "/mnt/data/박정환_서류전형_이력서.pdf"
+    ],
+    "external_links": [
+      "[http://godpage.dothome.co.kr/](http://godpage.dothome.co.kr/)"
+    ],
+    "sections": {
+      "Experience": [
+        {
+          "company": "와이드유즈",
+          "role": "Probation (R&D)",
+          "period": "2024.12 — 2025.06",
+          "highlights": [
+            "Logistics server feature development (Python, MariaDB)",
+            "Flutter-based cart app integrated via API"
+          ]
+        },
+        {
+          "company": "㈜리스트",
+          "role": "AI Solutions — Intern/Probation (Data Analysis)",
+          "period": "2024.10 — 2024.11",
+          "highlights": [
+            "Chatbot QA dataset analysis, error checks"
+          ]
+        },
+        {
+          "company": "보타리에너지",
+          "role": "Software Developer",
+          "period": "2024.02 — 2024.05",
+          "highlights": [
+            "EV charger software updates (C#)"
+          ]
+        },
+        {
+          "company": "방문스튜디오",
+          "role": "Web Designer",
+          "period": "2022.08 — 2022.11",
+          "highlights": [
+            "Web design/build/maintenance; marketing materials"
+          ]
+        }
+      ],
+      "Education_Training": [
+        {
+          "program": "Korea Technology Commercialization Association — AI Developer Course",
+          "period": "2024.06 — 2024.08"
+        },
+        {
+          "program": "Korea Software HRD Center — Java/Python Big Data Service Dev",
+          "period": "2022.11 — 2023.05"
+        },
+        {
+          "school": "Ulsan University — B.S. IT Convergence"
+        }
+      ],
+      "Certifications": [
+        "정보처리기사",
+        "정보처리산업기사",
+        "컴퓨터활용능력 1급",
+        "사무자동화산업기사",
+        "정보처리기능사",
+        "ITQ (HWP/Excel/PowerPoint) A등급",
+        "워드프로세서 1급",
+        "TOEIC 410 (2021.12)"
+      ]
+    },
+    "entities": {
+      "skills": [
+        "Python",
+        "MariaDB",
+        "API Integration",
+        "QA Data Analysis",
+        "C#",
+        "Web Design/Maintenance",
+        "Flutter"
+      ],
+      "programming_languages": [
+        "Python",
+        "C#",
+        "Java",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Flutter",
+        "React (training)",
+        "Spring Boot (training)"
+      ],
+      "databases": [
+        "MariaDB"
+      ],
+      "roles": [
+        "Junior Backend/Full-stack Trainee",
+        "Data Analyst (intern)",
+        "Web Designer"
+      ],
+      "degrees": [
+        "Bachelor (Ulsan University)"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 1.42,
+      "ci_cd_presence": {
+        "present": null,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [],
+      "Communication": [],
+      "Problem_Solving": [],
+      "Execution_BiasToAction": [
+        "Implemented logistics server features and built a Flutter cart app integrated via API."
+      ],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [],
+      "Learning_Growth": [
+        "Completed multiple training programs and earned diverse certifications."
+      ],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [],
+      "Security_Privacy": []
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

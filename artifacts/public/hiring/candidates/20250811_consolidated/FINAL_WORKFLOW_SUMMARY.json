@@ -1,0 +1,23 @@
+{
+  "workflow_completion_date": "2025-08-11",
+  "total_candidates": 13,
+  "materials_by_type": {
+    "screening_reports": 13,
+    "takehome_assignments": 9,
+    "interview_materials": 12,
+    "evaluation_frameworks": 13,
+    "communication_templates": 13
+  },
+  "candidates_by_status": {
+    "strong_hire": 2,
+    "hire": 7,
+    "lean_hire": 3,
+    "no_hire": 1
+  },
+  "next_steps": {
+    "take_home_assignment": 8,
+    "senior_level_assessment": 1,
+    "additional_assessment": 3,
+    "decline": 1
+  }
+}

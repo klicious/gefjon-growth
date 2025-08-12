@@ -3,19 +3,19 @@ id: context_centric_multi_agent_hr_blueprint
 type: index
 domain: hr_automation
 created_date: 2025-08-09
-last_updated: 2025-08-09
+last_updated: 2025-08-11
 author: Junie
-quality_score: 8.8/10
-tags: [blueprint, context-centric, multi-agent, hiring, product]
+quality_score: 9.4/10
+tags: [blueprint, context-centric, multi-agent, hiring, product, top-tier-standards]
 visibility: public
-version: 1.0
+version: 2.0
 ---
 
-# Context-Centric Multi-Agent HR Automation Blueprint
+# Context-Centric Multi-Agent HR Automation Blueprint — Enhanced
 
-Purpose: Provide a vendor-agnostic, end-to-end plan to build and commercialize a scalable HR automation product that covers resume ingestion → screening → assignments → interviews → evaluations, with deep customization per company/team values.
+Purpose: Provide a comprehensive, vendor-agnostic, end-to-end plan to build and commercialize a scalable HR automation product that covers resume ingestion → screening → Top-Tier Industry Standards evaluation → interviews → hiring decisions, with deep customization per company/team values and production-ready engineering assessment capabilities.
 
-This blueprint is structured for rapid collaboration with AI agents and human stakeholders. Every document includes metadata, actionable checklists, and clear hand-offs.
+This enhanced blueprint integrates the best of both context-centric multi-agent architecture and comprehensive business planning, structured for rapid collaboration with AI agents and human stakeholders. Every document includes metadata, actionable checklists, and clear hand-offs, with enhanced focus on Top-Tier Industry Standards for production-ready engineering assessment.
 
 ## How to Use
 - Executives: Start with 00_overview and 05_business_model.
@@ -37,11 +37,15 @@ This blueprint is structured for rapid collaboration with AI agents and human st
 - 09_research/ — Research backlog and Exa query templates
 - 10_open_questions/ — Assumptions, gaps, decision log
 
-## Principles
-- Context-first: All work products must be saved under artifacts/ or context/ and referenced in prompts.
-- Vendor-agnostic: Design for portability across model providers and infra.
-- Observability & Guardrails: Auditability, testable prompts, and deterministic checks.
-- Customizable: Company/team-level values and process knobs across all stages.
+## Enhanced Principles
+- **Context-first**: All work products must be saved under artifacts/ or context/ and referenced in prompts
+- **Top-Tier Industry Standards**: Excellence over adequacy - production-ready engineering assessment
+- **Vendor-agnostic**: Design for portability across model providers and infrastructure
+- **Observability & Guardrails**: Auditability, testable prompts, and deterministic checks
+- **Customizable**: Company/team-level values and process knobs across all stages
+- **Production-ready focus**: Assess durability under real-world conditions and failures
+- **Systems thinking**: Favor sound architecture, clean abstractions, and scalable design
+- **Evidence-based evaluation**: All scoring decisions must reference specific files/lines/examples
 
 ## Quick Links
 - Start the 5-day client presentation prep: 06_execution_roadmap/mvp_plan_5day_demo.md

@@ -1,0 +1,175 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "yu_hyunho",
+    "name_local": "유현호",
+    "name_en": "Hyunho Yu",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Entry-level backend developer (Java/Spring). Portfolio centers on a taxi carpool matching service; solved concurrency issues in partner selection and improved performance by removing unnecessary external API calls (~17% gain). Comfortable with Spring Boot/Security, JPA/Hibernate, MySQL, Redis; some TypeScript/Nest.js.",
+    "contacts": {
+      "emails": [
+        "[nolja126@gmail.com](mailto:nolja126@gmail.com)",
+        "[kmn4k7vgyc@privaterelay.appleid.com](mailto:kmn4k7vgyc@privaterelay.appleid.com)"
+      ],
+      "phones": [
+        "010-5892-7886"
+      ],
+      "locations": [
+        "Hwaseong-si, Gyeonggi-do (18321)"
+      ]
+    },
+    "source_files": [
+      "/mnt/data/유현호_ilovepdf_merged.pdf",
+      "/mnt/data/유현호_서류전형_이력서.pdf"
+    ],
+    "external_links": [
+      "[https://github.com/HyunhoYu](https://github.com/HyunhoYu)",
+      "[https://github.com/HyunhoCheolhyun/carpool](https://github.com/HyunhoCheolhyun/carpool)",
+      "[https://velog.io/@rapid9](https://velog.io/@rapid9)",
+      "[https://velog.io/@rapid97/series/%ED%83%9D%EC%8B%9C-%ED%95%A9%EC%8A%B9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8](https://velog.io/@rapid97/series/%ED%83%9D%EC%8B%9C-%ED%95%A9%EC%8A%B9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)"
+    ],
+    "sections": {
+      "Education": [
+        {
+          "en": "Suwon University — Economics (2017) → transferred to Computer SW (2023), expected graduation"
+        },
+        {
+          "en": "Suri High School — Graduated"
+        }
+      ],
+      "Skills": [
+        "Java",
+        "Spring/Spring Security",
+        "JPA/Hibernate",
+        "MySQL",
+        "Redis",
+        "Gradle",
+        "Git",
+        "Linux",
+        "TypeScript (basic)",
+        "Nest.js (basic)"
+      ],
+      "Projects": [
+        {
+          "name": "Taxi Carpool Matching (Refactor)",
+          "stack": [
+            "Spring Boot",
+            "Spring Security",
+            "JPA/Hibernate",
+            "MySQL",
+            "Redis",
+            "Gradle",
+            "Docker Compose"
+          ],
+          "scope": [
+            "AuthN/Z",
+            "Matching API",
+            "Origin/destination API",
+            "Trip info/history APIs",
+            "External API clients"
+          ],
+          "outcomes": [
+            "Resolved concurrency race in partner selection",
+            "Improved performance by ~17% by eliminating redundant external calls"
+          ],
+          "urls": [
+            "[https://github.com/HyunhoCheolhyun/carpool](https://github.com/HyunhoCheolhyun/carpool)"
+          ]
+        }
+      ],
+      "Profiles": [
+        {
+          "GitHub": "[https://github.com/HyunhoYu](https://github.com/HyunhoYu)"
+        },
+        {
+          "Blog": "[https://velog.io/@rapid9](https://velog.io/@rapid9)"
+        }
+      ]
+    },
+    "entities": {
+      "skills": [
+        "Backend Development",
+        "Concurrency Control",
+        "API Design",
+        "Authentication/Authorization"
+      ],
+      "programming_languages": [
+        "Java",
+        "TypeScript",
+        "C"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "Spring Security",
+        "Nest.js"
+      ],
+      "databases": [
+        "MySQL",
+        "Redis"
+      ],
+      "devops": [
+        "Docker Compose"
+      ],
+      "roles": [
+        "Backend Developer (Junior)"
+      ],
+      "projects": [
+        "Taxi Carpool Matching (Refactor)"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 0.0,
+      "github_profile": {
+        "username": "HyunhoYu",
+        "repos_count": 2,
+        "followers": 2,
+        "following": 3
+      },
+      "repo_highlight": {
+        "repo": "HyunhoCheolhyun/carpool",
+        "commits": 154
+      },
+      "ci_cd_presence": {
+        "present": null,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [
+        "Implemented authentication, matching logic, and multiple supporting APIs for the carpool service."
+      ],
+      "Communication": [],
+      "Problem_Solving": [
+        "Resolved concurrency when multiple users selected the same partner simultaneously.",
+        "Reduced unnecessary external API calls to improve performance by ~17%."
+      ],
+      "Execution_BiasToAction": [],
+      "Craftsmanship_CodeQuality": [
+        "Refactored the system with an object-oriented design focus."
+      ],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [],
+      "Security_Privacy": [
+        "Applied Spring Security for robust authN/Z."
+      ]
+    },
+    "red_flags": [
+      "PDF text encoding artifacts affected phone digits in one file"
+    ],
+    "parse_error": null
+  }
+}

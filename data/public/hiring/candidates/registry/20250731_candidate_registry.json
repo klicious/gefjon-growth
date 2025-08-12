@@ -1,0 +1,226 @@
+{
+  "batch_info": {
+    "source_file": "data/public/hiring/resume/20250731/candidates_20250731.json",
+    "processing_date": "2025-08-11T17:30:24.958398",
+    "processor": "Candidate Splitting Script",
+    "total_candidates": 13,
+    "batch_id": "batch_20250731",
+    "workflow_version": "2.0"
+  },
+  "candidates": [
+    {
+      "candidate_id": "kim_minseok",
+      "file_path": "data/public/hiring/candidates/individual/20250731/kim_minseok.json",
+      "name_en": "Minseok Kim",
+      "name_local": "김민석",
+      "experience_years": 1.17,
+      "primary_skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Java"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "kim_huijin",
+      "file_path": "data/public/hiring/candidates/individual/20250731/kim_huijin.json",
+      "name_en": "Huijin Kim",
+      "name_local": "김희진",
+      "experience_years": 4.83,
+      "primary_skills": [
+        "Java",
+        "JavaScript",
+        "SQL"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "kim_donghyun",
+      "file_path": "data/public/hiring/candidates/individual/20250731/kim_donghyun.json",
+      "name_en": "Donghyun Kim",
+      "name_local": "김동현",
+      "experience_years": null,
+      "primary_skills": [
+        "Java",
+        "TypeScript"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "park_junghwan",
+      "file_path": "data/public/hiring/candidates/individual/20250731/park_junghwan.json",
+      "name_en": "Junghwan Park",
+      "name_local": "박정환",
+      "experience_years": null,
+      "primary_skills": [
+        "Python",
+        "C#",
+        "Java",
+        "JavaScript"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "park_juyoung",
+      "file_path": "data/public/hiring/candidates/individual/20250731/park_juyoung.json",
+      "name_en": "Juyoung Park",
+      "name_local": "박주영",
+      "experience_years": null,
+      "primary_skills": [
+        "Java",
+        "Kotlin",
+        "Python",
+        "JavaScript"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "seo_myunggyo",
+      "file_path": "data/public/hiring/candidates/individual/20250731/seo_myunggyo.json",
+      "name_en": "Myunggyo Seo",
+      "name_local": "서명교",
+      "experience_years": null,
+      "primary_skills": [
+        "Python",
+        "PHP",
+        "JavaScript"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "son_rockhyung",
+      "file_path": "data/public/hiring/candidates/individual/20250731/son_rockhyung.json",
+      "name_en": "RockHyung Son",
+      "name_local": "손록형",
+      "experience_years": null,
+      "primary_skills": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "Python"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "ahn_hyungkyu",
+      "file_path": "data/public/hiring/candidates/individual/20250731/ahn_hyungkyu.json",
+      "name_en": "Hyungkyu Ahn",
+      "name_local": "안형규",
+      "experience_years": null,
+      "primary_skills": [
+        "C",
+        "C++",
+        "Python",
+        "Java"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "yu_hyunho",
+      "file_path": "data/public/hiring/candidates/individual/20250731/yu_hyunho.json",
+      "name_en": "Hyunho Yu",
+      "name_local": "유현호",
+      "experience_years": null,
+      "primary_skills": [
+        "Java",
+        "TypeScript",
+        "C"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "choi_moonkyu",
+      "file_path": "data/public/hiring/candidates/individual/20250731/choi_moonkyu.json",
+      "name_en": "Moonkyu Choi",
+      "name_local": "최문규",
+      "experience_years": null,
+      "primary_skills": [
+        "Java",
+        "JavaScript"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "kim_seongcheol",
+      "file_path": "data/public/hiring/candidates/individual/20250731/kim_seongcheol.json",
+      "name_en": "Seongcheol Kim",
+      "name_local": "김성철",
+      "experience_years": null,
+      "primary_skills": [],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "kim_sumin",
+      "file_path": "data/public/hiring/candidates/individual/20250731/kim_sumin.json",
+      "name_en": "Sumin Kim",
+      "name_local": "김수민",
+      "experience_years": null,
+      "primary_skills": [
+        "Java",
+        "JavaScript"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    },
+    {
+      "candidate_id": "raiymkulov_daniiar",
+      "file_path": "data/public/hiring/candidates/individual/20250731/raiymkulov_daniiar.json",
+      "name_en": "Raiymkulov Daniiar",
+      "name_local": "데니",
+      "experience_years": null,
+      "primary_skills": [
+        "Python",
+        "Java",
+        "Kotlin",
+        "JavaScript"
+      ],
+      "status": "ready_for_processing",
+      "created_at": "2025-08-11T17:30:24.955928",
+      "last_updated": "2025-08-11T17:30:24.955928"
+    }
+  ],
+  "statistics": {
+    "experience_distribution": {
+      "entry_level": 12,
+      "mid_level": 1,
+      "senior_level": 0
+    },
+    "skill_distribution": {
+      "Python": 7,
+      "JavaScript": 9,
+      "TypeScript": 4,
+      "Java": 11,
+      "SQL": 1,
+      "C#": 1,
+      "Kotlin": 2,
+      "PHP": 1,
+      "C": 2,
+      "C++": 1
+    },
+    "language_distribution": {}
+  }
+}

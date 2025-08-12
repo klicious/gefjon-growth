@@ -1,7 +1,7 @@
-# Take-Home Assignment Evaluation Plan: Entry-Level Software Engineer
+# Take-Home Assignment Evaluation Plan: Top-Tier Industry Standards
 
 ## 1. Objective
-To objectively evaluate candidates' technical skills, problem-solving abilities, code quality, and adherence to requirements through a standardized take-home assignment, ensuring a fair and consistent assessment process.
+To objectively evaluate candidates' technical skills using Top-Tier Industry Standards, focusing on production-ready engineering capabilities, systems thinking, and operational excellence rather than just functional code completion. This plan ensures consistent, rigorous assessment that identifies well-qualified engineering talent.
 
 ## 2. Inputs
 - **Take-Home Assignment Description:** `data/temp/entry_level_sw_eng_take_home_task.md`
@@ -90,12 +90,19 @@ To objectively evaluate candidates' technical skills, problem-solving abilities,
 - **Recommendation:** (e.g., "Proceed to Interview," "Consider for another role," "Do not proceed")
 - **Comparison to Job Description:** How well the candidate's submission aligns with the technical requirements and values from the job description, including "Ownership & Proactivity" and "Scalable Architecture over Quick Hacks" from our Engineering Values.
 
-## 5. LLM Usage Guidelines
-- **Code Review:** LLM can perform automated code reviews, identifying potential bugs, style violations, security vulnerabilities, and adherence to design principles.
-- **Test Case Generation:** Generate additional test cases to thoroughly validate the implementation.
-- **Documentation Generation/Review:** Assist in generating missing documentation or reviewing existing documentation for clarity and completeness.
-- **Plagiarism Detection:** Compare candidate's code against known solutions or other submissions.
-- **Performance Benchmarking:** If applicable, LLM can help analyze performance metrics of the implemented solution.
-- **Structured Output:** LLM should output evaluation results in a structured format (e.g., JSON, YAML) for easy integration into HR systems.
-- **Proactive Feature Identification:** LLM can identify features or design choices that go beyond the explicit requirements and align with the "Going Above and Beyond" criterion.
-- **Scalability Pattern Recognition:** LLM can identify and evaluate the use of design patterns and abstraction layers related to scalability and extensibility.
+## 5. Enhanced Evaluation Framework
+This plan now leverages the **Top-Tier Industry Standards** evaluation prompt (`ai_docs/prompts/hiring/evaluate_take_home_assignment_prompt.md`) which provides:
+
+- **Production-Ready Assessment:** Focus on code that can operate reliably in real-world conditions
+- **Comprehensive Scoring:** 7-criteria evaluation with weighted importance (25% Functional Correctness, 20% Code Quality, 15% Testing, etc.)
+- **Clear Thresholds:** Strong Hire (4.5+), Hire (3.8+), Lean Hire (3.0+), No Hire (<3.0)
+- **Evidence-Based Feedback:** All comments must reference specific files/lines/examples
+- **Operational Excellence:** Emphasis on observability, resilience patterns, and scalability considerations
+
+## 6. LLM Usage Guidelines
+- **Production Risk Assessment:** LLM prioritizes identifying production-breaking issues over surface polish
+- **Architecture Analysis:** Evaluate abstractions, boundaries, and extensibility using enterprise patterns
+- **Comprehensive Testing Review:** Assess coverage vs. risk, integration tests, and CI/CD readiness
+- **Innovation Recognition:** Identify thoughtful optimizations and novel, appropriate solutions
+- **Structured Reporting:** Generate evaluation reports using the standardized template format
+- **Calibrated Expectations:** Adjust standards based on candidate seniority while maintaining quality bar

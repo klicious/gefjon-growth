@@ -1,0 +1,157 @@
+{
+  "generation_date": "2025-08-11T22:08:47.345444",
+  "total_candidates": 13,
+  "materials_generated": [
+    {
+      "candidate_id": "atlas_001",
+      "candidate_name": "Minseok Kim",
+      "materials": [
+        "takehome_assignment.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 2
+    },
+    {
+      "candidate_id": "nova_002",
+      "candidate_name": "Donghyun Kim",
+      "materials": [
+        "takehome_assignment.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 2
+    },
+    {
+      "candidate_id": "orion_003",
+      "candidate_name": "Huijin Kim",
+      "materials": [
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 4
+    },
+    {
+      "candidate_id": "luna_004",
+      "candidate_name": "Junghwan Park",
+      "materials": [
+        "evaluation_framework.md"
+      ],
+      "total_files": 1
+    },
+    {
+      "candidate_id": "phoenix_005",
+      "candidate_name": "Juyoung Park",
+      "materials": [
+        "takehome_assignment.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 5
+    },
+    {
+      "candidate_id": "titan_006",
+      "candidate_name": "Myunggyo Seo",
+      "materials": [
+        "takehome_assignment.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 5
+    },
+    {
+      "candidate_id": "apollo_007",
+      "candidate_name": "RockHyung Son",
+      "materials": [
+        "screening_report.md",
+        "takehome_assignment.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 6
+    },
+    {
+      "candidate_id": "hermes_008",
+      "candidate_name": "Hyungkyu Ahn",
+      "materials": [
+        "screening_report.md",
+        "takehome_assignment.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 6
+    },
+    {
+      "candidate_id": "zeus_009",
+      "candidate_name": "Hyunho Yu",
+      "materials": [
+        "screening_report.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 5
+    },
+    {
+      "candidate_id": "athena_010",
+      "candidate_name": "Moonkyu Choi",
+      "materials": [
+        "screening_report.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 5
+    },
+    {
+      "candidate_id": "poseidon_011",
+      "candidate_name": "Seongcheol Kim",
+      "materials": [
+        "screening_report.md",
+        "takehome_assignment.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 6
+    },
+    {
+      "candidate_id": "artemis_012",
+      "candidate_name": "Sumin Kim",
+      "materials": [
+        "screening_report.md",
+        "takehome_assignment.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 6
+    },
+    {
+      "candidate_id": "mercury_013",
+      "candidate_name": "Raiymkulov Daniiar",
+      "materials": [
+        "screening_report.md",
+        "takehome_assignment.md",
+        "candidate_context.md",
+        "interview_guide.md",
+        "interview_script.md",
+        "evaluation_framework.md"
+      ],
+      "total_files": 6
+    }
+  ],
+  "errors": []
+}

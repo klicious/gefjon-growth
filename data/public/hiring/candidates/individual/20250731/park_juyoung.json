@@ -1,0 +1,185 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "park_juyoung",
+    "name_local": "박주영",
+    "name_en": "Juyoung Park",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Backend developer (≈1 year) currently at STEG (CI-Bridge integrating SVN/GitLab/Jenkins). Prior: WebRTC rehab service (signaling server, CI/CD on Naver Cloud), university festival platform (25k users with L7 path routing), and a solo campus notice email service (100% delivery via exponential backoff on Raspberry Pi + DDNS).",
+    "contacts": {
+      "emails": [
+        "[ju0_park@naver.com](mailto:ju0_park@naver.com)"
+      ],
+      "phones": [
+        "010-9059-4356"
+      ],
+      "locations": []
+    },
+    "source_files": [
+      "/mnt/data/박주영_이력서.pdf",
+      "/mnt/data/박주영_포트폴리오.pdf"
+    ],
+    "external_links": [
+      "[https://github.com/jyp-on](https://github.com/jyp-on)",
+      "[https://mythpoy.tistory.com](https://mythpoy.tistory.com)",
+      "[https://github.com/sync-without-async/Rehab-BackEnd](https://github.com/sync-without-async/Rehab-BackEnd)",
+      "[https://github.com/Hallym-LIKELION/HallymFestival2023-Backend-](https://github.com/Hallym-LIKELION/HallymFestival2023-Backend-)",
+      "[https://www.youtube.com/watch?v=HuXwZLn8_XQ](https://www.youtube.com/watch?v=HuXwZLn8_XQ)",
+      "[https://www.youtube.com/watch?v=dD3dg6zNe24](https://www.youtube.com/watch?v=dD3dg6zNe24)",
+      "[https://github.com/jyp-on/notice-crawler](https://github.com/jyp-on/notice-crawler)"
+    ],
+    "sections": {
+      "Experience": [
+        {
+          "company": "STEG",
+          "role": "Strategy R&D (Pro)",
+          "period": "2025.02 — Present",
+          "highlights": [
+            "Built CI-Bridge integrating SVN/GitLab/Jenkins",
+            "Reusable modules with i18n; automated job triggers"
+          ]
+        }
+      ],
+      "Projects": [
+        {
+          "name": "Re:Hab (web-based remote rehab)",
+          "period": "2023.06 — 2023.12",
+          "highlights": [
+            "Spring WebSocket signaling server",
+            "Blue/Green deployments via Jenkins/GitHub Actions",
+            "Nginx reverse proxy to BE/AI services",
+            "NCloud Object Storage"
+          ]
+        },
+        {
+          "name": "University festival platform",
+          "period": "2023.03 — 2023.05",
+          "impact": "Served 25k users in 10 days; applied L7 path-based routing; fixed paging & concurrency in 2 hours"
+        },
+        {
+          "name": "Campus notice email service (solo)",
+          "period": "2024.10 — 2025.01",
+          "impact": "100% delivery, ~500/day throughput, 100% uptime, 0 KRW/month via Raspberry Pi + DDNS",
+          "approach": "Used exponential backoff to resolve SMTP 421 overload"
+        }
+      ],
+      "Tech_Stack": [
+        "Java",
+        "Kotlin",
+        "SQL",
+        "JavaScript",
+        "Python",
+        "Spring Boot/Data JPA/Security",
+        "Node.js",
+        "FastAPI",
+        "MySQL",
+        "MariaDB",
+        "Redis",
+        "MongoDB",
+        "Docker",
+        "Jenkins",
+        "Tomcat",
+        "Nginx",
+        "AWS",
+        "Naver Cloud"
+      ]
+    },
+    "entities": {
+      "skills": [
+        "Backend",
+        "CI/CD",
+        "WebRTC",
+        "Email Delivery Systems",
+        "Load Balancing",
+        "Path Routing"
+      ],
+      "programming_languages": [
+        "Java",
+        "Kotlin",
+        "Python",
+        "JavaScript",
+        "SQL"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "JPA",
+        "WebSocket",
+        "Node.js",
+        "FastAPI"
+      ],
+      "databases": [
+        "MySQL",
+        "MariaDB",
+        "Redis",
+        "MongoDB"
+      ],
+      "devops": [
+        "Docker",
+        "Jenkins",
+        "Nginx",
+        "AWS",
+        "Naver Cloud",
+        "GitHub Actions"
+      ],
+      "roles": [
+        "Backend Developer"
+      ],
+      "projects": [
+        "Re:Hab",
+        "HallymFestival Platform",
+        "Notice Email Service"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 1.0,
+      "github_profile": {
+        "username": "jyp-on",
+        "public_repos": 65,
+        "followers": 42,
+        "following": 51,
+        "contributions_last_year": 2231
+      },
+      "ci_cd_presence": {
+        "present": true,
+        "details": "Jenkins/GitHub Actions pipelines for blue/green and automation",
+        "uncertain": false
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [
+        "Individually designed, deployed, and operated the campus notice email service."
+      ],
+      "Communication": [],
+      "Problem_Solving": [
+        "Resolved SMTP overload (421) using exponential backoff to achieve 100% delivery."
+      ],
+      "Execution_BiasToAction": [
+        "Built MVP in a day and iterated over four months with continuous improvements."
+      ],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [
+        "Served 25,000 festival users in 10 days while maintaining stability via L7 routing."
+      ],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [
+        "Automated deployments and standardized workflows via Jenkins/GitLab/GitHub integration."
+      ],
+      "Security_Privacy": []
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "total_candidates": 13,
+  "materials_by_type": {
+    "screening_reports": 13,
+    "takehome_assignments": 9,
+    "interview_materials": 11,
+    "evaluation_frameworks": 13
+  },
+  "candidates_by_status": {
+    "ready_for_takehome": 0,
+    "ready_for_interview": 0,
+    "needs_additional_assessment": 0,
+    "declined": 0
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "ahn_hyungkyu",
+    "name_local": "안형규",
+    "name_en": "Hyungkyu Ahn",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Systems-oriented developer (~1.5 years, uncertain) with experience in capital-markets middleware (C/Linux/ZeroMQ), banking interface testing (contract), and automation for e-commerce ops. Projects include a distributed crypto arbitrage trading system (Python/FastAPI/ZeroMQ/WebSocket), a Spring Boot + Flutter stock backtesting app with blue/green deploys, and a real-time auction server in C.",
+    "contacts": {
+      "emails": [],
+      "phones": [
+        "010-5233-2932"
+      ],
+      "locations": []
+    },
+    "source_files": [
+      "/mnt/data/안형규_이력서.pdf"
+    ],
+    "external_links": [
+      "[https://github.com/hyungkya/mztrade-core](https://github.com/hyungkya/mztrade-core)"
+    ],
+    "sections": {
+      "Industry_Experience": [
+        {
+          "company": "H2O System Technology (Finance Biz)",
+          "period": "2024.08 — 2025.04",
+          "highlights": [
+            "Migrated System V queues → ZeroMQ; throughput 50k/s→100k/s",
+            "Exchange ‘NXT’ patch rollouts"
+          ]
+        },
+        {
+          "company": "NexWeb (Shinhan NEXT, Contract)",
+          "period": "2023.04 — 2023.07",
+          "highlights": [
+            "Mapped & tested interfaces between core services and terminals"
+          ]
+        },
+        {
+          "company": "Trend Notes Inc. (Non-dev Intern)",
+          "period": "2022.02 — 2022.06",
+          "highlights": [
+            "Automated order aggregation via Selenium; inventory analytics & replenishment forecasting"
+          ]
+        }
+      ],
+      "Projects": [
+        {
+          "name": "Crypto cross-exchange arbitrage system",
+          "period": "2025.04 — Present",
+          "stack": [
+            "Python",
+            "FastAPI",
+            "ZeroMQ",
+            "WebSocket",
+            "Supervisor",
+            "Linux"
+          ],
+          "highlights": [
+            "Async price collection/normalization",
+            "Distributed writers (ZeroMQ/Posix SHM)",
+            "Control plane via FastAPI",
+            "Task sync via GitHub Actions"
+          ]
+        },
+        {
+          "name": "Stock backtesting application",
+          "period": "2024.01 — 2024.04",
+          "stack": [
+            "Java",
+            "Spring Boot",
+            "Flutter",
+            "Firebase",
+            "Jenkins",
+            "GCP"
+          ],
+          "highlights": [
+            "RESTful core (Spring Boot)",
+            "Blue/Green deploy via GitHub Webhook + Jenkins"
+          ]
+        },
+        {
+          "name": "Realtime auction server",
+          "period": "2021.09 — 2021.12",
+          "stack": [
+            "C",
+            "POSIX threads"
+          ]
+        }
+      ],
+      "Education": [
+        {
+          "en": "University of California, Irvine — B.S. Computer Science (2022)"
+        }
+      ]
+    },
+    "entities": {
+      "skills": [
+        "Low-latency Systems",
+        "ZeroMQ",
+        "Distributed Processing",
+        "Blue/Green Deployment",
+        "WebSockets",
+        "IPC",
+        "Linux"
+      ],
+      "programming_languages": [
+        "C",
+        "C++",
+        "Python",
+        "Java",
+        "Dart"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "FastAPI"
+      ],
+      "databases": [
+        "MySQL (unspecified depth)"
+      ],
+      "devops": [
+        "Jenkins",
+        "GitHub Actions",
+        "GCP",
+        "Supervisor",
+        "Selenium"
+      ],
+      "roles": [
+        "Backend/Systems Developer"
+      ],
+      "projects": [
+        "Arbitrage Trading System",
+        "Stock Backtesting App",
+        "Realtime Auction Server"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 1.5,
+      "years_of_experience_uncertain": true,
+      "ci_cd_presence": {
+        "present": true,
+        "details": "Blue/Green using GitHub Webhooks → Jenkins; GitHub Actions for task sync",
+        "uncertain": false
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [],
+      "Communication": [],
+      "Problem_Solving": [
+        "Re-architected legacy IPC from System V to ZeroMQ, doubling throughput.",
+        "Designed distributed arbitrage pipeline with control APIs and alerting."
+      ],
+      "Execution_BiasToAction": [
+        "Implemented an end-to-end arbitrage system with distributed processes and monitoring."
+      ],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [
+        "Established blue/green deployment via GitHub Webhook + Jenkins."
+      ],
+      "Security_Privacy": []
+    },
+    "red_flags": [
+      "Minor encoding artifacts present in PDF text"
+    ],
+    "parse_error": null
+  }
+}

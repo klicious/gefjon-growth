@@ -1,0 +1,294 @@
+{
+    "run_id": "20250811_enhanced_run",
+    "total_candidates": 13,
+    "screening_completed_at": "2025-08-11T16:15:00Z",
+    "screening_results": [
+        {
+            "candidate_id": "atlas_001",
+            "candidate_name": "Minseok Kim",
+            "overall_score": 9.1,
+            "recommendation": "Strong Hire",
+            "confidence": 0.92,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "AWS expertise with certifications",
+                "Full-stack development with modern stack",
+                "Strong infrastructure automation skills"
+            ],
+            "areas_of_concern": [
+                "Limited production experience (1.17 years)",
+                "GitLab CI/CD transition needed"
+            ]
+        },
+        {
+            "candidate_id": "nova_002",
+            "candidate_name": "Donghyun Kim",
+            "overall_score": 8.5,
+            "recommendation": "Hire",
+            "confidence": 0.85,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "Exceptional system reliability focus",
+                "Strong AWS/observability expertise",
+                "Proven testing and refactoring skills"
+            ],
+            "areas_of_concern": [
+                "Python transition needed from Java",
+                "Missing contact information",
+                "Education background unclear"
+            ]
+        },
+        {
+            "candidate_id": "orion_003",
+            "candidate_name": "Huijin Kim",
+            "overall_score": 6.8,
+            "recommendation": "Lean Hire",
+            "confidence": 0.68,
+            "next_step": "additional_assessment",
+            "key_strengths": [
+                "Extensive backend/EDI experience (4.8 years)",
+                "Strong database expertise",
+                "Enterprise system integration"
+            ],
+            "areas_of_concern": [
+                "Major technology stack mismatch",
+                "Limited modern cloud/DevOps experience",
+                "Significant training needed"
+            ]
+        },
+        {
+            "candidate_id": "luna_004",
+            "candidate_name": "Junghwan Park",
+            "overall_score": 5.8,
+            "recommendation": "No Hire",
+            "confidence": 0.82,
+            "next_step": "decline",
+            "key_strengths": [
+                "Strong learning orientation",
+                "Diverse technology exposure",
+                "Python foundation"
+            ],
+            "areas_of_concern": [
+                "Limited production experience",
+                "Missing core technical requirements",
+                "Scattered experience across domains"
+            ]
+        },
+        {
+            "candidate_id": "phoenix_005",
+            "candidate_name": "Juyoung Park",
+            "overall_score": 8.5,
+            "recommendation": "Hire",
+            "confidence": 0.85,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "High-scale system experience (25k users)",
+                "Strong CI/CD expertise",
+                "Excellent problem-solving skills"
+            ],
+            "areas_of_concern": [
+                "Education background unclear",
+                "Limited frontend experience",
+                "Short tenure pattern"
+            ]
+        },
+        {
+            "candidate_id": "titan_006",
+            "candidate_name": "Myunggyo Seo",
+            "overall_score": 9.2,
+            "recommendation": "Strong Hire",
+            "confidence": 0.92,
+            "next_step": "senior_level_assessment",
+            "key_strengths": [
+                "Senior-level expertise (8.5 years)",
+                "Python/FastAPI mastery",
+                "AWS architecture experience",
+                "Leadership background"
+            ],
+            "areas_of_concern": [
+                "Over-qualified for entry-level",
+                "No Java/Spring Boot experience",
+                "Salary expectations may be high"
+            ]
+        },
+        {
+            "candidate_id": "apollo_007",
+            "candidate_name": "RockHyung Son",
+            "overall_score": 7.2,
+            "recommendation": "Hire",
+            "confidence": 0.72,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "Diverse backend experience (3.75 years)",
+                "Performance optimization skills",
+                "Multi-technology proficiency"
+            ],
+            "areas_of_concern": [
+                "Limited modern DevOps experience",
+                "No cloud platform experience",
+                "Scattered domain experience"
+            ]
+        },
+        {
+            "candidate_id": "hermes_008",
+            "candidate_name": "Hyungkyu Ahn",
+            "overall_score": 7.8,
+            "recommendation": "Hire",
+            "confidence": 0.78,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "Systems programming expertise",
+                "Financial systems experience",
+                "Performance optimization focus"
+            ],
+            "areas_of_concern": [
+                "Limited web development experience",
+                "Missing contact information",
+                "Uncertain experience timeline"
+            ]
+        },
+        {
+            "candidate_id": "zeus_009",
+            "candidate_name": "Hyunho Yu",
+            "overall_score": 6.5,
+            "recommendation": "Lean Hire",
+            "confidence": 0.65,
+            "next_step": "additional_assessment",
+            "key_strengths": [
+                "Strong Java/Spring foundation",
+                "Concurrency problem-solving",
+                "Security implementation"
+            ],
+            "areas_of_concern": [
+                "No professional experience",
+                "Limited project portfolio",
+                "Missing advanced skills"
+            ]
+        },
+        {
+            "candidate_id": "athena_010",
+            "candidate_name": "Moonkyu Choi",
+            "overall_score": 6.8,
+            "recommendation": "Lean Hire",
+            "confidence": 0.68,
+            "next_step": "additional_assessment",
+            "key_strengths": [
+                "Team leadership experience",
+                "Structured training completion",
+                "Communication skills"
+            ],
+            "areas_of_concern": [
+                "Very limited experience (0.33 years)",
+                "Training-only background",
+                "No production systems"
+            ]
+        },
+        {
+            "candidate_id": "poseidon_011",
+            "candidate_name": "Seongcheol Kim",
+            "overall_score": 7.5,
+            "recommendation": "Hire",
+            "confidence": 0.75,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "Performance optimization expertise",
+                "Large-scale system experience",
+                "Cross-functional collaboration"
+            ],
+            "areas_of_concern": [
+                "Missing contact information",
+                "Limited modern tech stack",
+                "No cloud experience"
+            ]
+        },
+        {
+            "candidate_id": "artemis_012",
+            "candidate_name": "Sumin Kim",
+            "overall_score": 8.0,
+            "recommendation": "Hire",
+            "confidence": 0.80,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "Solid backend experience (5.75 years)",
+                "CI/CD pipeline expertise",
+                "Data migration experience"
+            ],
+            "areas_of_concern": [
+                "Missing contact information",
+                "Limited Python experience",
+                "No modern cloud architecture"
+            ]
+        },
+        {
+            "candidate_id": "mercury_013",
+            "candidate_name": "Raiymkulov Daniiar",
+            "overall_score": 7.8,
+            "recommendation": "Hire",
+            "confidence": 0.78,
+            "next_step": "take_home_assignment",
+            "key_strengths": [
+                "Real-time systems expertise",
+                "Mentoring experience",
+                "Infrastructure hardening"
+            ],
+            "areas_of_concern": [
+                "Limited experience (2.08 years)",
+                "No Java/Spring Boot",
+                "Uncertain CI/CD experience"
+            ]
+        }
+    ],
+    "strong_candidates": [
+        "atlas_001",
+        "titan_006"
+    ],
+    "hire_candidates": [
+        "nova_002",
+        "phoenix_005",
+        "apollo_007",
+        "hermes_008",
+        "poseidon_011",
+        "artemis_012",
+        "mercury_013"
+    ],
+    "candidates_for_takehome": [
+        "atlas_001",
+        "nova_002",
+        "phoenix_005",
+        "apollo_007",
+        "hermes_008",
+        "poseidon_011",
+        "artemis_012",
+        "mercury_013"
+    ],
+    "candidates_requiring_additional_assessment": [
+        "orion_003",
+        "zeus_009",
+        "athena_010"
+    ],
+    "declined_candidates": [
+        "luna_004"
+    ],
+    "screening_statistics": {
+        "total_processed": 13,
+        "average_score": 7.7,
+        "strong_hire_rate": 0.15,
+        "hire_rate": 0.69,
+        "lean_hire_rate": 0.23,
+        "no_hire_rate": 0.08,
+        "pass_rate": 0.92,
+        "quality_threshold_met": true,
+        "bias_check_passed": true
+    },
+    "experience_distribution": {
+        "entry_level_0_2_years": 6,
+        "mid_level_2_5_years": 4,
+        "senior_level_5_plus_years": 3
+    },
+    "recommendation_summary": {
+        "immediate_takehome_candidates": 8,
+        "senior_level_consideration": 1,
+        "additional_assessment_needed": 3,
+        "declined_with_feedback": 1
+    }
+}

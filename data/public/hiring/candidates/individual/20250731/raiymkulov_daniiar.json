@@ -1,0 +1,179 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "raiymkulov_daniiar",
+    "name_local": "데니",
+    "name_en": "Raiymkulov Daniiar",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Backend developer (~2.1 years) specialized in Django/DRF, real-time sync (Channels/WebSockets), and webhook/event-driven architectures. Mentored teams (30+ juniors), led Android curriculum previously; handled infra hardening (DNS, firewall, access control, monitoring). Built NFT Discord bot with on-chain access/auth.",
+    "contacts": {
+      "emails": [
+        "[danraiymkulov@gmail.com](mailto:danraiymkulov@gmail.com)"
+      ],
+      "phones": [
+        "010-4403-8491"
+      ],
+      "locations": [
+        "Yonghyeon-dong, Michuhol-gu, Incheon"
+      ]
+    },
+    "source_files": [
+      "/mnt/data/데니_자기소개서.pdf",
+      "/mnt/data/데니_서류전형_이력서.pdf"
+    ],
+    "external_links": [
+      "[https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e](https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e)"
+    ],
+    "sections": {
+      "Skills": [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "FastAPI",
+        "WebSocket/Channels",
+        "Celery",
+        "Redis",
+        "PostgreSQL",
+        "OAuth",
+        "JS/HTML/CSS",
+        "NGINX",
+        "Docker",
+        "Git"
+      ],
+      "Experience": [
+        {
+          "company": "Quobly",
+          "role": "Backend/Server Developer",
+          "period": "2023.02 — 2025.02",
+          "highlights": [
+            "Real-time data sync integrating Seatable API with role-based filtering",
+            "Webhook event architecture; collaborative editing (GoJS); Channels/WebSockets",
+            "Built & managed VPS infra; hardened with DNS, firewall, access control, monitoring"
+          ]
+        },
+        {
+          "company": "BREEZ STUDIO",
+          "role": "App Developer",
+          "period": "2020.06 — 2021.04",
+          "highlights": [
+            "Logistics app (Kotlin/Java); real-time tracking; education apps; SOLID practices"
+          ]
+        },
+        {
+          "company": "NEOBIS",
+          "role": "Mentor & Team Lead (Android)",
+          "period": "2019.09 — 2021.06",
+          "highlights": [
+            "Mentored 30+ juniors; curriculum design; led architecture; organized Women Techmakers (200+)"
+          ]
+        }
+      ],
+      "Education": [
+        {
+          "en": "Inha University — B.S. Convergence Systems Engineering"
+        }
+      ],
+      "Portfolio": [
+        {
+          "url": "[https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e](https://buttery-foundation-005.notion.site/Raiymkulov-Daniiar-1a0c60e5c0e68010a2e0de42a9f9f46e)",
+          "note": "Found but not crawled (inaccessible)"
+        }
+      ]
+    },
+    "entities": {
+      "skills": [
+        "Backend Development",
+        "Realtime Systems",
+        "Data Sync",
+        "Event-driven Architecture",
+        "Infra Hardening",
+        "Authentication"
+      ],
+      "programming_languages": [
+        "Python",
+        "Java",
+        "Kotlin",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Django",
+        "DRF",
+        "FastAPI",
+        "Channels",
+        "GoJS"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "Redis"
+      ],
+      "devops": [
+        "NGINX",
+        "Docker",
+        "VPS",
+        "DNS",
+        "Firewall",
+        "Monitoring"
+      ],
+      "roles": [
+        "Backend Developer",
+        "Android Developer",
+        "Mentor",
+        "Team Lead"
+      ],
+      "degrees": [
+        "Bachelor (Inha University)"
+      ],
+      "projects": [
+        "Realtime Data Sync (Seatable integration)",
+        "Discord NFT Bot"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 2.08,
+      "ci_cd_presence": {
+        "present": null,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [],
+      "Communication": [],
+      "Problem_Solving": [
+        "Designed a webhook-driven event system to synchronize multi-table changes in real time."
+      ],
+      "Execution_BiasToAction": [
+        "Bootstrapped infra and implemented Channels/WebSockets for real-time features."
+      ],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [
+        "Mentored 30+ newcomers and led architecture for quality and scalability."
+      ],
+      "Customer_Impact": [],
+      "Learning_Growth": [
+        "Pursues TDD, Clean Architecture, and DevOps to improve backend craft."
+      ],
+      "Leadership_Mentoring": [
+        "Organized Women Techmakers event (200+ participants)."
+      ],
+      "Operational_Excellence": [
+        "Hardened services via DNS, firewall, access control, and monitoring."
+      ],
+      "Security_Privacy": [
+        "Emphasized secure authentication and access in NFT bot and sync systems."
+      ]
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

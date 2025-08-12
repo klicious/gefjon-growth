@@ -1,0 +1,165 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "kim_sumin",
+    "name_local": "김수민",
+    "name_en": "Sumin Kim",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Backend engineer (~5.8 years) in commerce systems. Strong in REST integrations, batch, internal/external sync, data integrity, and operational resilience. Led GitHub Actions/CodeDeploy pipelines and an RDS MySQL 5.7→8.0 upgrade. Recent focus on tests, MSA, and Kafka.",
+    "contacts": {
+      "emails": [],
+      "phones": [],
+      "locations": []
+    },
+    "source_files": [
+      "/mnt/data/김수민_경력기술서.pdf",
+      "/mnt/data/김수민_서류전형_이력서.pdf"
+    ],
+    "external_links": [],
+    "sections": {
+      "Experience": [
+        {
+          "company": "WeBling — POD Backend Team",
+          "period": "2022-06 — 2025-01",
+          "highlights_en": [
+            "APIs for Snaps/OhprintMe",
+            "Built ‘Weverse by Fans’ service and integrations",
+            "Owned internal production integration and Zendesk integration",
+            "Led RDS MySQL 5.7→8.0 upgrade"
+          ]
+        },
+        {
+          "company": "Ezenerdu — Platform Dev",
+          "period": "2019-06 — 2022-06",
+          "highlights_en": [
+            "Web/API dev; jQuery/JSTL displays",
+            "Search engine replacement and perf improvements",
+            "MongoDB PI processing history module for ISMS"
+          ]
+        }
+      ],
+      "Selected_Projects": [
+        {
+          "name": "POD Shop ↔ In-house Mall Product Automation & Admin",
+          "period": "2024-10 — 2024-12",
+          "impact_en": "Automated product registration; >60% turnaround reduction; key-based option mapping & validation"
+        },
+        {
+          "name": "Template/User Project Migration to POD",
+          "period": "2024-02 — 2024-06",
+          "impact_en": "Migrated ~13M rows via API while preserving referential integrity; parallelized by queue-id to cut duration ~2 weeks→~3 days"
+        },
+        {
+          "name": "Zendesk Integration",
+          "period": "2023-12 — 2024-02",
+          "impact_en": "Centralized multi-brand inquiries; batch + retry (≤5×), Slack alerts; IP allowlisting and AES-256 identifiers via AOP"
+        },
+        {
+          "name": "Weverse ByFans",
+          "period": "2023-03 — 2023-07",
+          "impact_en": "Multi-module structure; OpenFeign integrations; batch order status sync with retries"
+        }
+      ]
+    },
+    "entities": {
+      "skills_tools": [
+        "Java",
+        "Spring",
+        "Spring Boot",
+        "Spring Batch",
+        "MySQL",
+        "Oracle",
+        "JPA",
+        "Redis",
+        "AWS",
+        "Jenkins",
+        "GitHub Actions",
+        "Linux",
+        "MongoDB",
+        "jQuery",
+        "Git",
+        "OpenFeign",
+        "AES-256",
+        "CodeDeploy",
+        "Docker",
+        "CodePipeline"
+      ],
+      "programming_languages": [
+        "Java",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "Spring Batch",
+        "JPA",
+        "jQuery"
+      ],
+      "databases": [
+        "MySQL",
+        "Oracle",
+        "MongoDB",
+        "Redis"
+      ],
+      "devops": [
+        "GitHub Actions",
+        "Jenkins",
+        "CodeDeploy",
+        "Docker",
+        "CodePipeline",
+        "AWS"
+      ],
+      "roles": [
+        "Backend Engineer"
+      ],
+      "projects": [
+        "POD Automation Admin",
+        "POD Migration",
+        "Zendesk Integration",
+        "Weverse ByFans"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 5.75,
+      "migration_volume_rows": 13000000,
+      "ci_cd_presence": {
+        "present": true,
+        "details": "GitHub Actions + CodeDeploy; zero-downtime EC2 deployments",
+        "uncertain": false
+      },
+      "testing_coverage": {
+        "value": null,
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [],
+      "Communication": [],
+      "Problem_Solving": [
+        "Designed API-based migration preserving referential integrity across tightly coupled schemas."
+      ],
+      "Execution_BiasToAction": [],
+      "Craftsmanship_CodeQuality": [],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [
+        "Unified Zendesk integration improved ops efficiency and response times."
+      ],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [
+        "Implemented retries (≤5×) with Slack alerts; enforced IP allowlists and encrypted identifiers."
+      ],
+      "Security_Privacy": [
+        "Applied AES-256 identifier encryption and allowlisting for integrations."
+      ]
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

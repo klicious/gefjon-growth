@@ -1,0 +1,270 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "seo_myunggyo",
+    "name_local": "서명교",
+    "name_en": "Myunggyo Seo",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Senior backend/web engineer (8.5 years). Expert in Python/Django/FastAPI with AWS services (S3, Lambda, SQS, Cognito), RabbitMQ, MySQL/MongoDB. Delivered RAG document search (hexagonal/MSA), large-scale localization pipelines (cut ~1,800h→~48h), image translation service, real-time chat (Django Channels), ML emotion analysis for tele-counseling, SSO (Keycloak), and multiple backoffice/e-commerce systems. Earlier: call center systems, analytics dashboards, PHP backends.",
+    "contacts": {
+      "emails": [
+        "[mgsssss@naver.com](mailto:mgsssss@naver.com)"
+      ],
+      "phones": [
+        "010-2271-3253"
+      ],
+      "locations": [
+        "Yeongdeungpo-gu, Seoul"
+      ]
+    },
+    "source_files": [
+      "/mnt/data/플랫폼 개발_서명교_20250731_0100032.pdf",
+      "/mnt/data/서명교 포트 폴리오.ppt"
+    ],
+    "external_links": [],
+    "sections": {
+      "Experience_Summary": [
+        "Total 8 years 6 months; roles up to Team Lead/Manager"
+      ],
+      "Selected_Projects": [
+        {
+          "name": "RAG-based Document Search",
+          "period": "2022.06 — 2024.08",
+          "stack": [
+            "FastAPI",
+            "MySQL",
+            "Docker",
+            "Pytest",
+            "RabbitMQ",
+            "Cognito",
+            "API Gateway",
+            "S3",
+            "Lambda",
+            "SQS"
+          ],
+          "architecture": [
+            "Hexagonal",
+            "MSA"
+          ],
+          "role": "Auth server & file collector",
+          "notes": [
+            "HttpOnly cookie tokens",
+            "Transactional multi-file upload from Drive/OneDrive/local"
+          ]
+        },
+        {
+          "name": "Image Translation Web",
+          "role": "Solo",
+          "notes": [
+            "Batch 10^5 images with async S3 uploads",
+            "Hashtag search & metadata"
+          ]
+        },
+        {
+          "name": "Realtime Chat (Django Channels)",
+          "role": "Solo",
+          "notes": [
+            "WebSocket server; Dockerized with Nginx/MySQL",
+            "Moderation: kick/report/recommend/mute/team"
+          ]
+        },
+        {
+          "name": "ML Emotion Analysis for Tele-counseling",
+          "team": 3,
+          "stack": [
+            "Python",
+            "FastAPI",
+            "Django",
+            "Celery",
+            "Keras",
+            "WebRTC"
+          ],
+          "notes": [
+            "7-class facial expression classification",
+            "Async post-session generation via Celery + RabbitMQ"
+          ]
+        },
+        {
+          "name": "Content Localization Service (AWS)",
+          "role": "Solo",
+          "stack": [
+            "SQS",
+            "Translate",
+            "Lambda",
+            "S3",
+            "boto3"
+          ],
+          "impact": "Reduced total processing time from ~1,800h to ~48h via parallelization"
+        },
+        {
+          "name": "Keycloak SSO Integration",
+          "scope": "20 services",
+          "stack": [
+            "Keycloak",
+            "React",
+            "Docker",
+            "OAuth2/OIDC/JWT"
+          ]
+        },
+        {
+          "name": "Luxury Price Compare Backoffice & Seller Portal",
+          "role": "Solo",
+          "stack": [
+            "Python",
+            "Django",
+            "AWS S3/EC2",
+            "MySQL",
+            "Bootstrap",
+            "jQuery"
+          ],
+          "notes": [
+            "Payment/refund/settlement flows",
+            "Resolved N+1 with select_related/prefetch_related"
+          ]
+        },
+        {
+          "name": "Web Crawler for E-commerce",
+          "notes": [
+            ">300k products; asyncio; S3; cron scheduling"
+          ]
+        },
+        {
+          "name": "Dating App API & Infra",
+          "period": "2018.05 — 2019.02",
+          "stack": [
+            "PHP",
+            "MySQL",
+            "AWS EC2/RDS/S3",
+            "CloudFront"
+          ]
+        },
+        {
+          "name": "Call Center & Analytics Dashboards",
+          "period": "2014 — 2018",
+          "stack": [
+            "PHP",
+            "MySQL",
+            "MongoDB",
+            "Highcharts",
+            "Google Analytics API"
+          ]
+        }
+      ],
+      "Preferences": {
+        "employment_type": "Full-time",
+        "desired_location": "Seoul (all areas)"
+      }
+    },
+    "entities": {
+      "skills": [
+        "Backend Development",
+        "RAG/Search",
+        "SSO",
+        "Async Processing",
+        "Batch/Data Pipelines",
+        "Web Crawling",
+        "Admin/Backoffice",
+        "Real-time Systems"
+      ],
+      "programming_languages": [
+        "Python",
+        "PHP",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Django",
+        "Django REST Framework",
+        "Django Channels",
+        "FastAPI",
+        "React",
+        "Keycloak"
+      ],
+      "databases": [
+        "MySQL",
+        "MongoDB"
+      ],
+      "devops": [
+        "AWS (S3, EC2, RDS, Lambda, SQS, CloudFront, Cognito, API Gateway)",
+        "Docker",
+        "RabbitMQ",
+        "Celery",
+        "Nginx",
+        "Cron"
+      ],
+      "ml_tools": [
+        "Keras"
+      ],
+      "roles": [
+        "Backend Engineer",
+        "Team Lead/Manager",
+        "Full-stack Web Developer"
+      ],
+      "projects": [
+        "RAG Document Search",
+        "Image Translation Service",
+        "Realtime Chat",
+        "Emotion Analysis",
+        "Content Localization",
+        "Keycloak SSO",
+        "Backoffice & Seller Portal",
+        "Web Crawler",
+        "Dating App API"
+      ],
+      "degrees": [
+        "Associate (Myongji College, Computer Information)"
+      ]
+    },
+    "metrics": {
+      "years_of_experience": 8.5,
+      "ci_cd_presence": {
+        "present": null,
+        "uncertain": true
+      },
+      "testing_coverage": {
+        "value": "Unit/Component tests via Pytest on RAG system",
+        "uncertain": false
+      }
+    },
+    "core_values": {
+      "Ownership": [
+        "Delivered multiple solo systems end-to-end (Channels chat, SSO, content localization)."
+      ],
+      "Communication": [],
+      "Problem_Solving": [
+        "Cut localization pipeline time from ~1,800h to ~48h via SDK-driven parallelism.",
+        "Eliminated Django ORM N+1s with select_related/prefetch_related."
+      ],
+      "Execution_BiasToAction": [
+        "Built a high-throughput multi-source file collector with transactional recovery."
+      ],
+      "Craftsmanship_CodeQuality": [
+        "Emphasizes simplicity, security, readability; applies negative test cases and Pytest."
+      ],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [
+        "Backoffice/seller portals supporting payments, settlements, and notifications."
+      ],
+      "Learning_Growth": [
+        "Self-study and application of OS/CS fundamentals to system design."
+      ],
+      "Leadership_Mentoring": [
+        "Held team lead/manager roles delivering platform components."
+      ],
+      "Operational_Excellence": [
+        "Designed resilient async pipelines using Celery/RabbitMQ and AWS managed services."
+      ],
+      "Security_Privacy": [
+        "HttpOnly cookie tokens; centralized auth via Keycloak/OIDC."
+      ]
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

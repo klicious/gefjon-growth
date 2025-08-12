@@ -1,0 +1,156 @@
+{
+  "processing_metadata": {
+    "source_batch": "batch_20250731",
+    "split_date": "2025-08-11T17:30:24.955928",
+    "file_version": "1.0",
+    "workflow_status": "ready_for_processing"
+  },
+  "candidate_data": {
+    "candidate_id": "kim_donghyun",
+    "name_local": "김동현",
+    "name_en": "Donghyun Kim",
+    "languages_detected": [
+      "ko"
+    ],
+    "translated_summary": "Backend engineer focused on reliability and observability. Delivered a cost-efficient crawling pipeline (Spring Batch→Lambda/Playwright→S3→RDS) with Prometheus/Grafana/Loki; refactored a legacy service using 250 tests and CI/CD; developed a study-recruitment platform emphasizing transactional correctness and Testcontainers-based integration tests.",
+    "contacts": {
+      "emails": [],
+      "phones": [],
+      "locations": []
+    },
+    "source_files": [
+      "/mnt/data/김동현_이력서.pdf",
+      "/mnt/data/김동현_최근 해결한 어려운 문제와 그 과정에서 배운 점.pdf"
+    ],
+    "external_links": [
+      "[https://github.com/with-ins/withins](https://github.com/with-ins/withins)",
+      "[https://github.com/Cafegory/Cafegory_Backend_REST_API](https://github.com/Cafegory/Cafegory_Backend_REST_API)",
+      "[https://github.com/dh0304](https://github.com/dh0304)",
+      "[https://github.com/dh0304/multi-module](https://github.com/dh0304/multi-module)"
+    ],
+    "sections": {
+      "Projects": [
+        {
+          "name": "With-Ins (welfare center aggregation)",
+          "period": "2025-05 — Ongoing",
+          "stack": [
+            "Java",
+            "Spring Boot",
+            "Spring Batch",
+            "AWS Lambda",
+            "ECS",
+            "Playwright",
+            "Prometheus",
+            "Loki",
+            "Grafana"
+          ],
+          "impact_en": "Reduced incident detection time from ~30m to ~2m via structured Lambda responses + Prometheus metrics; ECS migration from EC2."
+        },
+        {
+          "name": "Cafegory — Legacy Refactor",
+          "period": "2024-08 — 2025-01",
+          "stack": [
+            "Java",
+            "Spring Boot",
+            "JPA",
+            "AWS EC2/S3/RDS",
+            "GitHub Actions"
+          ],
+          "impact_en": "250 tests guided safe incremental refactors; standardized testing, layered architecture, multi-module; zero-downtime deployments via Actions."
+        },
+        {
+          "name": "Cafegory — Study Recruitment Platform",
+          "period": "2024-01 — 2024-04",
+          "stack": [
+            "Java",
+            "Spring Boot",
+            "JPA",
+            "QueryDSL",
+            "MySQL",
+            "Testcontainers"
+          ],
+          "impact_en": "Fixed @Transactional side-effects in tests; adopted Testcontainers; ensured DTO boundaries; hierarchical comment query."
+        }
+      ]
+    },
+    "entities": {
+      "skills_tools": [
+        "Java",
+        "Spring Boot",
+        "JPA",
+        "QueryDSL",
+        "MySQL",
+        "AWS (ECS/S3/RDS/Lambda)",
+        "GitHub Actions",
+        "Prometheus",
+        "Loki",
+        "Grafana",
+        "Playwright",
+        "Testcontainers",
+        "JUnit5"
+      ],
+      "programming_languages": [
+        "Java",
+        "TypeScript"
+      ],
+      "frameworks": [
+        "Spring Boot"
+      ],
+      "databases": [
+        "MySQL"
+      ],
+      "devops": [
+        "GitHub Actions",
+        "AWS ECS",
+        "AWS Lambda"
+      ],
+      "roles": [
+        "Backend Engineer"
+      ],
+      "projects": [
+        "With-Ins",
+        "Cafegory (refactor)",
+        "Cafegory (product)"
+      ]
+    },
+    "metrics": {
+      "experience_years": null,
+      "experience_years_note": "Project timeline 2024–2025; employment tenure not explicitly stated.",
+      "ci_cd_presence": {
+        "present": true,
+        "details": "GitHub Actions for test/build/deploy (Cafegory, With-Ins)",
+        "uncertain": false
+      },
+      "testing_coverage": {
+        "value": null,
+        "notes": "250 tests used to drive refactor; tests vs prod parity reported",
+        "uncertain": true
+      }
+    },
+    "core_values": {
+      "Ownership": [
+        "Drove infra migration from EC2→ECS and standardized configuration as code."
+      ],
+      "Communication": [],
+      "Problem_Solving": [
+        "Eliminated test flakiness from JPA/@Transactional by adopting Testcontainers and revising boundaries."
+      ],
+      "Execution_BiasToAction": [
+        "Delivered CI/CD pipelines and zero-downtime deploys to stabilize releases."
+      ],
+      "Craftsmanship_CodeQuality": [
+        "Standardized test patterns and layered architecture; converted to multi-module structure."
+      ],
+      "Collaboration_Teamwork": [],
+      "Customer_Impact": [],
+      "Learning_Growth": [],
+      "Leadership_Mentoring": [],
+      "Operational_Excellence": [
+        "Implemented Prometheus/Loki monitoring and alerting to cut detection time from ~30m to ~2m."
+      ],
+      "Security_Privacy": []
+    },
+    "red_flags": [],
+    "parse_error": null
+  }
+}

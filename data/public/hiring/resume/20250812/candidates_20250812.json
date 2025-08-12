@@ -1,0 +1,955 @@
+[
+    {
+        "person": {
+            "name_local": "남다빈",
+            "name_en": "Da Bin Nam",
+            "alternate_names": [],
+            "contacts": {
+                "email": "[skaekqls789@naver.com](mailto:skaekqls789@naver.com)",
+                "phone": "010-6605-8544",
+                "location": "Seongnam-si, Gyeonggi-do (13348), KR"
+            },
+            "profiles": {
+                "github": "[https://github.com/namdragonkiller](https://github.com/namdragonkiller)"
+            }
+        },
+        "language_detected": "ko",
+        "translated_title_en": "Nam Da Bin — Resume & Portfolio",
+        "sources": [
+            "/mnt/data/남다빈_서류전형_이력서.pdf",
+            "/mnt/data/남다빈_포트폴리오.pptx"
+        ],
+        "sections": {
+            "Summary": {
+                "en": "Full-stack web developer (≈2y9m) focused on Java/Node.js/Vue. Contributed to data hub UI/API, UAM data forwarder/playback, smart-agriculture dashboards, 3D drone control simulator, and containerized migrations. Comfortable across REST API, RDBMS, and Docker-based deployments.",
+                "evidence": [
+                    "Career length, stacks, and project list stated in resume application snapshot. ",
+                    "Portfolio index confirms project names (Data Hub, UAM Playback, HARU, STUDIUM) and contacts. "
+                ]
+            },
+            "Experience": [
+                {
+                    "company": "NAVER System Co., Ltd.",
+                    "team": "Solution Development",
+                    "role": "Software Engineer",
+                    "period": "2023-03 — 2025-03 (web dev), plus project-specific windows below",
+                    "highlights_en": [
+                        "Data Hub (ndhub): Core-module APIs and UI; DB design & data processing; Vue + Node.js; PostgreSQL.",
+                        "UAM Data Forward/Playback: Forward collected data via RabbitMQ to UAM backend; Node.js services; new Java playback API.",
+                        "ShintoDrone (Smart Agriculture): Vue dashboards + Node.js APIs; PostgreSQL schema; helped TTA certification.",
+                        "ShintoDrone (3D control): Python-based virtual drone simulator; MQTT/WebSocket telemetry; monitoring UI.",
+                        "ndhub migration: Consolidated core containers, Java→Node.js container migration, Docker build/deploy optimization."
+                    ],
+                    "tech": [
+                        "Java",
+                        "Node.js",
+                        "Vue.js",
+                        "JavaScript",
+                        "PostgreSQL",
+                        "MySQL",
+                        "Redis",
+                        "RabbitMQ",
+                        "MQTT",
+                        "WebSocket",
+                        "Docker",
+                        "AWS",
+                        "GCP"
+                    ],
+                    "evidence": [
+                        "Detailed duty bullets for each project with stacks and roles. "
+                    ]
+                },
+                {
+                    "company": "NAVER System Co., Ltd.",
+                    "role": "Intern / Probationary",
+                    "period": "2022-08 — 2023-03",
+                    "highlights_en": [
+                        "Maintained Hanwha Techwin sites (PHP/Java).",
+                        "Completed big-data training and weekly presentations."
+                    ],
+                    "evidence": [
+                        "Internship period and activities listed. "
+                    ]
+                }
+            ],
+            "Education": [
+                {
+                    "school": "Myongji University (Natural Sciences)",
+                    "degree": "B.S. in Computer Engineering (transfer)",
+                    "period": "2020-03 — 2023-02",
+                    "status": "Graduated",
+                    "evidence": [
+                        "Education row in resume snapshot. "
+                    ]
+                }
+            ],
+            "Training": [
+                {
+                    "program": "Programmers KDT — Backend Developer Course",
+                    "period": "2025-02 — 2025-08",
+                    "content_en": "Java/Spring, DB, cloud ops; built & deployed Spring Boot on AWS EC2; practiced GitHub Actions + Docker-Compose for zero-downtime deployment; REST design, JPA, Security, Swagger.",
+                    "evidence": [
+                        "Training bullets under ‘프로그래머스 데브코스’. "
+                    ]
+                }
+            ],
+            "Projects": [
+                {
+                    "name": "Data Hub (ndhub)",
+                    "period": "2023-05 — 2024-11",
+                    "team_size": 6,
+                    "role": "Backend + Frontend",
+                    "stack": [
+                        "Vue.js",
+                        "Node.js",
+                        "PostgreSQL"
+                    ],
+                    "evidence": [
+                        "Project scope and responsibilities. "
+                    ]
+                },
+                {
+                    "name": "UAM Data Forwarder / Playback",
+                    "period": "2024-11 — 2025-02",
+                    "team_size": 2,
+                    "role": "Backend",
+                    "stack": [
+                        "Java",
+                        "Node.js",
+                        "RabbitMQ"
+                    ],
+                    "evidence": [
+                        "Forwarding via RabbitMQ; new Java playback API. "
+                    ]
+                },
+                {
+                    "name": "ShintoDrone (Smart Agriculture)",
+                    "period": "2023-03 — 2023-12",
+                    "team_size": 8,
+                    "role": "Full-stack",
+                    "stack": [
+                        "Vue.js",
+                        "Node.js",
+                        "PostgreSQL"
+                    ],
+                    "notes": "Contributed toward TTA certification.",
+                    "evidence": [
+                        "Responsibilities and certification contribution. "
+                    ]
+                },
+                {
+                    "name": "ShintoDrone (3D Control)",
+                    "period": "2023-01 — 2023-05",
+                    "team_size": 3,
+                    "role": "Simulator & UI",
+                    "stack": [
+                        "Python",
+                        "MQTT",
+                        "WebSocket"
+                    ],
+                    "evidence": [
+                        "Simulator implementation and status-bar UI. "
+                    ]
+                },
+                {
+                    "name": "ndhub Migration",
+                    "period": "2025-01 — 2025-02",
+                    "team_size": 1,
+                    "role": "Migration Engineer",
+                    "stack": [
+                        "Java",
+                        "Node.js",
+                        "Docker"
+                    ],
+                    "evidence": [
+                        "Container consolidation and build/deploy improvements. "
+                    ]
+                }
+            ],
+            "Profiles": [
+                {
+                    "type": "GitHub",
+                    "url": "[https://github.com/namdragonkiller](https://github.com/namdragonkiller)",
+                    "evidence": [
+                        "Portfolio slide footer links. "
+                    ]
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "Java",
+                "Node.js",
+                "Vue.js",
+                "JavaScript",
+                "PostgreSQL",
+                "MySQL",
+                "Redis",
+                "RabbitMQ",
+                "MQTT",
+                "WebSocket",
+                "Docker",
+                "AWS",
+                "GCP",
+                "REST API",
+                "RDBMS"
+            ],
+            "programming_languages": [
+                "Java",
+                "JavaScript",
+                "Python"
+            ],
+            "frameworks": [
+                "Spring Boot",
+                "MyBatis",
+                "Vue.js",
+                "Express (Node.js)"
+            ],
+            "databases": [
+                "PostgreSQL",
+                "MySQL",
+                "Redis"
+            ],
+            "devops": [
+                "Docker",
+                "GitHub Actions (training)",
+                "AWS EC2 (training)"
+            ],
+            "roles": [
+                "Full-stack Developer",
+                "Backend Developer",
+                "Frontend Developer"
+            ],
+            "degrees": [
+                "B.S. Computer Engineering (Myongji University)"
+            ],
+            "projects": [
+                "Data Hub",
+                "UAM Data Forward/Playback",
+                "ShintoDrone (Smart Agri)",
+                "ShintoDrone (3D Control)",
+                "ndhub Migration"
+            ]
+        },
+        "metrics": {
+            "experience_years": 2.75,
+            "ci_cd_presence": {
+                "present": true,
+                "details": "Practiced GitHub Actions + Docker-Compose zero-downtime deploy during KDT; production CI/CD not explicitly documented.",
+                "uncertain": true,
+                "evidence": "KDT training bullets include Actions & Docker-Compose deployment practice. "
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values_alignment": {
+            "Ownership": {
+                "snippets": [
+                    "Volunteered for challenging 3D drone simulator and drove it to completion, learning MQTT and Wireshark to unblock development. "
+                ]
+            },
+            "Communication": {
+                "snippets": [
+                    "Emphasizes flexible, respectful team communication; documents screens and collaborates on design. "
+                ]
+            },
+            "Problem_Solving": {
+                "snippets": [
+                    "Resolved circular dependency during KDT project by redesigning service/repository boundaries. "
+                ]
+            },
+            "Execution_BiasToAction": {
+                "snippets": [
+                    "Solo-led container consolidation and migration (Java→Node) for ndhub core modules. "
+                ]
+            },
+            "Craftsmanship_CodeQuality": {
+                "snippets": [
+                    "Focus on structural design from early stages (controller/service split, dependency handling). "
+                ]
+            },
+            "Collaboration_Teamwork": {
+                "snippets": [
+                    "Worked with cross-project stakeholders to forward data via RabbitMQ to UAM backend. "
+                ]
+            },
+            "Customer_Impact": {
+                "snippets": [
+                    "Contributed to TTA certification for smart-agriculture solution through reliable UI/API delivery. "
+                ]
+            },
+            "Learning_Growth": {
+                "snippets": [
+                    "Self-studied new middleware (RabbitMQ) via official docs and prototypes to deliver UAM playback. "
+                ]
+            },
+            "Leadership_Mentoring": {
+                "snippets": []
+            },
+            "Operational_Excellence": {
+                "snippets": [
+                    "Optimized Docker build/deploy structure and consolidated containers to simplify operations. "
+                ]
+            },
+            "Security_Privacy": {
+                "snippets": []
+            }
+        },
+        "urls_discovered": [
+            "[https://github.com/namdragonkiller](https://github.com/namdragonkiller)",
+            "[https://www.saramin.co.kr/zf_user/recruit-apply/apply-file-download/mcom_idx/8060102/recruitapply_idx/430611454?file=person%2Fresume_filebox%2F202508%2F08%2Ft0msaq89_fod8-gc9cyh_resume_filebox.pptx&name2=%EB%82%A8%EB%8B%A4%EB%B9%88_%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.pptx&sKey=5ff7d657351804779f73800c9bbe69ba](https://www.saramin.co.kr/zf_user/recruit-apply/apply-file-download/mcom_idx/8060102/recruitapply_idx/430611454?file=person%2Fresume_filebox%2F202508%2F08%2Ft0msaq89_fod8-gc9cyh_resume_filebox.pptx&name2=%EB%82%A8%EB%8B%A4%EB%B9%88_%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.pptx&sKey=5ff7d657351804779f73800c9bbe69ba)"
+        ],
+        "external_resources_crawled": [],
+        "red_flags": [],
+        "parse_error": null
+    },
+    {
+        "person": {
+            "name_local": "안형규",
+            "name_en": "Hyungkyu Ahn",
+            "alternate_names": [],
+            "contacts": {
+                "email": "[ribrazzi@gmail.com](mailto:ribrazzi@gmail.com)",
+                "email_uncertain": true,
+                "phone": "010-5233-2932",
+                "location": null
+            },
+            "profiles": {
+                "github": "[https://github.com/hyungkya](https://github.com/hyungkya)"
+            }
+        },
+        "language_detected": "ko",
+        "translated_title_en": "Hyungkyu Ahn — Resume",
+        "sources": [
+            "/mnt/data/안형규_이력서.pdf"
+        ],
+        "sections": {
+            "Summary": {
+                "en": "CS graduate (UCI) and backend/systems developer (~1.5y total) with experience in capital-markets middleware (C/Linux/ZeroMQ), bank interfaces (contract), and data automation. Projects include a distributed crypto arbitrage system (Python/FastAPI/ZeroMQ), a stock backtesting app with Blue/Green deployment, a POSIX-threads auction server, a Python search-engine crawler, and a full-stack movie rental app.",
+                "evidence": [
+                    "Resume overview shows roles, stacks, and projects. "
+                ]
+            },
+            "Industry_Experience": [
+                {
+                    "company": "H2O System Technology (Finance Biz Unit)",
+                    "role": "Engineer",
+                    "period": "2024-08 — 2025-04",
+                    "highlights_en": [
+                        "Maintained quote processing/distribution; migrated System V queues to ZeroMQ; parallelization doubled throughput (≈50k/s→100k/s).",
+                        "Rolled out NXT exchange patches; delivered client screens for LP/MM & arbitrage."
+                    ],
+                    "stack": [
+                        "C",
+                        "Linux",
+                        "ZeroMQ",
+                        "JavaScript"
+                    ],
+                    "evidence": [
+                        "Migration and throughput improvement noted. "
+                    ]
+                },
+                {
+                    "company": "NexWeb (Shinhan Bank NEXT Project, contract)",
+                    "role": "Interface Mapping & Testing",
+                    "period": "2023-04 — 2023-07",
+                    "evidence": [
+                        "Interface mapping/testing between core services and terminals. "
+                    ]
+                },
+                {
+                    "company": "Trend Notes Inc. (non-dev internship)",
+                    "role": "Sales Intern",
+                    "period": "2022-02 — 2022-06",
+                    "highlights_en": [
+                        "Automated order aggregation across 5+ channels with Selenium; built inventory/replenishment reports."
+                    ],
+                    "evidence": [
+                        "Automation and reporting tasks listed. "
+                    ]
+                }
+            ],
+            "Projects": [
+                {
+                    "name": "Cross-Exchange Crypto Arbitrage System",
+                    "period": "2025-04 — Ongoing",
+                    "stack": [
+                        "Python",
+                        "FastAPI",
+                        "ZeroMQ",
+                        "WebSocket",
+                        "Supervisor",
+                        "Linux",
+                        "ClickUp"
+                    ],
+                    "highlights_en": [
+                        "Realtime collection/normalization via asyncio; distributed writers via ZeroMQ/Posix SHM.",
+                        "IPC for divergence alerts/executions; control plane via FastAPI; GitHub Actions task sync."
+                    ],
+                    "links": [
+                        "[https://github.com/hyungkya/mztrade-core](https://github.com/hyungkya/mztrade-core)"
+                    ],
+                    "evidence": [
+                        "Architecture and process control points described. "
+                    ]
+                },
+                {
+                    "name": "Stock Backtesting Application",
+                    "period": "2024-01 — 2024-04",
+                    "stack": [
+                        "Java",
+                        "Spring Boot",
+                        "Flutter",
+                        "Firebase",
+                        "Jenkins",
+                        "GCP"
+                    ],
+                    "highlights_en": [
+                        "RESTful core in Spring Boot; Flutter client; Blue/Green via GitHub Webhook + Jenkins."
+                    ],
+                    "evidence": [
+                        "Blue/Green deployment details included. "
+                    ]
+                },
+                {
+                    "name": "Realtime Auction Server",
+                    "period": "2021-09 — 2021-12",
+                    "stack": [
+                        "C",
+                        "POSIX threads"
+                    ],
+                    "highlights_en": [
+                        "Multi-threaded server with synchronization; handled concurrent client requests."
+                    ],
+                    "evidence": [
+                        "Project summary lists POSIX thread solution. "
+                    ]
+                },
+                {
+                    "name": "Web Crawler + Search Engine",
+                    "period": "2021-06 — 2021-09",
+                    "stack": [
+                        "Python",
+                        "NLTK"
+                    ],
+                    "highlights_en": [
+                        "Built inverted index with TF-IDF; sub-300ms queries across hundreds of thousands of JSON docs."
+                    ],
+                    "evidence": [
+                        "Performance & indexing approach noted. "
+                    ]
+                },
+                {
+                    "name": "Movie Rental & Purchase (Web + Mobile)",
+                    "period": "2022-03 — 2022-06",
+                    "stack": [
+                        "Spring Boot",
+                        "React",
+                        "React Native",
+                        "REST API"
+                    ],
+                    "evidence": [
+                        "Full-stack description in projects section. "
+                    ]
+                }
+            ],
+            "Education": [
+                {
+                    "school": "University of California, Irvine",
+                    "degree": "B.S. in Computer Science",
+                    "gpa": "3.47/4.0",
+                    "period": "Graduated 2022-06",
+                    "evidence": [
+                        "Education line shows UCI, degree, and GPA. "
+                    ]
+                }
+            ],
+            "Certifications": [
+                {
+                    "name": "TOEIC 985",
+                    "date": "2024-09",
+                    "authority": "ETS",
+                    "evidence": [
+                        "Certification list includes TOEIC 985 (2024-09). "
+                    ]
+                },
+                {
+                    "name": "Certified Investment Manager (투자자산운용사)",
+                    "date": "2023-06",
+                    "authority": "KOFIA",
+                    "evidence": [
+                        "Listed under licenses. "
+                    ]
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "Low-latency Systems",
+                "ZeroMQ",
+                "Distributed Processing",
+                "Blue/Green Deployment",
+                "WebSockets",
+                "IPC",
+                "Linux",
+                "Selenium",
+                "REST API"
+            ],
+            "programming_languages": [
+                "C",
+                "C++",
+                "Python",
+                "Java",
+                "Dart",
+                "JavaScript"
+            ],
+            "frameworks": [
+                "Spring Boot",
+                "FastAPI",
+                "Flutter"
+            ],
+            "databases": [
+                "MySQL (mentioned contextually/Firebase as BaaS)"
+            ],
+            "devops": [
+                "Jenkins",
+                "GitHub Actions",
+                "GCP",
+                "Supervisor"
+            ],
+            "roles": [
+                "Backend/Systems Developer",
+                "Interface Engineer (contract)"
+            ],
+            "degrees": [
+                "B.S. Computer Science (UCI)"
+            ],
+            "projects": [
+                "Crypto Arbitrage System",
+                "Stock Backtesting App",
+                "Realtime Auction Server",
+                "Web Search Engine",
+                "Movie Rental App"
+            ]
+        },
+        "metrics": {
+            "experience_years": 1.5,
+            "experience_breakdown_note": "H2O 9m + NexWeb 4m + Trend Notes 5m ≈ 18m total.",
+            "ci_cd_presence": {
+                "present": true,
+                "details": "Blue/Green via GitHub Webhook + Jenkins for stock backtesting app; GitHub Actions task sync in arbitrage system.",
+                "evidence": "CI/CD details in project descriptions. "
+            },
+            "testing_coverage": {
+                "value": null,
+                "uncertain": true
+            }
+        },
+        "core_values_alignment": {
+            "Ownership": {
+                "snippets": [
+                    "Implemented end-to-end arbitrage system with distributed processes and control APIs. "
+                ]
+            },
+            "Communication": {
+                "snippets": [
+                    "Coordinated client-screen requirements for LP/MM & arbitrage while rolling out NXT patches. "
+                ]
+            },
+            "Problem_Solving": {
+                "snippets": [
+                    "Migrated System V queues to ZeroMQ and optimized parallelism, doubling throughput. "
+                ]
+            },
+            "Execution_BiasToAction": {
+                "snippets": [
+                    "Built multi-process collectors/writers with asyncio + ZeroMQ and operationalized via Supervisor. "
+                ]
+            },
+            "Craftsmanship_CodeQuality": {
+                "snippets": []
+            },
+            "Collaboration_Teamwork": {
+                "snippets": [
+                    "Participated in Shinhan Bank NEXT interface mapping/testing within a larger program. "
+                ]
+            },
+            "Customer_Impact": {
+                "snippets": [
+                    "Delivered exchange NXT compatibility patches and deployments for customers. "
+                ]
+            },
+            "Learning_Growth": {
+                "snippets": [
+                    "Progressed from web/app coursework to low-latency finance systems and distributed architectures. "
+                ]
+            },
+            "Leadership_Mentoring": {
+                "snippets": []
+            },
+            "Operational_Excellence": {
+                "snippets": [
+                    "Set up Blue/Green deployment pipeline to reduce downtime risk. "
+                ]
+            },
+            "Security_Privacy": {
+                "snippets": []
+            }
+        },
+        "urls_discovered": [
+            "[https://github.com/hyungkya/mztrade-core](https://github.com/hyungkya/mztrade-core)",
+            "[https://github.com/hyungkya/auction-server](https://github.com/hyungkya/auction-server)",
+            "[https://github.com/hyungkya/web-search-engine](https://github.com/hyungkya/web-search-engine)",
+            "[https://github.com/hyungkya](https://github.com/hyungkya)"
+        ],
+        "external_resources_crawled": [],
+        "red_flags": [
+            "Minor PDF encoding artifacts (e.g., email domain rendered with replacement character)."
+        ],
+        "parse_error": null
+    },
+    {
+        "person": {
+            "name_local": "김원경",
+            "name_en": "Wongyeong Kim",
+            "alternate_names": [
+                "WK Kim"
+            ],
+            "contacts": {
+                "email": "[abgkf6@khu.ac.kr](mailto:abgkf6@khu.ac.kr)",
+                "phone": "010-2771-2394",
+                "location": "Seongnam-si, Gyeonggi-do, KR"
+            },
+            "profiles": {
+                "github": "[https://github.com/secureWKkim](https://github.com/secureWKkim)"
+            }
+        },
+        "language_detected": "ko",
+        "translated_title_en": "Wongyeong Kim — Platform Development Application",
+        "sources": [
+            "/mnt/data/플랫폼 개발_김원경_20250812_0100080.pdf"
+        ],
+        "sections": {
+            "Summary": {
+                "en": "Developer with 1 year industry experience (Fasoo) plus multiple data/ML and backend projects. Strong in Python/SQL and data pipelines (Airflow, Spark), PDF text processing at scale (PDFBox/OCR), and web backends (Django/Spring). Comfortable with Linux, Docker, Elasticsearch, Hive, and AWS/GCP. Delivers structural solutions and refactors for maintainability.",
+                "evidence": [
+                    "Resume headline and skills matrix list big-data, pipelines, backend, and stacks. "
+                ]
+            },
+            "Experience": [
+                {
+                    "company": "Fasoo Co., Ltd.",
+                    "team": "Big Data Team (Development Center)",
+                    "role": "Software Developer",
+                    "period": "2022-11 — 2023-10 (1 year)",
+                    "highlights_en": [
+                        "Developed/maintained sensitive-data de-identification solution.",
+                        "Built PDF personal-data masking algorithm using Java + Apache PDFBox (+ OCR AI).",
+                        "Refactored masking module (responsibility split, encapsulation with info objects, polymorphic stream engine, JSON output modularization).",
+                        "Contributed to AIR-DLP v1.0 release; achieved masking across fonts/encodings without recreating PDFs."
+                    ],
+                    "evidence": [
+                        "Detailed problem, strategy, and results for PDF masking and refactor. "
+                    ]
+                }
+            ],
+            "Selected Projects": [
+                {
+                    "name": "PDF Masking Algorithm & Refactor",
+                    "stack": [
+                        "Java",
+                        "Apache PDFBox",
+                        "OCR/AI"
+                    ],
+                    "outcomes_en": [
+                        "Handled varied font encodings by standardizing rendering path; metadata-safe in-place masking.",
+                        "Refactor improved readability/maintainability via class decomposition and message-based collaboration."
+                    ],
+                    "evidence": [
+                        "Architecture and outcomes bullets. "
+                    ]
+                },
+                {
+                    "name": "KDT Data Engineering DevCourse",
+                    "period": "2023-10 — 2024-03",
+                    "stack": [
+                        "Airflow (CeleryExecutor+Redis)",
+                        "Docker",
+                        "GCP",
+                        "Superset",
+                        "Elasticsearch",
+                        "Django",
+                        "PostgreSQL",
+                        "Playwright"
+                    ],
+                    "highlights_en": [
+                        "YouTube recipe price-comparison service: end-to-end pipeline with ES search; LLM-prompted text processing (≈87% more accurate vs regex/rule baseline).",
+                        "Daily energy/environment dashboard: Airflow DAG scheduling & resource tuning; 35% average runtime reduction; reliability fixes for ES index updates via change-detection + cron."
+                    ],
+                    "evidence": [
+                        "Project summaries and performance improvements documented. "
+                    ]
+                },
+                {
+                    "name": "Anonymous Voice Rolling-Paper App ‘속닥속닥’ (club)",
+                    "period": "2020-02 — 2021-05",
+                    "stack": [
+                        "Kotlin",
+                        "Spring Boot",
+                        "JPA",
+                        "MariaDB",
+                        "AWS",
+                        "GitHub Actions",
+                        "CodeDeploy"
+                    ],
+                    "outcomes_en": [
+                        "Launched on app stores; peaked at #98 in Social Networking; 12 weeks charted; >200 DAU for 6 months.",
+                        "Set up separate prod/test automated pipelines on AWS using GitHub Actions and CodeDeploy."
+                    ],
+                    "evidence": [
+                        "CI/CD and growth metrics listed under extracurricular. "
+                    ]
+                },
+                {
+                    "name": "Drone Simulation (UE4)",
+                    "period": "2020-12 — 2021-02",
+                    "stack": [
+                        "C++",
+                        "Quaternion math",
+                        "PID control"
+                    ],
+                    "highlights_en": [
+                        "Resolved gimbal-lock via quaternion rotation; per-axis PID control; rotor-force distribution modeling."
+                    ],
+                    "evidence": [
+                        "Problem/solution/results bullets. "
+                    ]
+                },
+                {
+                    "name": "Point & Affiliate Benefits MVP",
+                    "period": "2020-02 — 2020-07",
+                    "role": "PM/Dev",
+                    "highlights_en": [
+                        "Designed research-driven MVP; 86% tester willingness to use; barcode aggregation and quick search UX."
+                    ],
+                    "evidence": [
+                        "MVP survey outcome and UX features. "
+                    ]
+                }
+            ],
+            "Education": [
+                {
+                    "school": "Kyung Hee University (Global Campus, International)",
+                    "degree": "B.S., Software Convergence — Data Science Track",
+                    "period": "2019-03 — 2022-02",
+                    "gpa": "3.25/4.5",
+                    "thesis_en": "Realtime drone anomaly detection model & dashboard (LSTM, multithreading + queues + async; 91% avg accuracy; ≤2ms inference latency).",
+                    "evidence": [
+                        "Degree, GPA, and thesis summary. "
+                    ]
+                },
+                {
+                    "school": "Hankuk University of Foreign Studies (Global)",
+                    "degree": "Information & Communication Engineering",
+                    "period": "2017-02 — 2019-02",
+                    "status": "Withdrawn",
+                    "double_major": "Computer & Electronic Systems",
+                    "gpa": "4.01/4.5",
+                    "evidence": [
+                        "Prior coursework and GPA. "
+                    ]
+                }
+            ],
+            "Certifications_Awards": [
+                {
+                    "name": "Engineer Information Processing",
+                    "date": "2025-06",
+                    "authority": "HRDK",
+                    "evidence": [
+                        "License listed. "
+                    ]
+                },
+                {
+                    "name": "Databricks Associate Developer for Apache Spark 3.0",
+                    "date": "2022-07",
+                    "evidence": [
+                        "Certification line. "
+                    ]
+                },
+                {
+                    "name": "SQL Developer (SQLD)",
+                    "date": "2022-04",
+                    "evidence": [
+                        "Certification line. "
+                    ]
+                },
+                {
+                    "name": "OPIc IH",
+                    "date": "2024-06",
+                    "evidence": [
+                        "Language score line. "
+                    ]
+                },
+                {
+                    "name": "ACM-ICPC (campus prelim) Honorable Mention (6/40 teams)",
+                    "date": "2021",
+                    "evidence": [
+                        "Award lines. "
+                    ]
+                }
+            ]
+        },
+        "entities": {
+            "skills_tools": [
+                "Python",
+                "Java",
+                "SQL",
+                "Pandas",
+                "Linux",
+                "Airflow",
+                "Docker",
+                "Spark",
+                "Hadoop",
+                "Elasticsearch",
+                "Hive",
+                "Django",
+                "ETL",
+                "DW",
+                "Message Queue",
+                "RDBMS",
+                "GCP",
+                "AWS",
+                "PDFBox",
+                "OCR/AI",
+                "Superset",
+                "Playwright",
+                "Redis",
+                "Celery"
+            ],
+            "programming_languages": [
+                "Python",
+                "Java",
+                "C++",
+                "Rust",
+                "Kotlin"
+            ],
+            "frameworks": [
+                "Django",
+                "Spring Boot",
+                "JPA"
+            ],
+            "databases": [
+                "MySQL",
+                "MariaDB",
+                "PostgreSQL",
+                "Elasticsearch",
+                "Hive"
+            ],
+            "devops": [
+                "Docker",
+                "GitHub Actions",
+                "CodeDeploy",
+                "GCP",
+                "AWS"
+            ],
+            "roles": [
+                "Software Developer",
+                "Data/Platform Engineer",
+                "Backend Engineer"
+            ],
+            "degrees": [
+                "B.S. Software Convergence — Data Science (Kyung Hee Univ.)"
+            ],
+            "projects": [
+                "PDF Masking (AIR-DLP v1.0)",
+                "YouTube Recipe Price-Compare (DE pipeline + ES search)",
+                "Energy/Environment Daily Dashboard (Airflow)",
+                "‘속닥속닥’ Rolling-Paper App",
+                "Drone Simulation (UE4)",
+                "Point/Affiliate Benefits MVP"
+            ]
+        },
+        "metrics": {
+            "experience_years": 1.0,
+            "ci_cd_presence": {
+                "present": true,
+                "details": "GitHub Actions + AWS CodeDeploy pipelines for ‘속닥속닥’; Airflow pipelines with Celery/Redis for daily dashboards.",
+                "evidence": "CI/CD statements under extracurricular and DE projects. "
+            },
+            "testing_coverage": {
+                "value": null,
+                "notes": "Refactor notes mention adding tests and logging; Pytest used in other work.",
+                "uncertain": true
+            },
+            "performance_impacts": [
+                "Airflow daily runtime reduced by ≈35% after scheduling & resource tuning. "
+            ]
+        },
+        "core_values_alignment": {
+            "Ownership": {
+                "snippets": [
+                    "Independently designed and shipped PDF masking algorithm where references and prior art were scarce; delivered productized result (AIR-DLP v1.0). "
+                ]
+            },
+            "Communication": {
+                "snippets": [
+                    "Documented refactor rationale (responsibility split, encapsulation, polymorphism) to align collaborators on maintainability. "
+                ]
+            },
+            "Problem_Solving": {
+                "snippets": [
+                    "Resolved font/encoding-dependent masking failures by standardizing rendering path and metadata handling. ",
+                    "Mitigated Airflow resource contention with DAG staggering and concurrency tuning. "
+                ]
+            },
+            "Execution_BiasToAction": {
+                "snippets": [
+                    "Proposed and tested async server integration for AI calls; iterated after CTO feedback about GPU constraints. "
+                ]
+            },
+            "Craftsmanship_CodeQuality": {
+                "snippets": [
+                    "Refactored monolithic stream engine into cohesive components with message-based collaboration and testable units. "
+                ]
+            },
+            "Collaboration_Teamwork": {
+                "snippets": [
+                    "Worked across design/app teams in club project to earn top teamwork/quality award. "
+                ]
+            },
+            "Customer_Impact": {
+                "snippets": [
+                    "Delivered masking that preserves original PDF structure and metadata, improving downstream workflows. "
+                ]
+            },
+            "Learning_Growth": {
+                "snippets": [
+                    "Participated in Pseudo-Lab CPython study, contributing public materials; deepened systems understanding. "
+                ]
+            },
+            "Leadership_Mentoring": {
+                "snippets": []
+            },
+            "Operational_Excellence": {
+                "snippets": [
+                    "Introduced DAG staggering, autoscaling, and DB/Redis tuning; instituted ongoing monitoring via Flower. "
+                ]
+            },
+            "Security_Privacy": {
+                "snippets": [
+                    "Implemented de-identification/masking for PII in PDFs with consideration for metadata integrity. "
+                ]
+            }
+        },
+        "urls_discovered": [
+            "[https://github.com/secureWKkim](https://github.com/secureWKkim)",
+            "[https://github.com/Pseudo-Lab/CPython-Guide](https://github.com/Pseudo-Lab/CPython-Guide)",
+            "[https://docs.google.com/presentation/d/1eKsi_zPmNF9HSYpshn9ZCA7bBTv9x3A1/edit#slide=id.p1](https://docs.google.com/presentation/d/1eKsi_zPmNF9HSYpshn9ZCA7bBTv9x3A1/edit#slide=id.p1)"
+        ],
+        "external_resources_crawled": [],
+        "red_flags": [],
+        "parse_error": null
+    }
+]

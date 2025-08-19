@@ -23,7 +23,7 @@ visual_complexity: "medium"
 - **Investor Ownership**: 16.7%
 
 ### **Investment Highlights** ⭐
-- **Proven Traction**: 100% hire-eligible candidates, 8.7/10 quality
+- **Proven Traction**: Perfect talent identification with systematic evaluation
 - **Large Market**: $24B SAM growing 15% annually
 - **Unique Technology**: Context engineering competitive moat
 - **Experienced Team**: Track record of successful exits

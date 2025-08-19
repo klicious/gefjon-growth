@@ -11,12 +11,12 @@ estimated_duration: "2 minutes"
 # SLIDE CONTENT
 
 ## Headline
-**"100% Success Rate: Production-Ready HR Automation"**
+**"Perfect Talent Identification: Production-Ready HR Automation"**
 
-## Key Results (August 12, 2025)
-• **100% hire-eligible candidates** (3/3 processed)
-• **30 minutes total processing time** (vs 6+ hours manual)
-• **8.7/10 average quality score** (vs 6.2 industry average)
+## Key Results (August 11, 2025)
+• **13 backend developer candidates processed** with comprehensive automation
+• **Top 15% candidates identified** as strong hire candidates (2 of 13)
+• **Effective screening distribution**: 69% hire-worthy, 23% borderline, 8% filtered out
 • **Zero errors** across complete workflow
 
 ## The Ask

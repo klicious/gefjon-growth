@@ -8,7 +8,7 @@
 - 2: Develop basic web pages with limited architectural consideration and user experience focus
 - 1: Insufficient frontend development capabilities
 
-**2. React/Vue Framework Mastery & State Management (8 points)**
+**2. React/Vue Framework Mastery & State Management (7 points)**
 - 5: Implement advanced state management (Redux, Vuex) with performance optimization and scalable architecture design
 - 4: Design reusable components with proper state management and lifecycle optimization
 - 3: Utilize frameworks effectively with basic component development and state handling
@@ -78,7 +78,7 @@
 - 2: Basic component development with limited architectural consideration
 - 1: Poor component structure with no design pattern awareness
 
-**12. CSS Architecture & Styling Systems (4 points)**
+**12. CSS Architecture & Styling Systems (3 points)**
 - 5: Implement CSS-in-JS solutions, styled-components with theme systems and design token management
 - 4: Create maintainable CSS architectures with preprocessors and methodology (BEM, OOCSS)
 - 3: Write organized CSS with basic preprocessor usage and styling conventions
@@ -113,7 +113,7 @@
 - 2: Limited security awareness with reactive approach to security issues
 - 1: No security consideration or frequent security issues
 
-**17. Accessibility Implementation & Standards (3 points)**
+**17. Accessibility Implementation & Standards (2 points)**
 - 5: Champion accessibility with WCAG compliance, screen reader optimization and inclusive design principles
 - 4: Implement accessibility features with semantic HTML, ARIA labels and keyboard navigation
 - 3: Apply basic accessibility with standard practices and awareness

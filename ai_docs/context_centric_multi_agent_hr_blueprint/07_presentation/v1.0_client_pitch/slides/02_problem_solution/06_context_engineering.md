@@ -55,7 +55,7 @@ Our AI: Complete company context
 "Context engineering is our secret weapon and primary competitive moat. Before processing any candidate, we ensure 90% context completeness - that means our AI has comprehensive information about your company values, culture, role requirements, team dynamics, and evaluation criteria. This isn't just data collection - it's systematic validation with quality gates at every stage."
 
 ## Competitive Advantage (45 seconds)
-"While competitors use generic templates and one-size-fits-all approaches, our system is deeply customized to your organization. Better inputs lead to better outputs. This methodology took us months to develop and would be extremely difficult for competitors to replicate. It's why we achieve 8.7/10 quality scores while others struggle with 6.2/10."
+"While competitors use generic templates and one-size-fits-all approaches, our system is deeply customized to your organization. Better inputs lead to better outputs. This methodology took us months to develop and would be extremely difficult for competitors to replicate. It's why we achieve consistent, evidence-based evaluations while others rely on subjective, inconsistent scoring."
 
 ## Value Emphasis (15 seconds)
 "Context engineering isn't just a feature - it's a fundamental methodology that changes everything about how AI approaches hiring decisions."

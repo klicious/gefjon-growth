@@ -52,7 +52,7 @@ estimated_duration: "30 seconds"
 # SPEAKER SCRIPT
 
 ## Opening Hook (30 seconds)
-"Good morning. I'm [Name], CEO and Co-Founder of Gefjon Growth. We've built the world's first production-ready, AI-powered HR automation platform. What you're about to see isn't a concept or prototype - it's a complete system that just processed 3 candidates with 100% success rate and zero errors. Today, I'll show you how we're transforming hiring from a manual, inconsistent process into automated, reliable excellence."
+"Good morning. I'm [Name], CEO and Co-Founder of Gefjon Growth. We've built the world's first production-ready, AI-powered HR automation platform. What you're about to see isn't a concept or prototype - it's a complete system that just processed 13 candidates and successfully identified the top 15% as strong hire candidates with zero errors. Today, I'll show you how we're transforming hiring from a manual, inconsistent process into automated, reliable excellence."
 
 ---
 

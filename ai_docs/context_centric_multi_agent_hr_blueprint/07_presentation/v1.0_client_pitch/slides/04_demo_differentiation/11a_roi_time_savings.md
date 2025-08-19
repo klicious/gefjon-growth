@@ -23,19 +23,19 @@ strategic_importance: "VALUE PROPOSITION"
 - Interview preparation: 2-3 hours per candidate  
 - Assignment creation: 3-4 hours per role (one-time)
 - Evaluation synthesis: 1-2 hours per candidate
-- **Total**: 6-10 hours per candidate
+- **Total**: 1-2 hours per candidate
 
 **Gefjon Growth Automated Process**:
 - AI content generation: 5 minutes per candidate (parallel)
 - Human review/adjustments: 5-10 minutes per candidate
 - **Total**: 10-15 minutes per candidate
-- **Time savings**: 5.75-9.75 hours per candidate (97% reduction)
-- **Quality improvement**: 8.7/10 vs 6.2/10 industry average (40% improvement)
+- **Time savings**: 45-105 minutes per candidate (85-90% reduction)
+- **Quality improvement**: Systematic, evidence-based evaluation vs subjective manual assessment
 - **Error reduction**: 0% vs 15-20% typical error rate
 
 ### **Quality & Consistency Excellence** 🎯
 **Standardized Evaluation Results**:
-- **Average quality score**: 8.7/10 across all candidates
+- **Evaluation consistency**: Systematic methodology across all candidates
 - **Consistency rating**: 9.5/10 standardization across evaluations
 - **Hire eligibility**: 100% in latest execution vs 23% industry average
 - **Strong hire identification**: 67% vs 12% industry average

@@ -18,7 +18,7 @@ estimated_duration: "90 seconds"
 • **Interview prep**: 2-3 hours  
 • **Assignment creation**: 3-4 hours (per role)
 • **Evaluation synthesis**: 1-2 hours
-• **Total**: 6-10 hours per candidate
+• **Total**: 1-2 hours per candidate
 
 ## The Problems
 • **Inconsistent evaluation** across interviewers

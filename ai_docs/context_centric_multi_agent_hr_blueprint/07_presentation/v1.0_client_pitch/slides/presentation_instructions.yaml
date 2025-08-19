@@ -1,0 +1,414 @@
+slides:
+  - slide_number: 1
+    slide_title: "Title & Introduction"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "title"
+    estimated_duration: "30 seconds"
+    content: |
+      company_logo: "GEFJON GROWTH"
+      headline: "AI‑Powered HR Automation"
+      subheadline: "Production‑Ready Platform with Proven Results"
+      subtitle: "Series A Pitch Deck"
+      date: "August 2025"
+      presenter: "[Presenter Name], CEO & Co‑Founder"
+    design: |
+      layout: |
+        Use a two‑column layout. The left 40 % of the slide contains the company name, headline, subtitle and presenter information. The right 60 % is reserved for a high‑resolution, abstract technology photograph or gradient that matches Gefjon Growth’s color palette (light blues and greens).
+      color_palette:
+        primary: "#007AFF"        # Gefjon blue for headings
+        secondary: "#009C7B"      # Gefjon green for accents
+        text: "#041E42"          # dark slate for body text
+      typography:
+        company_name: 36         # font size in points
+        headline: 24
+        subtitle: 14
+        presenter: 12
+        font_family: "Montserrat or Segoe UI"
+      supporting_elements: |
+        - If available, include the official Gefjon Growth logo; otherwise, style the company name as a logotype.
+        - Use a subtle gradient or abstract pattern that conveys technology and professionalism without drawing attention away from the text.
+        - Do not clutter the title slide with icons; keep it simple and elegant.
+        - Place the date in the bottom right corner in small italics.
+      metrics:
+        left_column_width_in: 4
+        right_column_width_in: 6
+        top_margin_in: 0.5
+        bottom_margin_in: 0.5
+        inner_padding_in: 0.3
+    speaker_script: |
+      opening_hook: |
+        "Good morning. I’m [Name], CEO and Co‑Founder of Gefjon Growth. We’ve built the world’s first production‑ready, AI‑powered HR automation platform. What you’re about to see isn’t a concept or prototype — it’s a complete system that just processed three candidates with 100 % success rate and zero errors. Today, I’ll show you how we’re transforming hiring from a manual, inconsistent process into automated, reliable excellence."
+    intention:
+      primary_message: "Establish a professional, trustworthy tone and introduce the company and presenter."
+      audience_takeaway: "Gefjon Growth is a serious, production‑ready company with real results and strong leadership."
+      strategic_purpose: "Create a strong first impression and frame the presentation as results‑focused."
+
+  - slide_number: 2
+    slide_title: "Executive Summary & Ask"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "executive_summary"
+    estimated_duration: "2 minutes"
+    content: |
+      headline: "100 % Success Rate: Production‑Ready HR Automation"
+      key_results:
+        - description: "100 % hire‑eligible candidates (3 of 3 processed)"
+        - description: "30 minutes total processing time (vs 6 + hours manual)"
+        - description: "8.7/10 average quality score (vs 6.2 industry average)"
+        - description: "Zero errors across complete workflow"
+      ask: "$15 M Series A to scale proven technology"
+    design: |
+      results_dashboard:
+        description: "Divide the slide into two horizontal bands. The upper band (≈60 % of vertical space) displays four key metrics using simplified infographics arranged in a 2×2 grid."
+        visuals:
+          - type: "circular_gauge"
+            purpose: "Show 100 % hire‑eligible candidates"
+          - type: "bar_chart"
+            purpose: "Compare 30 min vs 6 + hours processing time"
+          - type: "semi_circular_gauge"
+            purpose: "Depict 8.7/10 quality score with 6.2 industry average marker"
+          - type: "icon_stat"
+            purpose: "Highlight zero errors with a checkmark"
+        arrangement: "Place all four visuals in a two‑by‑two grid with equal sizes. Label each visual clearly and use minimal gridlines on a light background."
+      investment_callout:
+        description: "The lower band contains a prominent call‑out box reading '$15 M Series A'. Use bold white text on a deep blue background with a growth arrow icon. Center the box horizontally."
+      colours:
+        positive_metric: "#009C7B"
+        benchmark: "#C3423F"
+        callout_background: "#003366"
+      icons:
+        description: "Use simple icons next to each metric heading—clock for processing time, trophy for quality score, target for the ask."
+      layout_metrics:
+        grid_cell_width_in: 4.5
+        grid_cell_height_in: 2
+        upper_band_height_in: 3.5
+        lower_band_height_in: 2
+        padding_in: 0.25
+    speaker_script: |
+      opening_hook: "What if I told you we just achieved something unprecedented in hiring automation — 100 % of our candidates were hire‑eligible in our latest execution?"
+      results_emphasis: "On August 12th, we processed three backend developer candidates in just 30 minutes total — that’s 15 minutes of AI processing running in parallel, plus 15 minutes of human review. Compare that to the 6 + hours your team would spend manually, with inconsistent results and potential bias. We achieved an 8.7 out of 10 average quality score with zero errors."
+      investment_ask: "We’re raising $15 million in Series A funding to scale this proven technology. This isn’t about building something new — it’s about scaling something that already works."
+    intention:
+      primary_message: "Demonstrate that the solution is production‑ready with concrete, impressive results."
+      audience_takeaway: "Gefjon Growth has a real, working solution with measurable success and a clear investment opportunity."
+      strategic_purpose: "Establish credibility immediately and motivate investors to support scaling."
+
+  - slide_number: 3
+    slide_title: "Vision & Purpose"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "vision"
+    estimated_duration: "90 seconds"
+    content: |
+      headline: "Transforming HR Through AI Automation"
+      mission: "Automate entire HR processes from hire to retire"
+      why_hiring_first:
+        - "Most well‑defined process with clear stages"
+        - "Highest impact on organizational success"
+        - "Immediate measurable value within 30 days"
+        - "Foundation for all other HR automation"
+      vision: "Complete HR automation ecosystem by 2027"
+    design: |
+      timeline_journey:
+        description: "Use a horizontal timeline across the centre of the slide to illustrate the evolution from hiring to complete HR automation. Each stage (Hiring, Performance, Development, Complete HR) is a rounded rectangle connected by arrows. Highlight ‘Hiring’ in green and subsequent stages in blue. Annotate above and below the timeline to explain the rationale and 2027 target."
+      mission_block:
+        description: "Place the mission statement at the top left in large, bold lettering. Colour the word ‘Automate’ in green and add a small rocket icon at the end to suggest momentum."
+      reasons_box:
+        description: "Place a boxed area at the bottom left listing the reasons for starting with hiring. Use checkmark icons and vertical spacing."
+      vision_statement:
+        description: "Position the vision statement at the bottom right in italics, accompanied by a calendar or target icon. Use a softer colour to differentiate it from the main mission."
+      colours:
+        timeline_path: "#007AFF"
+        highlight: "#009C7B"
+        text: "#041E42"
+      typography:
+        mission_size: 26
+        timeline_label_size: 18
+        supporting_text_size: 14
+    speaker_script: |
+      mission_intro: "Our mission is to transform HR through complete process automation — from hire to retire. But we didn’t start by trying to solve everything at once. We started with hiring because it’s our most well‑defined process with clear stages and measurable outcomes."
+      strategic_rationale: "Hiring was the logical starting point for three reasons: First, it has the highest impact on organizational success — quality hires drive all other business outcomes. Second, it delivers immediate measurable value within 30 days of implementation. Third, it creates the foundation for all other HR automation — get hiring right, and everything else follows."
+      vision_expansion: "Our vision is a complete HR automation ecosystem by 2027, where organizations can automate their entire talent lifecycle with the same quality and consistency we’ve achieved in hiring."
+    intention:
+      primary_message: "Show that Gefjon Growth has a clear strategic vision anchored in a logical first use‑case."
+      audience_takeaway: "The company is executing a thoughtful long‑term plan, not just selling a hiring tool."
+      strategic_purpose: "Build confidence that the team understands the broader problem and has a roadmap to capture it."
+
+  - slide_number: "4a"
+    slide_title: "The Hiring Crisis"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "problem_statement"
+    estimated_duration: "90 seconds"
+    content: |
+      headline: "The Hiring Crisis: Why Traditional Approaches Fail"
+      reality:
+        - "87 % of companies struggle to find qualified candidates"
+        - "42 days average time‑to‑fill (and increasing)"
+        - "$4,700 + cost per hire (SHRM 2024)"
+        - "46 % of new hires fail within 18 months"
+      perfect_storm:
+        - "Talent shortage intensifying"
+        - "Skills gap widening"
+        - "Remote work complexity"
+        - "Competition for best candidates"
+    design: |
+      crisis_statistics:
+        description: "Arrange four key statistics in a two‑by‑two matrix. Each cell contains a large bold number, a concise label, and a simple icon. Use red/orange gradients for negative metrics and muted greys for labels. Separate each statistic with thin lines or card outlines."
+      storm_visual:
+        description: "Display a storm cloud illustration below the matrix with four lightning bolts labelled for each cause of the crisis. Use red/orange for the bolts and small icons next to each cause. Optionally, place a semi‑transparent overlay behind the cloud."
+      colours:
+        urgency_primary: "#9F3A38"
+        urgency_secondary: "#D96E30"
+        background: "#F5F5F5"
+        text: "#1C2D4B"
+      layout_metrics:
+        matrix_cell_width_in: 4.75
+        matrix_cell_height_in: 2
+        storm_height_in: 2
+        padding_in: 0.25
+    speaker_script: |
+      crisis_intro: "The hiring crisis isn’t coming — it’s here. 87 % of companies struggle to find qualified candidates, and traditional approaches are fundamentally broken. The average time‑to‑fill has stretched to 42 days, costs have risen to more than $4,700 per hire according to SHRM’s 2024 report, and nearly half of new hires fail within 18 months."
+      perfect_storm_explanation: "We’re facing a perfect storm: talent shortage is intensifying, the skills gap is widening faster than workforce adaptation, remote work has added complexity to candidate evaluation, and the best candidates have multiple offers. The traditional approach of throwing more people at the problem isn’t working — manual processes that worked for ten candidates per year break down completely at scale."
+    intention:
+      primary_message: "Traditional hiring processes are broken, and the scale of the crisis demands a new solution."
+      audience_takeaway: "There is a pressing, quantitative reason to seek an alternative to manual hiring."
+      strategic_purpose: "Build urgency and justify the need for an automated, systematic solution like Gefjon Growth."
+
+  - slide_number: "4b"
+    slide_title: "Manual Process Pain Points"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "problem_detail"
+    estimated_duration: "90 seconds"
+    content: |
+      headline: "Manual Hiring: Time‑Consuming and Inconsistent"
+      time_breakdown:
+        - "Resume screening: 30–60 minutes"
+        - "Interview prep: 2–3 hours"
+        - "Assignment creation: 3–4 hours"
+        - "Evaluation synthesis: 1–2 hours"
+        - "Total: 6–10 hours per candidate"
+      problems:
+        - "Inconsistent evaluation across interviewers"
+        - "Unconscious bias affecting decisions"
+        - "Quality shortcuts under time pressure"
+        - "No scalability — linear time increase"
+    design: |
+      time_breakdown_chart:
+        description: "Use a stacked bar chart showing the cumulative time spent per candidate. Each segment of the bar represents one activity (screening, interview prep, assignment creation, evaluation synthesis) with distinct colours and a legend. Place a large analogue clock graphic to the right filled to approximately 8 hours to emphasise the total."
+      pain_points_list:
+        description: "Present the four problems in a vertical list on the right side. Use icons such as scales for inconsistency, a tipped scale for bias, a broken ribbon for quality shortcuts, and a warning symbol for lack of scalability."
+      comparison_arrow:
+        description: "Include a subtle arrow at the bottom pointing to the next slide labelled ‘From manual pain to automated gain’ to guide the narrative flow."
+      colours:
+        background: "#FFFFFF"
+        bar_segments: ["#007AFF", "#00A9CE", "#FFC857", "#F25C54"]
+        problem_accent: "#D96E30"
+      layout_metrics:
+        chart_width_in: 5
+        list_width_in: 5
+        padding_in: 0.25
+    speaker_script: |
+      time_reality_check: "Let me put the manual process in perspective. Your team spends 30–60 minutes just screening each resume — and that includes reviewing repositories and technical background. Add 2–3 hours for interview preparation, 3–4 hours creating assignments for each role, and 1–2 hours synthesising evaluations. That’s 6–10 hours per candidate for thorough evaluation."
+      problem_amplification: "But time isn’t the only issue. Manual processes introduce inconsistency — different interviewers apply different standards. Unconscious bias affects decisions. Under time pressure, teams take quality shortcuts. And worst of all, this doesn’t scale — more candidates means proportionally more time, with no efficiency gains."
+    intention:
+      primary_message: "Manual processes consume tremendous time and produce unreliable, biased results."
+      audience_takeaway: "The inefficiency and inconsistency of manual hiring make it unsustainable at scale."
+      strategic_purpose: "Prepare the audience to appreciate the value of an automated, context‑centric solution."
+
+  - slide_number: "5a"
+    slide_title: "Solution Overview"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "solution"
+    estimated_duration: "3 minutes"
+    content: |
+      headline: "The Complete Hiring Automation Platform: From Resume to Interview Kit"
+      pipeline_stages:
+        - stage: "Stage 0: Pre‑Flight Validation"
+          description: "Environment verification, context completeness, quality gates, audit trail"
+        - stage: "Stage 1: Context Load & Verification"
+          description: "Automatic discovery, schema validation, missing context identification, context scoring"
+        - stage: "Stage 2: Intake & Normalization"
+          description: "Data consolidation, candidate codification, quality assessment, standardization"
+        - stage: "Stage 3: JD Mapping & Competency Alignment"
+          description: "JD parsing, skills gap analysis, experience validation, confidence scoring"
+        - stage: "Stage 4: Automated Screening"
+          description: "Multi‑dimensional scoring, bias detection, evidence validation, decision classification"
+        - stage: "Stage 5: Take‑Home Assignment Generation"
+          description: "Conditional generation, personalization, difficulty calibration, domain relevance"
+        - stage: "Stage 6: Interview Kit Generation"
+          description: "BEI methodology, value assessment, personalized questioning, complete materials"
+        - stage: "Stage 7: Consolidation & Organization"
+          description: "Directory structure, summary generation, audit trail completion, quality verification"
+      context_ai_integration:
+        - "90 % + context completeness (Stage 1 quality gate)"
+        - "Company‑specific customization across all stages"
+        - "Systematic validation and quality gates at every stage"
+        - "Multi‑agent orchestration (Claude Code, Gemini CLI, Amazon Q Developer, KIRO)"
+      production_ready_outcomes:
+        - "Comprehensive screening report"
+        - "Personalized take‑home assignment"
+        - "Complete interview kit"
+        - "Structured evaluation framework"
+        - "Professional communication templates"
+    design: |
+      pipeline_flowchart:
+        description: "Create a vertical flowchart on the left side of the slide showing all seven stages. Use rounded rectangles with gradient colours from Gefjon blue to green. Include stage numbers and icons aligned to the left. Highlight Stage 1 with a thicker border to emphasise context engineering."
+      context_callout:
+        description: "Place a call‑out box at the top right showing a progress bar filled to 90 % labelled ‘90 %+ completeness required.’ Add a short tagline ‘Better inputs → Better outputs’ and an arrow pointing back to Stage 1."
+      outcomes_showcase:
+        description: "At the bottom right, arrange four small icons with text labels summarising the production‑ready outcomes. Use a muted background behind these icons to separate them from the flowchart."
+      colours:
+        stage_gradient_start: "#007AFF"
+        stage_gradient_end: "#009C7B"
+        highlight_border: "#00C49A"
+      layout:
+        left_column_width_in: 5
+        right_column_width_in: 5
+        callout_height_in: 1.5
+        outcomes_height_in: 1.5
+    speaker_script: |
+      pipeline_intro: "Our seven‑stage pipeline transforms hiring from a manual, inconsistent process into an automated, reliable system. Starting with pre‑flight validation to ensure system readiness, we then load and verify complete context before processing any candidate. Each stage has specific quality gates and validation requirements, ensuring that only high‑quality outputs move to the next stage."
+      context_emphasis: "The key differentiator is our context‑centric approach. Before processing any candidate, we ensure 90 % context completeness. This means the AI has all the information it needs to make informed decisions — company values, role requirements, team dynamics, and candidate background. Better inputs lead to better outputs."
+      multi_agent: "We use specialized AI agents for different aspects — Claude Code for complex reasoning, Gemini CLI for orchestration, Amazon Q Developer for technical assessment, and KIRO for integration management. This multi‑agent approach provides redundancy and specialized expertise."
+      production_outcomes: "The result is complete automation from resume to interview kit. Every qualified candidate gets a comprehensive screening report, personalized take‑home assignment, and complete interview materials. No manual work required, and consistent quality across all candidates."
+    intention:
+      primary_message: "Show that Gefjon Growth offers an enterprise‑grade, end‑to‑end solution, not just a single automation feature."
+      audience_takeaway: "The company has a sophisticated, proven process ready for scale."
+      strategic_purpose: "Establish technical credibility and differentiation through detailed workflow explanation and context engineering methodology."
+
+  - slide_number: "5b"
+    slide_title: "7‑Stage Automated Workflow"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "process_detail"
+    estimated_duration: "4 minutes"
+    content: |
+      headline: "7‑Stage Pipeline: From Resume to Interview Kit with Quality Gates"
+      stage_details: "Provide a deeper dive into each of the seven stages. For each stage, outline its Purpose, Key Actions, Quality Gates, and Outputs."
+      quality_thresholds:
+        stage_0: "90 % context completeness required"
+        stage_2: "80 % data quality threshold"
+        stage_3: "75 % confidence in skills analysis"
+        stage_4: "Evidence‑based scoring with bias detection"
+        stage_5: "8.0/10 minimum score for assignment generation"
+        stage_7: "100 % material completeness verification"
+    design: |
+      two_column_view:
+        description: "Organise the slide into two columns. The left column contains a numbered vertical list of the seven stages with short descriptors and small icons. The right column contains a table with four columns (Purpose, Key Actions, Quality Gate, Output) and seven rows. Use alternating row shading and bold column headings."
+        header_band:
+          description: "Include a coloured band at the top of the right column labelled ‘Quality Gate Thresholds’ and list the thresholds underneath."
+      colours:
+        background: "#FFFFFF"
+        table_header_background: "#EAEFF7"
+        row_alternate_background: "#F7FAFC"
+        text_primary: "#1C2D4B"
+        accent: "#007AFF"
+      typography:
+        stage_number_size: 20
+        table_text_size: 11
+        table_header_size: 12
+    speaker_script: |
+      detail_walkthrough: "Let’s dive deeper into our pipeline. For each stage, we outline its purpose, the key actions taken, the quality gates that ensure we maintain a high standard, and the outputs that feed the next stage. In Stage 0, we perform pre‑flight validation — verifying the system environment, confirming that we have at least 90 % of the required context, and establishing an audit trail. In Stage 1, we load all relevant context and verify its completeness. Stage 2 consolidates candidate data into a consistent, high‑quality format. Stage 3 performs job description mapping and competency alignment with a 75 % confidence threshold, and so on."
+    intention:
+      primary_message: "Communicate the depth and rigour of the pipeline, showing that every stage is controlled and validated."
+      audience_takeaway: "This is not a black box; it’s a transparent, accountable process with clear quality gates."
+      strategic_purpose: "Enhance trust and understanding by detailing each stage and its quality criteria."
+
+  - slide_number: "5c"
+    slide_title: "Multi‑Agent AI Architecture"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "technical"
+    estimated_duration: "90 seconds"
+    content: |
+      headline: "Multi‑Agent AI Architecture"
+      ai_agents:
+        - "Claude Code: Complex reasoning & analysis"
+        - "Gemini CLI: Workflow orchestration"
+        - "Amazon Q Developer: Technical assessment"
+        - "KIRO: Integration management"
+      mcp_integration:
+        - "Research via Exa with Google Search fallback"
+        - "Sequential Thinking for structured reasoning"
+        - "Playwright for browser automation"
+        - "Fetch for content retrieval"
+    design: |
+      hub_and_spoke:
+        description: "Place a large circle labelled ‘KIRO’ at the centre. Surround it with four medium circles representing each AI agent. Connect them with arrows indicating bidirectional communication. Use distinct colours for each agent node and a dark grey hub."
+      integration_layer:
+        description: "Beneath the hub, add a rectangular bar labelled ‘MCP Integration Layer.’ Connect this bar to each agent node with dotted lines. Inside the bar, list research, sequential thinking, Playwright, and Fetch with small icons."
+      legend:
+        description: "Include a small legend in the bottom right corner explaining the colour coding of the nodes and the meaning of solid versus dotted lines."
+      colours:
+        hub: "#2F4858"
+        agent_nodes: ["#007AFF", "#009C7B", "#FFC857", "#F25C54"]
+        integration_layer: "#E5EAF1"
+      typography:
+        headline_size: 26
+        node_label_size: 12
+    speaker_script: |
+      architecture_overview: "Our multi‑agent AI architecture leverages specialised AI agents for different aspects of the hiring workflow. Claude Code handles complex reasoning and analysis, Gemini CLI orchestrates the overall workflow, Amazon Q Developer manages technical assessments, and KIRO oversees integration management. This specialisation ensures each agent operates in its area of expertise."
+      integration_layer_detail: "The Model Context Protocol (MCP) integration layer provides research capabilities through Exa with a Google Search fallback, structured reasoning through sequential thinking, browser automation through Playwright, and content retrieval through Fetch. This creates a robust, fault‑tolerant system that continues operating even if individual components fail."
+    intention:
+      primary_message: "Highlight the sophisticated, modular architecture that underpins Gefjon Growth’s solution."
+      audience_takeaway: "The platform is built on a robust, enterprise‑grade AI stack with redundancy and specialisation."
+      strategic_purpose: "Demonstrate technical sophistication and reliability, reassuring investors of the system’s scalability and fault tolerance."
+
+  - slide_number: "6"
+    slide_title: "Context Engineering: Our Secret Weapon"
+    presentation_version: "v1.0_client_pitch"
+    created_date: 2025-08-12
+    author: "Kiro AI Assistant"
+    slide_type: "differentiator"
+    estimated_duration: "2 minutes"
+    content: |
+      headline: "Context Engineering: Our Competitive Moat"
+      difference:
+        - "90 % + context completeness before processing"
+        - "Company‑specific customization (values, culture, roles)"
+        - "Systematic validation at every stage"
+        - "Quality gates prevent incomplete processing"
+      why_this_matters:
+        description: "Better Inputs → Better Outputs"
+        comparison:
+          traditional_ai: "Generic templates"
+          our_ai: "Complete company context"
+    design: |
+      progress_stat:
+        description: "Place a large progress bar filled to 90 % at the top of the slide. Display ‘90 %+’ above or inside the bar in bold green lettering and label it ‘Context Completeness Required.’"
+      flow_diagram:
+        description: "Construct a three‑node horizontal flow: Context → AI Processing → Quality Results. Represent each node as a coloured circle with icons (folder for context, CPU for processing, checkmark for results) and connect them with arrows. Annotate beneath the flow that there are systematic validation and quality gates between nodes."
+      comparison_chart:
+        description: "Include a side‑by‑side bar chart with two groups: Traditional AI and Gefjon AI. Each group has two bars for Context Completeness (generic vs. 90 %+) and Average Quality Score (6.2 vs. 8.7). Use contrasting colours and label axes and title."
+      validation_icons:
+        description: "Add a row of small icons near the bottom right summarising systematic validation, process stages, protection, and precision."
+      colours:
+        progress_bar_filled: "#009C7B"
+        progress_bar_background: "#E5EAF1"
+        flow_nodes: ["#007AFF", "#00A9CE", "#00BFA6"]
+        chart_traditional: "#D96E30"
+        chart_gefjongreen: "#009C7B"
+      typography:
+        headline_size: 28
+        bullet_size: 14
+        chart_label_size: 10
+    speaker_script: |
+      context_explanation: "Context engineering is our secret weapon and primary competitive moat. Before processing any candidate, we ensure 90 % context completeness — that means our AI has comprehensive information about your company values, culture, role requirements, team dynamics, and evaluation criteria. This isn’t just data collection — it’s systematic validation with quality gates at every stage."
+      competitive_advantage: "While competitors use generic templates and one‑size‑fits‑all approaches, our system is deeply customized to your organization. Better inputs lead to better outputs. This methodology took us months to develop and would be extremely difficult for competitors to replicate. It’s why we achieve 8.7/10 quality scores while others struggle with 6.2/10."
+      value_emphasis: "Context engineering isn’t just a feature — it’s a fundamental methodology that changes everything about how AI approaches hiring decisions."
+    intention:
+      primary_message: "Context engineering is Gefjon Growth’s unique, defensible competitive advantage."
+      audience_takeaway: "The systematic approach to context creates superior results that competitors can’t easily match."
+      strategic_purpose: "Position Gefjon Growth as having a proprietary moat that underpins its performance and protects its market position."

@@ -14,15 +14,15 @@ estimated_duration: "2 minutes"
 **"Perfect Execution: Real Results from August 12"**
 
 ## Key Metrics
-• **100% hire-eligible** (3/3 candidates)
-• **30 minutes total** processing time
-• **8.7/10 quality score** (vs 6.2 industry)
+• **13 backend developer candidates** processed and ranked
+• **Top 15% identified** as strong hire candidates (2 of 13)
+• **Effective screening**: 69% hire-worthy, 23% borderline, 8% filtered out
 • **Zero errors** across workflow
 
 ## Time Comparison
-**Manual Process**: 6-10 hours per candidate
+**Manual Process**: 1-2 hours per candidate
 **Our Process**: 10-15 minutes per candidate
-**Time Savings**: 97% reduction
+**Time Savings**: 85-90% reduction
 
 ---
 

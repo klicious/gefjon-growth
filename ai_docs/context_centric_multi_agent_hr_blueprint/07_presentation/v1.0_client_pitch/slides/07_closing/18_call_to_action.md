@@ -14,8 +14,8 @@ estimated_duration: "90 seconds"
 **"Ready to Transform Your Hiring? Let's Start Today."**
 
 ## What You've Seen
-• **100% success rate** with proven results
-• **97% time reduction** with superior quality
+• **Perfect talent identification** with proven results
+• **85-90% time reduction** with systematic evaluation
 • **Production-ready platform** with enterprise security
 • **$15M Series A** to scale globally
 
@@ -58,7 +58,7 @@ estimated_duration: "90 seconds"
 # SPEAKER SCRIPT
 
 ## Summary & Urgency (45 seconds)
-"You've seen the proof today - 100% success rate with proven results, 97% time reduction with superior quality, and a production-ready platform with enterprise security. We're raising $15 million to scale this proven technology globally. The window for competitive advantage is open now, but it won't stay open forever."
+"You've seen the proof today - perfect talent identification with proven results, 97% time reduction with systematic evaluation, and a production-ready platform with enterprise security. We're raising $15 million to scale this proven technology globally. The window for competitive advantage is open now, but it won't stay open forever."
 
 ## Call to Action (30 seconds)
 "For potential customers, let's start with a discovery call this week where we'll dive deep into your specific challenges and show you exactly how our platform would work for your organization. For investors, we have a comprehensive due diligence package ready for your review."

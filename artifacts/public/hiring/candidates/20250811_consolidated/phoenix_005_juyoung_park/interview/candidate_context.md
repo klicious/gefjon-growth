@@ -1,39 +1,40 @@
-# Interview Context: Juyoung Park
+---
+id: candidate_context_2025-08-20
+type: candidate_context
+domain: hiring
+created_date: 2025-08-20
+last_updated: 2025-08-20
+author: Junie
+quality_score: __TBD__
+tags: ['interview', 'bei', 'phoenix_005_juyoung_park']
+visibility: public
+version: 1.0
+---
 
-## Executive Summary
-**Recommendation**: Hire (Score: 8.5/10)
-**Confidence Level**: 85%
 
-Juyoung Park is a 1.0 year experienced professional currently working as Strategy R&D (Pro) at STEG. 
+# Candidate Context & Value Gap Analysis
 
-### Key Highlights
-- High-scale system experience (25k users)
-- Strong CI/CD expertise
-- Excellent problem-solving skills
+Candidate: Juyoung Park (phoenix_005_juyoung_park)
+Repository for review: https://github.com/jyp-on/dunamis
 
-### Areas to Explore
-- Education background unclear
-- Limited frontend experience
-- Short tenure pattern
+## Executive Briefing
+- Role Fit: <summary>
+- Experience Highlights: <bullets>
+- Risks to probe: <bullets>
 
-## Technical Profile
-- **Primary Skills**: Java, Kotlin, Python, JavaScript, SQL, Spring Boot, JPA, WebSocket
-- **Experience Level**: 1.0 years
-- **Education**: Not specified
+## Core Values Mapping (PROVEN / SUGGESTED / MISSING)
+
+- Technical Excellence & Scalable Elegance: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Customer-Centric Craftsmanship: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Ownership & Proactivity: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Observability & Guardrails: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Data-Informed Iteration: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Integrity & Reliability: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Security & Compliance First: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Collaboration & Knowledge-Sharing: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Continuous Learning & Mentorship: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
+- Innovative Spirit: __PROVEN|SUGGESTED|MISSING__  — Evidence: <specific examples from resume/screening/take-home>
 
 ## Interview Strategy
-
-### Focus Areas
-1. **Technical Depth**: Assess expertise in Java, Kotlin, Python
-2. **Problem Solving**: Evaluate approach to complex technical challenges
-3. **Cultural Fit**: Alignment with Gefjon Growth values and team dynamics
-4. **Growth Potential**: Learning agility and career development goals
-
-### Recommended Structure
-- **Technical Discussion**: 40 minutes
-- **Behavioral Assessment**: 20 minutes  
-- **Culture & Values**: 15 minutes
-- **Candidate Questions**: 15 minutes
-
----
-*Prepared for: Hire candidate*
+- Priorities: <values to verify/deepen>
+- Time allocation: 50–60 minutes BEI, total 90–120 minutes

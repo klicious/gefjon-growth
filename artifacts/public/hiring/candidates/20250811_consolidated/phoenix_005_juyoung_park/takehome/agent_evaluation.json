@@ -1,0 +1,118 @@
+{
+  "$schema": "ai_docs/workflows/hiring/schemas/takehome_evaluation.schema.json",
+  "candidate_id": "phoenix_005_juyoung_park",
+  "candidate_name": "Juyoung Park",
+  "github_url": "https://github.com/jyp-on/dunamis",
+  "commit_short": "f03614c",
+  "criteria": [
+    {
+      "name": "Requirements Coverage",
+      "score": 7.0,
+      "comments": [
+        "Client methods implemented for core operations (orders, active orders, place/amend).",
+        "Input validations invoked before actions.",
+        "No explicit API contract or E2E tests found."
+      ],
+      "evidence": [
+        {"path": "src/exchanges/bitmex.py", "line_start": 23, "line_end": 41, "commit_short": "f03614c", "note": "get_orders with validation and logging"},
+        {"path": "src/exchanges/bitmex.py", "line_start": 66, "line_end": 83, "commit_short": "f03614c", "note": "place_order with validations and logging"}
+      ]
+    },
+    {
+      "name": "Code Quality",
+      "score": 6.5,
+      "comments": [
+        "Base class encapsulates common behavior (config, http client, validations).",
+        "Consistent logging via child loggers.",
+        "No CI/linting config detected to enforce quality gates."
+      ],
+      "evidence": [
+        {"path": "src/exchanges/base.py", "line_start": 17, "line_end": 25, "commit_short": "f03614c", "note": "BaseExchange with logger child and http client"}
+      ]
+    },
+    {
+      "name": "Architecture & Scalability",
+      "score": 7.0,
+      "comments": [
+        "Abstract base + concrete client pattern eases extensibility.",
+        "Config-driven behavior supports multiple exchanges."
+      ],
+      "evidence": [
+        {"path": "src/exchanges/base.py", "line_start": 17, "line_end": 33, "commit_short": "f03614c", "note": "Abstract methods and config selection by exchange"}
+      ]
+    },
+    {
+      "name": "Correctness & Testing",
+      "score": 6.0,
+      "comments": [
+        "Unit tests present (logger).",
+        "No integration/contract tests or CI pipeline detected."
+      ],
+      "evidence": [
+        {"path": "tests/test_logger_simple.py", "line_start": 13, "line_end": 26, "commit_short": "f03614c", "note": "Logger test covering multiple levels"}
+      ]
+    },
+    {
+      "name": "Performance & Efficiency",
+      "score": 5.0,
+      "comments": [
+        "HTTP client configured with timeout; no retries/circuit breakers observed.",
+        "No load/perf tests found."
+      ],
+      "evidence": [
+        {"path": "src/exchanges/base.py", "line_start": 24, "line_end": 25, "commit_short": "f03614c", "note": "httpx.Client(timeout=...)"}
+      ]
+    },
+    {
+      "name": "Security & Compliance",
+      "score": 6.0,
+      "comments": [
+        "Input validations for symbol, side, order type, quantity, price.",
+        "No secret management or dependency scanning evidence."
+      ],
+      "evidence": [
+        {"path": "src/exchanges/base.py", "line_start": 79, "line_end": 129, "commit_short": "f03614c", "note": "_validate_* methods raise ValidationError on bad input"}
+      ]
+    },
+    {
+      "name": "Documentation & DX",
+      "score": 6.5,
+      "comments": [
+        "README and docs in repository; tests check documentation presence.",
+        "No OpenAPI/Swagger or containerization instructions."
+      ],
+      "evidence": [
+        {"path": "README.md", "line_start": 1, "line_end": 50, "commit_short": "f03614c", "note": "Setup and usage overview"},
+        {"path": "tests/test_documentation.py", "line_start": 8, "line_end": 42, "commit_short": "f03614c", "note": "README presence test"}
+      ]
+    },
+    {
+      "name": "Observability",
+      "score": 7.0,
+      "comments": [
+        "Structured logging configured; client methods log operations.",
+        "No metrics/health endpoints observed."
+      ],
+      "evidence": [
+        {"path": "src/utils/logger.py", "line_start": 18, "line_end": 37, "commit_short": "f03614c", "note": "setup_logger with handler/formatter"},
+        {"path": "src/exchanges/bitmex.py", "line_start": 21, "line_end": 22, "commit_short": "f03614c", "note": "logger.info initialization message"},
+        {"path": "tests/test_logger_simple.py", "line_start": 19, "line_end": 23, "commit_short": "f03614c", "note": "Logger usage across levels"}
+      ]
+    }
+  ],
+  "overall_recommendation": "No Hire",
+  "security_checklist": {
+    "secrets_not_committed": null,
+    "dependency_risks_reviewed": null,
+    "input_validation_present": true,
+    "error_handling_robust": null,
+    "licenses_compliant": null
+  },
+  "observability_checklist": {
+    "structured_logging": true,
+    "metrics_health": false,
+    "timeouts_retries": true,
+    "alerting_diagnostics": false
+  },
+  "notes": "Agent-first, code-first evidence updated with concrete file:line @ f03614c."
+}

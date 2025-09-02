@@ -1,0 +1,21 @@
+# Production dependencies
+httpx>=0.25.0              # Modern async HTTP client
+pydantic>=2.0.0            # Data validation and settings
+structlog>=23.0.0          # Structured logging
+tenacity>=8.0.0            # Retry library with backoff
+
+# Development and testing dependencies
+pytest>=7.0.0              # Testing framework
+pytest-asyncio>=0.21.0     # Async test support
+pytest-cov>=4.0.0          # Coverage reporting
+pytest-mock>=3.11.0        # Mocking utilities
+httpx[testing]             # HTTP client test utilities
+
+# Code quality
+ruff>=0.1.0                # Fast Python linter and formatter
+mypy>=1.5.0                # Type checking
+pre-commit>=3.0.0          # Git hooks
+
+# Optional: For advanced monitoring
+prometheus-client>=0.17.0  # Metrics collection
+opentelemetry-api>=1.20.0  # Observability

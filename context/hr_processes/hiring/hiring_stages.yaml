@@ -183,13 +183,13 @@ hiring_stages:
       - session: "Candidate Q&A"
         duration: "5 minutes"
         focus: "Candidate questions and final clarifications"
-        
-      hybrid_approach_benefits:
-        - "Preserves organizational DNA through complete core values assessment"
-        - "Maintains BEI methodology and STAR format proven effectiveness"
-        - "Enhances technical evaluation for AI-assisted development reality"
-        - "Addresses Phoenix_005 type cases while maintaining cultural alignment"
-        - "Combines behavioral excellence with platform engineering capability"
+
+    hybrid_approach_benefits:
+      - "Preserves organizational DNA through complete core values assessment"
+      - "Maintains BEI methodology and STAR format proven effectiveness"
+      - "Enhances technical evaluation for AI-assisted development reality"
+      - "Addresses Phoenix_005 type cases while maintaining cultural alignment"
+      - "Combines behavioral excellence with platform engineering capability"
     
   - stage_id: "evaluation"
     name: "Comprehensive Candidate Evaluation"

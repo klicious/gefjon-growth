@@ -7,6 +7,22 @@ description: Generates comprehensive hybrid interview materials (60% BEI + 40% T
 
 This skill creates complete hybrid interview materials using the methodology in `ai_docs/workflows/hiring/tasks/06_interview_kit_hybrid.md`.
 
+## ⚠️ CRITICAL: File Generation Requirements
+
+**YOU MUST CREATE EXACTLY 5 SEPARATE FILES. DO NOT COMBINE THEM.**
+
+Required files:
+1. ✅ `interview/candidate_context.md`
+2. ✅ `interview/interview_guide.md`
+3. ✅ `interview/interview_script.md` ← SEPARATE FILE (NOT part of guide)
+4. ✅ `interview/technical_assessment.md` ← SEPARATE FILE (NOT part of guide)
+5. ✅ `evaluation/evaluation_framework.md`
+
+**FORBIDDEN:**
+- ❌ DO NOT put interview script inside interview_guide.md
+- ❌ DO NOT put technical assessment inside interview_guide.md
+- ❌ DO NOT combine files - each must be separate
+
 ## Instructions
 
 1. **Read Reference Documents**
@@ -40,42 +56,110 @@ This skill creates complete hybrid interview materials using the methodology in 
    - **Total Duration**: 90-95 minutes
    - Save to: `artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/interview_guide.md`
 
-5. **Generate BEI Interview Script**
-   - **General Behavioral Questions** (NOT task-specific):
-     - STAR method framework for each core value
-     - Focus on MISSING values with deep probes
-     - Reference candidate's career experience broadly
-     - 10-15 questions covering all values
+5. **[FILE 3/5] Generate BEI Interview Script - SEPARATE FILE**
+
+   ⚠️ **THIS MUST BE A SEPARATE FILE - NOT INSIDE interview_guide.md**
+
+   Content requirements:
+   - **General Behavioral Questions** (NOT task-specific)
+   - STAR method framework for each core value
+   - Focus on MISSING values with deep probes
+   - 10-15 specific questions covering all values
    - **Probing Follow-ups**: Deep-dive questions
    - **Red Flag Clarification**: Direct questions about concerns
-   - Save to: `artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/interview_script.md`
 
-6. **Generate Enhanced Technical Assessment**
-   **AI Collaboration Simulation (25 min)**:
-   - Claude Code/Cursor scenario
-   - Agent prompt engineering
+   **REQUIRED ACTION:**
+   ```
+   Execute Write tool:
+   file_path: "artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/interview_script.md"
+   content: [BEI STAR questions - 30-50 lines]
+   ```
+
+   **Verify:** Confirm interview_script.md exists as separate file
+
+6. **[FILE 4/5] Generate Enhanced Technical Assessment - SEPARATE FILE**
+
+   ⚠️ **THIS MUST BE A SEPARATE FILE - NOT INSIDE interview_guide.md**
+
+   Content requirements:
+
+   **AI Collaboration Simulation (25 min, 12.5 points)**:
+   - Specific Claude Code/Cursor scenario
+   - Agent prompt engineering task
    - Debug workflow with AI assistance
+   - Evaluation criteria
 
-   **Platform Engineering Scenarios (25 min)**:
-   - System design for reliability
-   - Observability strategy
-   - Production incident response
+   **Platform Engineering Scenarios (25 min, 12.5 points)**:
+   - System design for reliability (specific scenario)
+   - Observability strategy (specific scenario)
+   - Production incident response (specific scenario)
+   - Evaluation criteria
 
-   Save to: `artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/technical_assessment.md`
+   **REQUIRED ACTION:**
+   ```
+   Execute Write tool:
+   file_path: "artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/technical_assessment.md"
+   content: [Technical scenarios - 40-60 lines]
+   ```
 
-7. **Generate Evaluation Framework**
-   - **BEI Scoring** (50 points, 60%): PROVEN/SUGGESTED/MISSING validation
-   - **Technical Scoring** (25 points, 40%): AI collaboration + Platform engineering
+   **Verify:** Confirm technical_assessment.md exists as separate file
+
+7. **[FILE 5/5] Generate Evaluation Framework**
+
+   Content requirements:
+   - **BEI Scoring** (50 points, 60%): PROVEN/SUGGESTED/MISSING validation rubric
+   - **Technical Scoring** (25 points, 40%): AI collaboration + Platform engineering rubric
    - **Overall Decision Framework**: Weighted scoring with thresholds
-   - Save to: `artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/evaluation_framework.md`
+   - **Score-to-Decision Mapping**: Clear thresholds
 
-8. **Follow Output Format**
+   **REQUIRED ACTION:**
+   ```
+   Execute Write tool:
+   file_path: "artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/evaluation/evaluation_framework.md"
+   content: [Evaluation rubric]
+   ```
+
+   **Verify:** Confirm evaluation_framework.md exists
+
+8. **MANDATORY VERIFICATION: Check All 5 Files Created**
+
+   Execute verification:
+   ```bash
+   ls artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/candidate_context.md
+   ls artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/interview_guide.md
+   ls artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/interview_script.md
+   ls artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/interview/technical_assessment.md
+   ls artifacts/public/hiring/candidates/{date}_consolidated/{candidate_id}/evaluation/evaluation_framework.md
+   ```
+
+   Report results:
+   ```
+   ✅ candidate_context.md: EXISTS
+   ✅ interview_guide.md: EXISTS (50-150 lines expected)
+   ✅ interview_script.md: EXISTS (30-80 lines expected)
+   ✅ technical_assessment.md: EXISTS (40-80 lines expected)
+   ✅ evaluation_framework.md: EXISTS
+   ```
+
+   **If ANY file missing: SKILL EXECUTION FAILED**
+
+9. **Follow Output Format**
    - Match structure from existing interview kits in `20250812_consolidated/`
-   - Include all required files
    - Use consistent naming conventions
+   - Ensure all files properly formatted
 
 ## Quality Gates
 
+### File Generation (MANDATORY - Must Pass)
+- ✅ **candidate_context.md EXISTS** as separate file
+- ✅ **interview_guide.md EXISTS** as separate file (50-150 lines)
+- ✅ **interview_script.md EXISTS** as separate file (NOT in guide)
+- ✅ **technical_assessment.md EXISTS** as separate file (NOT in guide)
+- ✅ **evaluation_framework.md EXISTS** as separate file
+- ✅ **Total: 5 files created** (4 in interview/, 1 in evaluation/)
+- ✅ **No files combined or merged**
+
+### Content Quality
 - ✅ All 10 core values mapped (PROVEN/SUGGESTED/MISSING)
 - ✅ BEI questions focus on MISSING values
 - ✅ Behavioral questions are general (experience-based, not task-specific)

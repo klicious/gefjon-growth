@@ -102,12 +102,53 @@ This skill performs comprehensive quality checks on all generated hiring materia
    - Calculate completeness percentage per candidate
    - Provide actionable error messages with file paths
 
-8. **Save Verification Results**
-   - Create: `artifacts/public/hiring/candidates/{YYYYMMDD}_consolidated/verification_report.json`
-   - Include detailed findings for each candidate
-   - Mark overall status: PASS / FAIL
-   - Include summary statistics
+8. **MANDATORY: Save Verification Results as JSON File**
+
+   ⚠️ **THIS FILE IS REQUIRED - NOT OPTIONAL - MUST BE JSON FORMAT**
+
+   Content requirements:
+   - Detailed findings for each candidate
+   - Overall status: PASS / FAIL
+   - Summary statistics
    - Timestamp all checks
+   - Per-candidate required_files_verified list
+   - Per-candidate missing_files list
+
+   **REQUIRED ACTION:**
+   ```json
+   Execute Write tool:
+   file_path: "artifacts/public/hiring/candidates/{YYYYMMDD}_consolidated/verification_report.json"
+   content: {
+     "verification_date": "2025-XX-XXT00:00:00Z",
+     "workflow_version": "2.1",
+     "run_id": "{run_id}",
+     "overall_status": "PASS" or "FAIL",
+     "total_candidates": X,
+     "completeness": 1.0,
+     "checks_summary": {
+       "screening": true,
+       "takehome": true,
+       "interview": true,
+       "evaluation": true,
+       "communication": true
+     },
+     "candidates": [
+       {
+         "candidate_id": "...",
+         "required_files_verified": ["file1", "file2", ...],
+         "missing_files": [],
+         "validation_notes": {...}
+       }
+     ],
+     "warnings": []
+   }
+   ```
+
+   **FORBIDDEN:**
+   - ❌ DO NOT create verification_report.md (must be JSON)
+   - ❌ DO NOT skip this file - it is REQUIRED
+
+   **Verify:** Confirm verification_report.json exists in {date}_consolidated/ root
 
 9. **Follow Quality Assurance Rules**
    From `workflow_config_ideal.yaml` quality_assurance section:

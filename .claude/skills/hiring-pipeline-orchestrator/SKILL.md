@@ -14,23 +14,23 @@ The hiring pipeline automates candidate evaluation from resume screening through
 ## Workflow Stages
 
 ```
-1. validate-context          → Prerequisite check
-2. process-candidates        → Data normalization
-3. generate-screening        → AI screening generation
-4. generate-takehome        → AI takehome assignment (conditional)
-5. evaluate-takehome        → AI takehome evaluation (if submitted)
-6. generate-interview-kit   → AI interview materials
-7. execute-postprocessing   → Python script execution & formatting
-8. consolidate-results      → File organization
-9. verify-completeness      → Quality check
-10. generate-summary        → Final reporting
+1. validate-context (validate-context/SKILL.md)                → Prerequisite check
+2. process-candidates (process-candidates/SKILL.md)            → Data normalization
+3. generate-screening (generate-screening/SKILL.md)            → AI screening generation
+4. generate-takehome (generate-takehome/SKILL.md)              → AI takehome assignment (conditional)
+5. evaluate-takehome (evaluate-takehome/SKILL.md)              → AI takehome evaluation (if submitted)
+6. generate-interview-kit (generate-interview-kit/SKILL.md)    → AI interview materials
+7. execute-postprocessing (execute-postprocessing/SKILL.md)    → Python script execution & formatting
+8. consolidate-results (consolidate-results/SKILL.md)          → File organization
+9. verify-completeness (verify-completeness/SKILL.md)          → Quality check
+10. generate-summary (generate-summary/SKILL.md)               → Final reporting
 ```
 
 ## Instructions
 
 ### Phase 1: Setup and Validation
 
-1. **Invoke: validate-context**
+1. **Invoke: validate-context** *(see validate-context/SKILL.md)*
    - Verify all context files exist and are valid
    - Check company values, competencies, hiring stages
    - Confirm prompt templates available
@@ -38,7 +38,7 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 ### Phase 2: Data Processing
 
-2. **Invoke: process-candidates**
+2. **Invoke: process-candidates** *(see process-candidates/SKILL.md)*
    - Load candidate JSON files from `data/public/hiring/resume/`
    - Validate data structure and required fields
    - Normalize candidate data
@@ -47,7 +47,7 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 ### Phase 3: AI Screening
 
-3. **Invoke: generate-screening**
+3. **Invoke: generate-screening** *(see generate-screening/SKILL.md)*
    - For each candidate, generate screening report
    - Analyze against 10 core values
    - Perform PROVEN/SUGGESTED/MISSING gap analysis
@@ -57,14 +57,14 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 ### Phase 4: Take-home Assignment (Conditional)
 
-4. **Conditional Invoke: generate-takehome**
+4. **Conditional Invoke: generate-takehome** *(see generate-takehome/SKILL.md)*
    - **Condition**: Only for candidates with next_step = take_home_assignment OR senior_level_assessment
    - Generate personalized take-home assignments
    - Target identified value gaps
    - Include evaluation rubric
    - **Output**: Take-home assignments
 
-5. **Conditional Invoke: evaluate-takehome**
+5. **Conditional Invoke: evaluate-takehome** *(see evaluate-takehome/SKILL.md)*
    - **Condition**: Only if candidate submitted take-home work
    - **Manual Step**: Developer loads submission into designated folder
    - Evaluate submission against rubric
@@ -74,7 +74,7 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 ### Phase 5: Interview Kit Generation
 
-6. **Invoke: generate-interview-kit**
+6. **Invoke: generate-interview-kit** *(see generate-interview-kit/SKILL.md)*
    - For candidates proceeding to interview:
    - Generate candidate context document
    - Create interview guide with time allocation
@@ -86,7 +86,7 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 ### Phase 6: Post-processing
 
-7. **Invoke: execute-postprocessing**
+7. **Invoke: execute-postprocessing** *(see execute-postprocessing/SKILL.md)*
    - Run Python scripts to format and organize AI outputs
    - Execute `consolidate_hiring_results.py` to organize files
    - Execute `generate_enhanced_materials.py` for additional materials
@@ -95,14 +95,14 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 ### Phase 7: Consolidation and Verification
 
-8. **Invoke: consolidate-results**
+8. **Invoke: consolidate-results** *(see consolidate-results/SKILL.md)*
    - Organize all materials into standardized directory structure
    - Move scattered files to correct locations
    - Generate candidate summaries
    - Create consolidation log
    - **Output**: Organized candidate directories
 
-9. **Invoke: verify-completeness**
+9. **Invoke: verify-completeness** *(see verify-completeness/SKILL.md)*
    - Check all required files exist for each candidate
    - Validate file content and consistency
    - Generate verification report
@@ -111,7 +111,7 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 ### Phase 8: Final Reporting
 
-10. **Invoke: generate-summary**
+10. **Invoke: generate-summary** *(see generate-summary/SKILL.md)*
    - Aggregate all candidate data
    - Calculate statistics and distributions
    - Identify standout candidates
@@ -123,22 +123,22 @@ The hiring pipeline automates candidate evaluation from resume screening through
 
 The following steps require human intervention:
 
-1. **After generate-takehome**: Developer sends assignment to candidates
-2. **Before evaluate-takehome**: Developer loads candidate submissions
-3. **After generate-interview-kit**: HR schedules interviews
-4. **After generate-summary**: Hiring manager reviews and makes decisions
+1. **After generate-takehome** *(generate-takehome/SKILL.md)*: Developer sends assignment to candidates
+2. **Before evaluate-takehome** *(evaluate-takehome/SKILL.md)*: Developer loads candidate submissions
+3. **After generate-interview-kit** *(generate-interview-kit/SKILL.md)*: HR schedules interviews
+4. **After generate-summary** *(generate-summary/SKILL.md)*: Hiring manager reviews and makes decisions
 
 ## Quality Gates
 
 The pipeline enforces these quality checkpoints:
 
-- ✅ **After validate-context**: All context files valid
-- ✅ **After process-candidates**: All candidate data normalized
-- ✅ **After generate-screening**: All candidates have recommendations
-- ✅ **After generate-interview-kit**: Interview materials complete
-- ✅ **After execute-postprocessing**: All outputs properly formatted
-- ✅ **After verify-completeness**: 100% completeness for production candidates
-- ✅ **After generate-summary**: Summary report generated
+- ✅ **After validate-context** *(validate-context/SKILL.md)*: All context files valid
+- ✅ **After process-candidates** *(process-candidates/SKILL.md)*: All candidate data normalized
+- ✅ **After generate-screening** *(generate-screening/SKILL.md)*: All candidates have recommendations
+- ✅ **After generate-interview-kit** *(generate-interview-kit/SKILL.md)*: Interview materials complete
+- ✅ **After execute-postprocessing** *(execute-postprocessing/SKILL.md)*: All outputs properly formatted
+- ✅ **After verify-completeness** *(verify-completeness/SKILL.md)*: 100% completeness for production candidates
+- ✅ **After generate-summary** *(generate-summary/SKILL.md)*: Summary report generated
 
 ## Error Handling
 
@@ -194,34 +194,34 @@ The pipeline is successful when:
 ===========================================
 
 ✅ Phase 1: Setup and Validation
-   validate-context: All context files valid
+   validate-context (validate-context/SKILL.md): All context files valid
 
 ✅ Phase 2: Data Processing
-   process-candidates: 13 candidates normalized
+   process-candidates (process-candidates/SKILL.md): 13 candidates normalized
 
 ✅ Phase 3: AI Screening
-   generate-screening: 13 screening reports created
+   generate-screening (generate-screening/SKILL.md): 13 screening reports created
    - Strong Hire: 3
    - Hire: 5
    - Lean Hire: 3
    - No Hire: 2
 
 ✅ Phase 4: Take-home Assignment
-   generate-takehome: 8 assignments created
-   evaluate-takehome: 5 evaluations completed
+   generate-takehome (generate-takehome/SKILL.md): 8 assignments created
+   evaluate-takehome (evaluate-takehome/SKILL.md): 5 evaluations completed
 
 ✅ Phase 5: Interview Kit Generation
-   generate-interview-kit: 8 interview kits created
+   generate-interview-kit (generate-interview-kit/SKILL.md): 8 interview kits created
 
 ✅ Phase 6: Post-processing
-   execute-postprocessing: Python scripts executed successfully
+   execute-postprocessing (execute-postprocessing/SKILL.md): Python scripts executed successfully
 
 ✅ Phase 7: Consolidation and Verification
-   consolidate-results: All materials organized
-   verify-completeness: 97.4% complete (12/13 passed)
+   consolidate-results (consolidate-results/SKILL.md): All materials organized
+   verify-completeness (verify-completeness/SKILL.md): 97.4% complete (12/13 passed)
 
 ✅ Phase 8: Final Reporting
-   generate-summary: Summary report created
+   generate-summary (generate-summary/SKILL.md): Summary report created
 
 🎉 HIRING PIPELINE SUCCESSFUL!
 📊 Results: artifacts/public/hiring/candidates/20250811_consolidated/

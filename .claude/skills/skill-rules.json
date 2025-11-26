@@ -1,0 +1,306 @@
+{
+  "skills": [
+    {
+      "id": "hiring-pipeline-orchestrator",
+      "name": "Hiring Pipeline Orchestrator",
+      "description": "Orchestrates the complete hiring workflow from candidate data validation through final summary generation. Use this to run the entire hiring pipeline end-to-end.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "critical",
+      "triggers": {
+        "keywords": [
+          "complete hiring pipeline",
+          "full hiring workflow",
+          "end-to-end hiring",
+          "orchestrate hiring",
+          "run entire pipeline",
+          "hiring automation",
+          "complete workflow"
+        ],
+        "intentPatterns": [
+          "(run|execute|start).{0,20}(complete|entire|full).{0,20}(hiring|pipeline)",
+          "(automate|orchestrate).{0,20}hiring.{0,20}(process|workflow|pipeline)",
+          "from.{0,10}(screening|resume).{0,20}to.{0,20}(interview|summary|final)"
+        ]
+      }
+    },
+    {
+      "id": "validate-context",
+      "name": "Validate Context",
+      "description": "Validates that all required context files (company info, HR processes, team data) exist and are accessible before starting the hiring workflow. Use this before any hiring pipeline operations.",
+      "type": "guardrail",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "validate context",
+          "check context",
+          "verify context",
+          "context files",
+          "prerequisite check",
+          "validate company info"
+        ],
+        "intentPatterns": [
+          "(validate|verify|check).{0,20}context",
+          "(ensure|confirm).{0,20}(context|files).{0,20}(exist|valid|available)",
+          "before.{0,10}(starting|running).{0,20}(hiring|pipeline)"
+        ],
+        "filePatterns": [
+          "context/.*\\.yaml$",
+          "context/company_info/.*",
+          "context/hr_processes/.*"
+        ]
+      }
+    },
+    {
+      "id": "process-candidates",
+      "name": "Process Candidates",
+      "description": "Normalizes and validates candidate resume data from JSON files, ensuring all required fields are present. Use this to prepare candidate data before AI screening.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "process candidates",
+          "normalize candidate data",
+          "prepare candidates",
+          "validate candidate",
+          "load candidates",
+          "candidate JSON"
+        ],
+        "intentPatterns": [
+          "(process|normalize|validate|prepare).{0,20}candidate",
+          "(load|read|parse).{0,20}candidate.{0,20}(data|JSON|resume)",
+          "before.{0,10}(screening|AI|assessment)"
+        ],
+        "filePatterns": [
+          "data/public/hiring/resume/.*/.*\\.json$"
+        ]
+      }
+    },
+    {
+      "id": "generate-screening",
+      "name": "Generate Screening",
+      "description": "Generates comprehensive AI-powered screening reports using 4-dimensional assessment methodology (Technical/Experience/Culture/Career). Use this to create initial candidate assessments.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "generate screening",
+          "screen candidates",
+          "screening report",
+          "candidate assessment",
+          "initial screening",
+          "4-dimensional assessment",
+          "technical competency"
+        ],
+        "intentPatterns": [
+          "(generate|create|produce).{0,20}screening",
+          "(screen|assess|evaluate).{0,20}candidate",
+          "(initial|first).{0,20}(assessment|screening|evaluation)",
+          "screening.{0,20}(report|analysis)"
+        ],
+        "filePatterns": [
+          "ai_docs/workflows/hiring/tasks/04_screening\\.md$",
+          "artifacts/public/hiring/candidates/.*/screening/.*"
+        ]
+      }
+    },
+    {
+      "id": "generate-takehome",
+      "name": "Generate Take-home Assignment",
+      "description": "Generates personalized take-home assignments based on candidate screening results and technical level. Use this after screening to create tailored technical assessments.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "generate take-home",
+          "takehome assignment",
+          "create assignment",
+          "technical assessment",
+          "personalized assignment",
+          "gap-targeted assignment"
+        ],
+        "intentPatterns": [
+          "(generate|create|produce).{0,20}(take-home|takehome|take home)",
+          "(personalized|custom|tailored).{0,20}(assignment|assessment)",
+          "after.{0,10}screening"
+        ],
+        "filePatterns": [
+          "ai_docs/workflows/hiring/tasks/05_takehome_assignment\\.md$",
+          "artifacts/public/hiring/candidates/.*/takehome/takehome_assignment\\.md$"
+        ]
+      }
+    },
+    {
+      "id": "evaluate-takehome",
+      "name": "Evaluate Take-home Assignment",
+      "description": "Evaluates submitted take-home assignments with evidence-based rubric scoring. Use this after candidates submit their work to generate comprehensive assessments.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "evaluate take-home",
+          "evaluate takehome",
+          "score assignment",
+          "review submission",
+          "takehome evaluation",
+          "evidence-based scoring",
+          "rubric scoring"
+        ],
+        "intentPatterns": [
+          "(evaluate|assess|score|review).{0,20}(take-home|takehome|submission)",
+          "(candidate|developer).{0,20}submit",
+          "after.{0,10}(submission|candidate submit)"
+        ],
+        "filePatterns": [
+          "ai_docs/workflows/hiring/tasks/05b_takehome_evaluation\\.md$",
+          "artifacts/public/hiring/candidates/.*/takehome/takehome_evaluation\\.md$"
+        ]
+      }
+    },
+    {
+      "id": "generate-interview-kit",
+      "name": "Generate Interview Kit",
+      "description": "Generates comprehensive hybrid interview materials (60% BEI + 40% Technical) including scripts, pair programming tasks, and evaluation framework. Use this to prepare for candidate interviews.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "generate interview",
+          "interview kit",
+          "interview materials",
+          "BEI questions",
+          "behavioral questions",
+          "pair programming",
+          "technical assessment",
+          "hybrid interview",
+          "PROVEN/SUGGESTED/MISSING"
+        ],
+        "intentPatterns": [
+          "(generate|create|produce).{0,20}interview",
+          "(BEI|behavioral).{0,20}(question|interview|script)",
+          "(pair programming|technical).{0,20}(task|assessment|challenge)",
+          "(hybrid|60.*40).{0,20}(assessment|interview)"
+        ],
+        "filePatterns": [
+          "ai_docs/workflows/hiring/tasks/06_interview_kit_hybrid\\.md$",
+          "artifacts/public/hiring/candidates/.*/interview/.*"
+        ]
+      }
+    },
+    {
+      "id": "execute-postprocessing",
+      "name": "Execute Post-processing",
+      "description": "Executes Python post-processing scripts to transform Gemini CLI outputs into final structured formats. Use this after AI generation steps to format and organize results.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "medium",
+      "triggers": {
+        "keywords": [
+          "post-process",
+          "post-processing",
+          "format outputs",
+          "run python scripts",
+          "consolidate outputs",
+          "transform outputs"
+        ],
+        "intentPatterns": [
+          "(execute|run).{0,20}(post-process|python script)",
+          "(format|organize|transform).{0,20}(output|result|artifact)",
+          "after.{0,10}(AI|generation|gemini)"
+        ],
+        "filePatterns": [
+          "scripts/.*\\.py$",
+          "scripts/consolidate_hiring_results\\.py$"
+        ]
+      }
+    },
+    {
+      "id": "consolidate-results",
+      "name": "Consolidate Results",
+      "description": "Consolidates scattered candidate materials into organized directory structure with consistent naming. Use this after generating all interview materials to organize outputs.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "medium",
+      "triggers": {
+        "keywords": [
+          "consolidate results",
+          "organize materials",
+          "organize outputs",
+          "file organization",
+          "directory structure",
+          "consistent naming"
+        ],
+        "intentPatterns": [
+          "(consolidate|organize|structure).{0,20}(result|material|output|file)",
+          "(clean up|tidy).{0,20}(output|artifact|file)",
+          "after.{0,10}(generating|interview|all material)"
+        ],
+        "filePatterns": [
+          "ai_docs/workflows/hiring/config/workflow_config_ideal\\.yaml$",
+          "artifacts/public/hiring/candidates/.*_consolidated/.*"
+        ]
+      }
+    },
+    {
+      "id": "verify-completeness",
+      "name": "Verify Completeness",
+      "description": "Verifies that all required materials exist for each candidate based on their status and next steps. Use this to ensure quality and completeness before making hiring decisions.",
+      "type": "guardrail",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "verify completeness",
+          "check completeness",
+          "quality check",
+          "validate materials",
+          "ensure quality",
+          "completeness check"
+        ],
+        "intentPatterns": [
+          "(verify|check|validate|ensure).{0,20}(completeness|quality|complete)",
+          "(all|required).{0,20}(material|file|document).{0,20}(exist|present|available)",
+          "before.{0,10}(decision|hiring decision|summary)"
+        ],
+        "filePatterns": [
+          "artifacts/public/hiring/candidates/.*/verification_report\\.json$"
+        ]
+      }
+    },
+    {
+      "id": "generate-summary",
+      "name": "Generate Summary",
+      "description": "Generates comprehensive hiring summary reports with statistics, recommendations, and next steps. Use this to create final reports for decision makers.",
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "triggers": {
+        "keywords": [
+          "generate summary",
+          "hiring summary",
+          "summary report",
+          "final report",
+          "executive summary",
+          "hiring statistics",
+          "recommendations"
+        ],
+        "intentPatterns": [
+          "(generate|create|produce).{0,20}summary",
+          "(final|executive|comprehensive).{0,20}(report|summary)",
+          "(hiring|candidate).{0,20}(statistic|metric|analysis)",
+          "for.{0,10}(decision maker|manager|executive)"
+        ],
+        "filePatterns": [
+          "artifacts/public/hiring/candidates/.*_consolidated/HIRING_SUMMARY_COMPLETE\\.md$",
+          "artifacts/public/hiring/candidates/.*_consolidated/FINAL_WORKFLOW_SUMMARY\\.json$"
+        ]
+      }
+    }
+  ]
+}

@@ -110,16 +110,59 @@ This skill creates comprehensive summary reports for the entire hiring pipeline 
     - Team composition impact
     - Onboarding considerations per candidate
 
-13. **Generate Output Files**
+13. **MANDATORY: Generate Output Files**
 
-    **Markdown Report**:
-    - Save to: `artifacts/public/hiring/candidates/{YYYYMMDD}_consolidated/HIRING_SUMMARY_COMPLETE.md`
-    - Follow exact format from existing 20250812_consolidated example
-    - Include all sections with proper markdown formatting
+    **[REQUIRED FILE 1/2] Markdown Report:**
 
-    **JSON Summary** (optional):
-    - Save to: `artifacts/public/hiring/candidates/{YYYYMMDD}_consolidated/FINAL_WORKFLOW_SUMMARY.json`
+    ⚠️ **THIS FILE IS REQUIRED - NOT OPTIONAL**
+
+    Content requirements:
+    - Executive overview with pipeline status
+    - Candidate summary table
+    - Detailed candidate analysis
+    - Hiring recommendations
+    - Success metrics
+    - Metadata footer
+
+    **REQUIRED ACTION:**
+    ```markdown
+    Execute Write tool:
+    file_path: "artifacts/public/hiring/candidates/{YYYYMMDD}_consolidated/HIRING_SUMMARY_COMPLETE.md"
+    content: [Full hiring summary following format from 20250812_consolidated example]
+    ```
+
+    **Expected sections:**
+    1. Title: "Hiring Summary: {Date} Candidate Pipeline"
+    2. Executive Overview
+    3. Candidate Summary Table
+    4. Detailed Candidate Analysis (with 🏆🚀⭐ emojis)
+    5. Hiring Recommendations
+    6. Success Metrics
+    7. Metadata footer with completion timestamp
+
+    **Verify:** Confirm HIRING_SUMMARY_COMPLETE.md exists in {date}_consolidated/ root
+
+    ---
+
+    **[OPTIONAL FILE 2/2] JSON Summary:**
+
+    Content requirements:
     - Machine-readable format with all statistics
+    - Same data as markdown report but in JSON structure
+
+    **RECOMMENDED ACTION:**
+    ```json
+    Execute Write tool:
+    file_path: "artifacts/public/hiring/candidates/{YYYYMMDD}_consolidated/FINAL_WORKFLOW_SUMMARY.json"
+    content: {
+      "summary_date": "2025-XX-XX",
+      "total_candidates": X,
+      "recommendations": {...},
+      "statistics": {...}
+    }
+    ```
+
+    **Note:** This file is optional but recommended for automation
 
 14. **Follow Output Format**
     - Match structure from `20250812_consolidated/HIRING_SUMMARY_COMPLETE.md` exactly
@@ -129,6 +172,12 @@ This skill creates comprehensive summary reports for the entire hiring pipeline 
 
 ## Quality Gates
 
+### File Generation (MANDATORY)
+- ✅ **HIRING_SUMMARY_COMPLETE.md EXISTS** in {date}_consolidated/ root
+- ✅ **FINAL_WORKFLOW_SUMMARY.json RECOMMENDED** (optional but encouraged)
+- ✅ **File is non-empty** (minimum 50 lines for markdown)
+
+### Content Quality
 - ✅ All candidates included in summary with complete data
 - ✅ Statistics accurate based on 4-dimensional screening scores
 - ✅ Recommendations aligned with scoring thresholds (Strong Hire ≥8.5, Hire ≥7.0, etc.)
@@ -138,7 +187,7 @@ This skill creates comprehensive summary reports for the entire hiring pipeline 
 - ✅ Timeline and next steps specific and actionable
 - ✅ Risk assessment and mitigation strategies included
 - ✅ Success metrics calculated and reported
-- ✅ Both markdown report generated (JSON optional)
+- ✅ Metadata footer with completion timestamp included
 
 ## Examples
 

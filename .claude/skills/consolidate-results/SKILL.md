@@ -75,11 +75,42 @@ This skill organizes all generated candidate materials into a clean, consistent 
    - **Materials Checklist**: Available documents per stage
    - **Focus Areas**: Key assessment priorities
 
-7. **Create Consolidation Log**
+7. **MANDATORY: Create Consolidation Log JSON File**
+
+   ⚠️ **THIS FILE IS REQUIRED - NOT OPTIONAL**
+
+   Content requirements:
    - Document all file moves, renames, and structural changes
    - Record consolidation timestamp and workflow version
    - Log statistics: files moved, directories created, errors
-   - Save to: `artifacts/public/hiring/candidates/{date}_consolidated/consolidation_log.json`
+   - Per-candidate operations log
+
+   **REQUIRED ACTION:**
+   ```json
+   Execute Write tool:
+   file_path: "artifacts/public/hiring/candidates/{date}_consolidated/consolidation_log.json"
+   content: {
+     "consolidation_date": "2025-XX-XXT00:00:00Z",
+     "workflow_version": "2.1",
+     "run_id": "{run_id}",
+     "total_candidates": X,
+     "operations": [
+       {
+         "candidate_id": "...",
+         "actions": ["..."],
+         "status": "complete"
+       }
+     ],
+     "statistics": {
+       "files_created": X,
+       "directories_created": X,
+       "files_moved": X,
+       "warnings": []
+     }
+   }
+   ```
+
+   **Verify:** Confirm consolidation_log.json exists in {date}_consolidated/ root
 
 8. **Verify Structure Completeness**
    Apply quality assurance from `workflow_config_ideal.yaml`:
